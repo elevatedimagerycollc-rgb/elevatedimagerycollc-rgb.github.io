@@ -474,10 +474,10 @@
             <div class="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-gray-400 text-sm">© 2025 Elevated Imagery LLC. All rights reserved.</p>
                 <div class="mt-4 md:mt-0 flex space-x-6">
-                    <a href="#" class="text-gray-400 hover:text-white">
+                    <a href="https://www.instagram.com/elevated_imagery.co/" target="_blank" class="text-gray-400 hover:text-white">
                         <i data-feather="instagram"></i>
                     </a>
-                    <a href="#" class="text-gray-400 hover:text-white">
+                    <a href="https://www.facebook.com/share/15vMGx44dk/?mibextid=wwXIfr" target="_blank" class="text-gray-400 hover:text-white">
                         <i data-feather="facebook"></i>
                     </a>
                     <a href="#" class="text-gray-400 hover:text-white">
