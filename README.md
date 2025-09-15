@@ -49,7 +49,7 @@
     </style>
 
 <!-- Navigation -->
-<nav id="navbar" class="fixed top-0 left-0 w-full z-50 bg-transparent transition-all duration-300">
+<nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
             <div class="flex items-center">
