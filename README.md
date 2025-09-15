@@ -55,15 +55,15 @@
             <div class="flex items-center">
                 <a href="#" class="flex-shrink-0 flex items-center">
                     <i data-feather="camera" class="h-8 w-8 text-white"></i>
-                    <span class="ml-2 text-xl font-bold text-white">Elevated Imagery</span>
+                    <span class="ml-2 text-xl font-bold text-blue-600">Elevated Imagery</span>
                 </a>
             </div>
             <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
-                <a href="#" class="text-white border-b-2 border-transparent hover:border-white px-3 py-2 text-sm font-medium">Home</a>
-                <a href="#services" class="text-white hover:text-blue-200 px-3 py-2 text-sm font-medium">Services</a>
-                <a href="#portfolio" class="text-white hover:text-blue-200 px-3 py-2 text-sm font-medium">Portfolio</a>
-                <a href="#about" class="text-white hover:text-blue-200 px-3 py-2 text-sm font-medium">About</a>
-                <a href="#contact" class="text-white hover:text-blue-200 px-3 py-2 text-sm font-medium">Contact</a>
+                <a href="#" class="text-blue-600 border-b-2 border-blue-600 hover:border-white px-3 py-2 text-sm font-medium">Home</a>
+                <a href="#services" class="text-gray-700 hover:text-blue-200 px-3 py-2 text-sm font-medium">Services</a>
+                <a href="#portfolio" class="text-gray-700 hover:text-blue-200 px-3 py-2 text-sm font-medium">Portfolio</a>
+                <a href="#about" class="text-gray-700 hover:text-blue-200 px-3 py-2 text-sm font-medium">About</a>
+                <a href="#contact" class="text-gray-700 hover:text-blue-200 px-3 py-2 text-sm font-medium">Contact</a>
             </div>
             <div class="-mr-2 flex items-center md:hidden">
                 <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-blue-200 focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
