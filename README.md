@@ -377,13 +377,13 @@
                         <div class="flex space-x-4">
                             <a href="#" class="text-blue-600 hover:text-blue-800">
                                 <i data-feather="instagram"></i>
-                            </a>https://www.instagram.com/elevated_imagery.co/
+                            </a>
                             <a href="#" class="text-blue-600 hover:text-blue-800">
                                 <i data-feather="facebook"></i>
-                            </a>https://www.facebook.com/share/15vMGx44dk/?mibextid=wwXIfr
+                            </a>
                             <a href="#" class="text-blue-600 hover:text-blue-800">
                                 <i data-feather="youtube"></i>
-                            </a>www.youtube.com/@elevatedimagery-co
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -476,13 +476,13 @@
                 <div class="mt-4 md:mt-0 flex space-x-6">
                     <a href="#" class="text-gray-400 hover:text-white">
                         <i data-feather="instagram"></i>
-                    </a>https://www.instagram.com/elevated_imagery.co/
+                    </a>
                     <a href="#" class="text-gray-400 hover:text-white">
                         <i data-feather="facebook"></i>
-                    </a href="https://www.facebook.com/share/15vMGx44dk/?mibextid=wwXIfr">
+                    </a>
                     <a href="#" class="text-gray-400 hover:text-white">
                         <i data-feather="youtube"></i>
-                    </a>www.youtube.com/@elevatedimagery-co
+                    </a>
                 </div>
             </div>
         </div>
