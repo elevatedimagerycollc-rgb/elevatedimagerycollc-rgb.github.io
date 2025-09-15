@@ -11,7 +11,7 @@
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
     <style>
-        <style>
+ <style>
     html, body {
         height: 100%;
         margin: 0;
@@ -24,63 +24,55 @@
         align-items: center;
         justify-content: center;
     }
-    /* Fix iOS Safari 100vh bug */
-    @supports (-webkit-touch-callout: none)
+    /* iOS Safari fix */
+    @supports (-webkit-touch-callout: none) {
+        #vanta-globe {
+            height: -webkit-fill-available;
         }
     }
-        #vanta-globe {
-        height: -webkit-fill-available;
         .hero-bg {
-            background: linear-gradient(135deg, rgba(21, 101, 192, 0.9) 0%, rgba(41, 121, 255, 0.8) 100%);
-        }
+        background: linear-gradient(135deg, rgba(21, 101, 192, 0.9) 0%, rgba(41, 121, 255, 0.8) 100%);
+    }
         .gallery-item {
-            transition: all 0.3s ease;
-        }
-        .gallery-item:hover {
-            transform: scale(1.03);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-        }
+        transition: all 0.3s ease;
+    }
+    .gallery-item:hover {
+        transform: scale(1.03);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
         .parallax {
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        nav.fixed {
-            position: fixed;
-            width: 100%;
-            top: 0;
-            left: 0;
-            z-index: 999;
-        }
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     </style>
-</head>
-<body class="font-sans antialiased text-gray-800">
-    <!-- Navigation -->
-    <nav class="fixed w-full z-50 bg-white shadow-md">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16">
-                <div class="flex items-center">
-                    <a href="#" class="flex-shrink-0 flex items-center">
-                        <i data-feather="camera" class="h-8 w-8 text-blue-600"></i>
-                        <span class="ml-2 text-xl font-bold text-blue-600">Elevated Imagery</span>
-                    </a>
-                </div>
-                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
-                    <a href="#" class="text-blue-600 border-b-2 border-blue-600 px-3 py-2 text-sm font-medium">Home</a>
-                    <a href="#services" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Services</a>
-                    <a href="#portfolio" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Portfolio</a>
-                    <a href="#about" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">About</a>
-                    <a href="#contact" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Contact</a>
-                </div>
-                <div class="-mr-2 flex items-center md:hidden">
-                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
-                        <i data-feather="menu"></i>
-                    </button>
-                </div>
+
+<!-- Navigation -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+            <div class="flex items-center">
+                <a href="#" class="flex-shrink-0 flex items-center">
+                    <i data-feather="camera" class="h-8 w-8 text-blue-600"></i>
+                    <span class="ml-2 text-xl font-bold text-blue-600">Elevated Imagery</span>
+                </a>
+            </div>
+            <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                <a href="#" class="text-blue-600 border-b-2 border-blue-600 px-3 py-2 text-sm font-medium">Home</a>
+                <a href="#services" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Services</a>
+                <a href="#portfolio" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Portfolio</a>
+                <a href="#about" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">About</a>
+                <a href="#contact" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Contact</a>
+            </div>
+            <div class="-mr-2 flex items-center md:hidden">
+                <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
+                    <i data-feather="menu"></i>
+                </button>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <!-- Hero Section -->
  <div id="vanta-globe" class="hero-bg min-h-screen flex items-center justify-center pt-16">
