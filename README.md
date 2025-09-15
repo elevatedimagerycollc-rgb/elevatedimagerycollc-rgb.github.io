@@ -479,7 +479,7 @@
                     </a>https://www.instagram.com/elevated_imagery.co/
                     <a href="#" class="text-gray-400 hover:text-white">
                         <i data-feather="facebook"></i>
-                    </a>https://www.facebook.com/share/15vMGx44dk/?mibextid=wwXIfr
+                    </a href="https://www.facebook.com/share/15vMGx44dk/?mibextid=wwXIfr"
                     <a href="#" class="text-gray-400 hover:text-white">
                         <i data-feather="youtube"></i>
                     </a>www.youtube.com/@elevatedimagery-co
