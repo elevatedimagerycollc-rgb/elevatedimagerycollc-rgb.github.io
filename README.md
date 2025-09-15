@@ -35,6 +35,26 @@
             z-index: 999;
         }
     </style>
+    <style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #vanta-globe {
+        width: 100%;
+        height: 100vh; /* Always full screen */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* Fix iOS Safari 100vh bug */
+    @supports (-webkit-touch-callout: none) {
+        #vanta-globe {
+            height: -webkit-fill-available;
+        }
+    }
+</style>
 </head>
 <body class="font-sans antialiased text-gray-800">
     <!-- Navigation -->
