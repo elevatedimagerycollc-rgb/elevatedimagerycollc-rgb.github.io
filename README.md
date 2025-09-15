@@ -378,10 +378,10 @@
                             <a href="https://www.instagram.com/elevated_imagery.co/" target="_blank" class="text-blue-600 hover:text-blue-800">
                                 <i data-feather="instagram"></i>
                             </a>
-                            <a href="#" class="text-blue-600 hover:text-blue-800">
+                            <a href="https://www.facebook.com/share/15vMGx44dk/?mibextid=wwXIfr" target="_blank" class="text-blue-600 hover:text-blue-800">
                                 <i data-feather="facebook"></i>
                             </a>
-                            <a href="#" class="text-blue-600 hover:text-blue-800">
+                            <a href="www.youtube.com/@elevatedimagery-co" target="_blank" class="text-blue-600 hover:text-blue-800">
                                 <i data-feather="youtube"></i>
                             </a>
                         </div>
