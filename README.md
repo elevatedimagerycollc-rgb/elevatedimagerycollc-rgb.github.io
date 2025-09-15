@@ -151,10 +151,10 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Portfolio Item 1 -->
                 <div data-aos="fade-up" data-aos-delay="200" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-                    <img src="http://static.photos/aerial/640x360/4" alt="Aerial View" class="w-full h-64 object-cover">
+                    <img src="images/portrait.example.jpg" alt="Portraits" class="w-full h-64 object-cover">
                     <div class="p-4 bg-white">
                         <h3 class="text-lg font-semibold text-gray-900">City Skyline</h3>
-                        <p class="text-gray-600 text-sm">Aerial Photography</p>
+                        <p class="text-gray-600 text-sm">Express Yourself</p>
                     </div>
                 </div>
                 
@@ -178,7 +178,7 @@
                 
                 <!-- Portfolio Item 4 -->
                 <div data-aos="fade-up" data-aos-delay="350" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-                    <img src="http://static.photos/nature/640x360/7" alt="Mountain Landscape" class="w-full h-64 object-cover">
+                    <img src="http://static.photos/nature/640x360/7" alt="Beautiful Scenery" class="w-full h-64 object-cover">
                     <div class="p-4 bg-white">
                         <h3 class="text-lg font-semibold text-gray-900">Mountain Range</h3>
                         <p class="text-gray-600 text-sm">Landscape Photography</p>
@@ -187,10 +187,10 @@
                 
                 <!-- Portfolio Item 5 -->
                 <div data-aos="fade-up" data-aos-delay="400" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-                    <img src="http://static.photos/commercial/640x360/8" alt="Construction Site" class="w-full h-64 object-cover">
+                    <img src="images/350z.boat.jpg" alt="Construction Site" class="w-full h-64 object-cover">
                     <div class="p-4 bg-white">
                         <h3 class="text-lg font-semibold text-gray-900">Automotive Excellence</h3>
-                        <p class="text-gray-600 text-sm">Automobile Media</p>
+                        <p class="text-gray-600 text-sm">On the Road or Track</p>
                     </div>
                 </div>
                 
