@@ -375,7 +375,7 @@
                     <div class="mt-8">
                         <h3 class="text-lg font-semibold text-gray-900 mb-4">Follow Us</h3>
                         <div class="flex space-x-4">
-                            <a href="https://www.instagram.com/elevated_imagery.co/" class="text-blue-600 hover:text-blue-800">
+                            <a href="https://www.instagram.com/elevated_imagery.co/" target "_blank" class="text-blue-600 hover:text-blue-800">
                                 <i data-feather="instagram"></i>
                             </a>
                             <a href="#" class="text-blue-600 hover:text-blue-800">
