@@ -11,6 +11,25 @@
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
     <style>
+        <style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #vanta-globe {
+        width: 100%;
+        height: 100vh; /* Always full screen */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* Fix iOS Safari 100vh bug */
+    @supports (-webkit-touch-callout: none) {
+        #vanta-globe {
+            height: -webkit-fill-available;
+        }
+    }
         .hero-bg {
             background: linear-gradient(135deg, rgba(21, 101, 192, 0.9) 0%, rgba(41, 121, 255, 0.8) 100%);
         }
@@ -64,7 +83,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <div id="vanta-globe" class="hero-bg min-h-screen flex items-center justify-center pt-16">
+ <div id="vanta-globe" class="hero-bg min-h-screen flex items-center justify-center pt-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
             <h1 data-aos="fade-up" class="text-4xl md:text-6xl font-bold text-white mb-6">Capture The World From New Perspectives</h1>
             <p data-aos="fade-up" data-aos-delay="100" class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">Professional drone and camera photography services for Real Estate, Events, and Personal projects.</p>
@@ -74,7 +93,7 @@
             </div>
         </div>
     </div>
-
+    
     <!-- Services Section -->
     <section id="services" class="py-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
