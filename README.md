@@ -151,9 +151,9 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Portfolio Item 1 -->
                 <div data-aos="fade-up" data-aos-delay="200" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-                    <img src="images/portrait.example.jpg" alt="Portraits" class="w-full h-64 object-cover">
+                    <img src="images/portrait.example.jpg" alt="Real Estate" class="w-full h-64 object-cover">
                     <div class="p-4 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900">Portraits</h3>
+                        <h3 class="text-lg font-semibold text-gray-900">Real Estate</h3>
                         <p class="text-gray-600 text-sm">Express Yourself</p>
                     </div>
                 </div>
@@ -169,10 +169,10 @@
                 
                 <!-- Portfolio Item 3 -->
                 <div data-aos="fade-up" data-aos-delay="300" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-                    <img src="http://static.photos/real-estate/640x360/6" alt="Modern House" class="w-full h-64 object-cover">
+                    <img src="images/portrait.example.jpg" alt="Portrait" class="w-full h-64 object-cover">
                     <div class="p-4 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900">Modern Villa</h3>
-                        <p class="text-gray-600 text-sm">Real Estate</p>
+                        <h3 class="text-lg font-semibold text-gray-900">Portraits</h3>
+                        <p class="text-gray-600 text-sm">Express Yourself</p>
                     </div>
                 </div>
                 
@@ -465,7 +465,7 @@
                         <li><a href="#" class="text-gray-400 hover:text-white">Real Estate</a></li>
                         <li><a href="#" class="text-gray-400 hover:text-white">Events</a></li>
                         <li><a href="#" class="text-gray-400 hover:text-white">Commercial</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white">Portraits</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Real Estate</a></li>
                     </ul>
                 </div>
                 
