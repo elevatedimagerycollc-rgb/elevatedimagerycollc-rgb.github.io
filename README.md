@@ -25,9 +25,7 @@
         justify-content: center;
     }
     /* Fix iOS Safari 100vh bug */
-    @supports (-webkit-touch-callout: none) {
-        #vanta-globe {
-            height: -webkit-fill-available;
+    @supports (-webkit-touch-callout: none)
         }
     }
         .hero-bg {
