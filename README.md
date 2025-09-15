@@ -196,7 +196,7 @@
                 
                 <!-- Portfolio Item 6 -->
                 <div data-aos="fade-up" data-aos-delay="450" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-                    <img src="http://static.photos/sport/640x360/9" alt="Sports Event" class="w-full h-64 object-cover">
+                    <img src="images/Kyle.Swinging.jpg" alt="Sports Event" class="w-full h-64 object-cover">
                     <div class="p-4 bg-white">
                         <h3 class="text-lg font-semibold text-gray-900">Action Shots</h3>
                         <p class="text-gray-600 text-sm">Sports Photography</p>
