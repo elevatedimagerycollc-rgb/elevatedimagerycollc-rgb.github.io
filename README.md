@@ -480,7 +480,7 @@
                     <a href="https://www.facebook.com/share/15vMGx44dk/?mibextid=wwXIfr" target="_blank" class="text-gray-400 hover:text-white">
                         <i data-feather="facebook"></i>
                     </a>
-                    <a href="#" class="text-gray-400 hover:text-white">
+                    <a href="http://www.youtube.com/@elevatedimagery-co" target="_blank" class="text-gray-400 hover:text-white">
                         <i data-feather="youtube"></i>
                     </a>
                 </div>
