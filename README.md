@@ -153,7 +153,7 @@
                 <div data-aos="fade-up" data-aos-delay="200" class="gallery-item rounded-xl overflow-hidden shadow-lg">
                     <img src="images/portrait.example.jpg" alt="Portraits" class="w-full h-64 object-cover">
                     <div class="p-4 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900">City Skyline</h3>
+                        <h3 class="text-lg font-semibold text-gray-900">Portraits</h3>
                         <p class="text-gray-600 text-sm">Express Yourself</p>
                     </div>
                 </div>
