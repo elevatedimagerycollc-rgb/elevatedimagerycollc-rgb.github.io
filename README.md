@@ -28,6 +28,8 @@
     @supports (-webkit-touch-callout: none)
         }
     }
+        #vanta-globe {
+        height: -webkit-fill-available;
         .hero-bg {
             background: linear-gradient(135deg, rgba(21, 101, 192, 0.9) 0%, rgba(41, 121, 255, 0.8) 100%);
         }
