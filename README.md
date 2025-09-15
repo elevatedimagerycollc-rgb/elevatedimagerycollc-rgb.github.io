@@ -60,7 +60,7 @@
     <div id="vanta-globe" class="hero-bg min-h-screen flex items-center justify-center pt-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
             <h1 data-aos="fade-up" class="text-4xl md:text-6xl font-bold text-white mb-6">Capture The World From New Perspectives</h1>
-            <p data-aos="fade-up" data-aos-delay="100" class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">Professional drone and camera photography services for real estate, events, and commercial projects.</p>
+            <p data-aos="fade-up" data-aos-delay="100" class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">Professional drone and camera photography services for Real Estate, Events, and Personal projects.</p>
             <div data-aos="fade-up" data-aos-delay="200" class="flex flex-col sm:flex-row justify-center gap-4">
                 <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">Book a Session</a>
                 <a href="#portfolio" class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 py-3 rounded-lg font-medium transition duration-300">View Portfolio</a>
@@ -171,8 +171,8 @@
                 <div data-aos="fade-up" data-aos-delay="400" class="gallery-item rounded-xl overflow-hidden shadow-lg">
                     <img src="http://static.photos/commercial/640x360/8" alt="Construction Site" class="w-full h-64 object-cover">
                     <div class="p-4 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900">Construction Progress</h3>
-                        <p class="text-gray-600 text-sm">Commercial Project</p>
+                        <h3 class="text-lg font-semibold text-gray-900">Automotive Excellence</h3>
+                        <p class="text-gray-600 text-sm">Automobile Media</p>
                     </div>
                 </div>
                 
@@ -180,7 +180,7 @@
                 <div data-aos="fade-up" data-aos-delay="450" class="gallery-item rounded-xl overflow-hidden shadow-lg">
                     <img src="http://static.photos/sport/640x360/9" alt="Sports Event" class="w-full h-64 object-cover">
                     <div class="p-4 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900">Marathon Event</h3>
+                        <h3 class="text-lg font-semibold text-gray-900">Action Shots</h3>
                         <p class="text-gray-600 text-sm">Sports Photography</p>
                     </div>
                 </div>
@@ -299,7 +299,7 @@
                         <img class="h-12 w-12 rounded-full" src="http://static.photos/people/200x200/13" alt="Client">
                         <div class="ml-4">
                             <h4 class="text-lg font-semibold">Kyle Rees</h4>
-                            <p class="text-blue-200">Construction Manager</p>
+                            <p class="text-blue-200">Sports Photography Client</p>
                         </div>
                     </div>
                     <p class="text-blue-100">"The progress photos from our construction site were invaluable for our investors. Elevated Imagery delivered professional results on tight deadlines."</p>
