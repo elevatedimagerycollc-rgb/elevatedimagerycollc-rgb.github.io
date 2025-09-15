@@ -260,7 +260,7 @@
                     <div class="flex items-center mb-4">
                         <img class="h-12 w-12 rounded-full" src="http://static.photos/people/200x200/11" alt="Client">
                         <div class="ml-4">
-                            <h4 class="text-lg font-semibold">Kim Simpson</h4>
+                            <h4 class="text-lg font-semibold">Tony Stark</h4>
                             <p class="text-blue-200">Real Estate Agent</p>
                         </div>
                     </div>
