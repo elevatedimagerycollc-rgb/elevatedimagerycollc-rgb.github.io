@@ -27,6 +27,13 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+        nav.fixed {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 999;
+        }
     </style>
 </head>
 <body class="font-sans antialiased text-gray-800">
