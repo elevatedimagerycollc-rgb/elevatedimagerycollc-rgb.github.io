@@ -204,8 +204,8 @@
                     <img src="http://static.photos/photographer/640x360/10" alt="Photographer" class="rounded-xl shadow-xl w-full">
                 </div>
                 <div data-aos="fade-left">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About SkyLens</h2>
-                    <p class="text-lg text-gray-600 mb-6">Founded in 2015, SkyLens has been at the forefront of aerial and traditional photography, combining technical expertise with artistic vision to deliver stunning visual content.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About Elevated Imagery</h2>
+                    <p class="text-lg text-gray-600 mb-6">Founded in May 2025, Elevated Imagery has been at the forefront of aerial and traditional photography, combining technical expertise with artistic vision to deliver stunning visual content.</p>
                     <p class="text-lg text-gray-600 mb-6">Our team of FAA-certified drone pilots and professional photographers work together to capture images that tell your story from perspectives you've never seen before.</p>
                     <div class="space-y-4">
                         <div class="flex items-start">
@@ -227,7 +227,7 @@
                             </div>
                             <div class="ml-3">
                                 <p class="text-base font-medium text-gray-900">Professional Equipment</p>
-                                <p class="text-base text-gray-600">We use the latest drones and high-end DSLR cameras.</p>
+                                <p class="text-base text-gray-600">We use High end drones, DSLR cameras, and Flashes.</p>
                             </div>
                         </div>
                         <div class="flex items-start">
@@ -261,11 +261,11 @@
                     <div class="flex items-center mb-4">
                         <img class="h-12 w-12 rounded-full" src="http://static.photos/people/200x200/11" alt="Client">
                         <div class="ml-4">
-                            <h4 class="text-lg font-semibold">Sarah Johnson</h4>
+                            <h4 class="text-lg font-semibold">Kim Simpson</h4>
                             <p class="text-blue-200">Real Estate Agent</p>
                         </div>
                     </div>
-                    <p class="text-blue-100">"The aerial shots SkyLens provided for our luxury listings helped us sell properties 30% faster than before. Their attention to detail is unmatched."</p>
+                    <p class="text-blue-100">"The aerial shots Elevated Imagery provided for our luxury listings helped us sell properties 30% faster than before. Their attention to detail is unmatched."</p>
                     <div class="mt-4 flex text-yellow-400">
                         <i data-feather="star" class="fill-current"></i>
                         <i data-feather="star" class="fill-current"></i>
@@ -280,11 +280,11 @@
                     <div class="flex items-center mb-4">
                         <img class="h-12 w-12 rounded-full" src="http://static.photos/people/200x200/12" alt="Client">
                         <div class="ml-4">
-                            <h4 class="text-lg font-semibold">Michael Chen</h4>
-                            <p class="text-blue-200">Event Planner</p>
+                            <h4 class="text-lg font-semibold">Tyler Selhorst</h4>
+                            <p class="text-blue-200">Client</p>
                         </div>
                     </div>
-                    <p class="text-blue-100">"Our corporate retreat looked incredible in the photos. SkyLens captured both the scale of the event and the intimate moments perfectly."</p>
+                    <p class="text-blue-100">"Outstanding quality photos, Had a few photos and videos done from a mountain biking trip and they were absolutely stunning!!"</p>
                     <div class="mt-4 flex text-yellow-400">
                         <i data-feather="star" class="fill-current"></i>
                         <i data-feather="star" class="fill-current"></i>
@@ -299,11 +299,11 @@
                     <div class="flex items-center mb-4">
                         <img class="h-12 w-12 rounded-full" src="http://static.photos/people/200x200/13" alt="Client">
                         <div class="ml-4">
-                            <h4 class="text-lg font-semibold">David Rodriguez</h4>
+                            <h4 class="text-lg font-semibold">Kyle Rees</h4>
                             <p class="text-blue-200">Construction Manager</p>
                         </div>
                     </div>
-                    <p class="text-blue-100">"The progress photos from our construction site were invaluable for our investors. SkyLens delivered professional results on tight deadlines."</p>
+                    <p class="text-blue-100">"The progress photos from our construction site were invaluable for our investors. Elevated Imagery delivered professional results on tight deadlines."</p>
                     <div class="mt-4 flex text-yellow-400">
                         <i data-feather="star" class="fill-current"></i>
                         <i data-feather="star" class="fill-current"></i>
@@ -344,7 +344,7 @@
                             </div>
                             <div class="ml-4">
                                 <p class="text-base font-medium text-gray-900">Email</p>
-                                <p class="text-base text-gray-600">hello@skylens.com</p>
+                                <p class="text-base text-gray-600">elevatedimagery.co.llc@gmail.com</p>
                             </div>
                         </div>
                         
@@ -356,7 +356,7 @@
                             </div>
                             <div class="ml-4">
                                 <p class="text-base font-medium text-gray-900">Phone</p>
-                                <p class="text-base text-gray-600">(555) 123-4567</p>
+                                <p class="text-base text-gray-600">(406) 295-2589</p>
                             </div>
                         </div>
                         
@@ -367,8 +367,8 @@
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <p class="text-base font-medium text-gray-900">Studio</p>
-                                <p class="text-base text-gray-600">123 Photography Ave, Suite 200<br>San Francisco, CA 94107</p>
+                                <p class="text-base font-medium text-gray-900">Service Broadband</p>
+                                <p class="text-base text-gray-600">State of Delaware (DE) United States of Amercica</p>
                             </div>
                         </div>
                     </div>
@@ -378,16 +378,13 @@
                         <div class="flex space-x-4">
                             <a href="#" class="text-blue-600 hover:text-blue-800">
                                 <i data-feather="instagram"></i>
-                            </a>
+                            </a>https://www.instagram.com/elevated_imagery.co/
                             <a href="#" class="text-blue-600 hover:text-blue-800">
                                 <i data-feather="facebook"></i>
-                            </a>
-                            <a href="#" class="text-blue-600 hover:text-blue-800">
-                                <i data-feather="twitter"></i>
-                            </a>
+                            </a>https://www.facebook.com/share/15vMGx44dk/?mibextid=wwXIfr
                             <a href="#" class="text-blue-600 hover:text-blue-800">
                                 <i data-feather="youtube"></i>
-                            </a>
+                            </a>www.youtube.com/@elevatedimagery-co
                         </div>
                     </div>
                 </div>
@@ -441,7 +438,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">SkyLens</h3>
+                    <h3 class="text-lg font-semibold mb-4">Elevated Imagery</h3>
                     <p class="text-gray-400">Professional drone and camera photography services for businesses and individuals.</p>
                 </div>
                 
@@ -451,7 +448,7 @@
                         <li><a href="#" class="text-gray-400 hover:text-white">Real Estate</a></li>
                         <li><a href="#" class="text-gray-400 hover:text-white">Events</a></li>
                         <li><a href="#" class="text-gray-400 hover:text-white">Commercial</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white">Aerial Mapping</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Portraits</a></li>
                     </ul>
                 </div>
                 
@@ -476,20 +473,17 @@
             </div>
             
             <div class="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-gray-400 text-sm">© 2023 SkyLens Photography. All rights reserved.</p>
+                <p class="text-gray-400 text-sm">© 2025 Elevated Imagery LLC. All rights reserved.</p>
                 <div class="mt-4 md:mt-0 flex space-x-6">
                     <a href="#" class="text-gray-400 hover:text-white">
                         <i data-feather="instagram"></i>
-                    </a>
+                    </a>https://www.instagram.com/elevated_imagery.co/
                     <a href="#" class="text-gray-400 hover:text-white">
                         <i data-feather="facebook"></i>
-                    </a>
-                    <a href="#" class="text-gray-400 hover:text-white">
-                        <i data-feather="twitter"></i>
-                    </a>
+                    </a>https://www.facebook.com/share/15vMGx44dk/?mibextid=wwXIfr
                     <a href="#" class="text-gray-400 hover:text-white">
                         <i data-feather="youtube"></i>
-                    </a>
+                    </a>www.youtube.com/@elevatedimagery-co
                 </div>
             </div>
         </div>
