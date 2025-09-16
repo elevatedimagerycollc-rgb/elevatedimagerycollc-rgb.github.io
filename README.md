@@ -151,7 +151,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Portfolio Item 1 -->
                 <div data-aos="fade-up" data-aos-delay="200" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-                    <img src="images/portrait.example.jpg" alt="Real Estate" class="w-full h-64 object-cover">
+                    <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-64 object-cover">
                     <div class="p-4 bg-white">
                         <h3 class="text-lg font-semibold text-gray-900">Real Estate</h3>
                         <p class="text-gray-600 text-sm">Elegant Homes</p>
