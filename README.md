@@ -97,7 +97,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Service 1 -->
                 <div data-aos="fade-up" data-aos-delay="200" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
-                    <div class="h-48 bg-cover bg-center" style="background-image: url('http://static.photos/real-estate/640x360/1')"></div>
+                    <div class="h-48 bg-cover bg-center" style="background-image: images/house.example.jpg"></div>
                     <div class="p-6">
                         <div class="flex items-center mb-4">
                             <div class="bg-blue-100 p-3 rounded-full">
@@ -178,7 +178,7 @@
                 
                 <!-- Portfolio Item 4 -->
                 <div data-aos="fade-up" data-aos-delay="350" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-                    <img src="http://static.photos/nature/640x360/7" alt="Beautiful Scenery" class="w-full h-64 object-cover">
+                    <img src="images/landscape.example.jpg" alt="Beautiful Scenery" class="w-full h-64 object-cover">
                     <div class="p-4 bg-white">
                         <h3 class="text-lg font-semibold text-gray-900">Mountain Range</h3>
                         <p class="text-gray-600 text-sm">Landscape Photography</p>
