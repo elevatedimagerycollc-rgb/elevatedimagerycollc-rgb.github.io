@@ -80,8 +80,8 @@
             <h1 data-aos="fade-up" class="text-4xl md:text-6xl font-bold text-white mb-6">Capture The World From New Perspectives</h1>
             <p data-aos="fade-up" data-aos-delay="100" class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">Professional drone and camera photography services for Real Estate, Events, and Personal projects.</p>
             <div data-aos="fade-up" data-aos-delay="200" class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">Book a Session</a>
-                <a href="#portfolio" class="bg-white border-2 border-white text-blue-600 hover:bg-white hover:text-blue-600 px-6 py-3 rounded-lg font-medium transition duration-300">View Portfolio</a>
+                <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">Book a Session</a>
+                <a href="#portfolio" class="bg-white border-2 border-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition duration-300">View Portfolio</a>
             </div>
         </div>
     </div>
