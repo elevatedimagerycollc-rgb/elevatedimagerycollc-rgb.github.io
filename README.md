@@ -97,7 +97,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Service 1 -->
                 <div data-aos="fade-up" data-aos-delay="200" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
-                    <div class="h-48 bg-cover bg-center" style=background-image: i"mages/house.example.jpg"></div>
+                    <div class="h-48 bg-cover bg-center" style="background-image: images/house.example.jpg"></div>
                     <div class="p-6">
                         <div class="flex items-center mb-4">
                             <div class="bg-blue-100 p-3 rounded-full">
