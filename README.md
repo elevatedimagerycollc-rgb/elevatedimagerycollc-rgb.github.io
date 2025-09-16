@@ -66,7 +66,7 @@
                 <a href="#contact" class="text-gray-700 border-b-2 border-blue-600 hover:border-white px-3 py-2 text-sm font-medium">Contact</a>
             </div>
             <div class="-mr-2 flex items-center md:hidden">
-                <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-blue-200 focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
+                <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
                     <i data-feather="menu"></i>
                 </button>
             </div>
@@ -154,7 +154,7 @@
                     <img src="images/portrait.example.jpg" alt="Real Estate" class="w-full h-64 object-cover">
                     <div class="p-4 bg-white">
                         <h3 class="text-lg font-semibold text-gray-900">Real Estate</h3>
-                        <p class="text-gray-600 text-sm">Express Yourself</p>
+                        <p class="text-gray-600 text-sm">Elegant Homes</p>
                     </div>
                 </div>
                 
