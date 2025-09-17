@@ -159,7 +159,7 @@
         </div>
       </a>
       <!-- Wedding Celebration -->
-      <a href="weddings.html" class="block">
+      <a href="event-photography.html" class="block">
         <div data-aos="fade-up" data-aos-delay="250" class="gallery-item rounded-xl overflow-hidden shadow-lg">
           <img src="images/WeddingCelebration.jpg" alt="Wedding" class="w-full h-64 object-cover rounded-xl">
           <div class="p-4 bg-white">
@@ -179,7 +179,7 @@
         </div>
       </a>
       <!-- Landscape Photography -->
-      <a href="landscape.html" class="block">
+      <a href="landscape-photography.html" class="block">
         <div data-aos="fade-up" data-aos-delay="350" class="gallery-item rounded-xl overflow-hidden shadow-lg">
           <img src="images/landscape.example.jpg" alt="Landscape" class="w-full h-64 object-cover rounded-xl">
           <div class="p-4 bg-white">
@@ -189,7 +189,7 @@
         </div>
       </a>
       <!-- Automotive Excellence -->
-      <a href="automotive.html" class="block">
+      <a href="automotive-photography.html" class="block">
         <div data-aos="fade-up" data-aos-delay="400" class="gallery-item rounded-xl overflow-hidden shadow-lg">
           <img src="images/350z.boat.jpg" alt="Automotive" class="w-full h-64 object-cover rounded-xl">
           <div class="p-4 bg-white">
@@ -199,7 +199,7 @@
         </div>
       </a>
       <!-- Action Shots -->
-      <a href="action-shots.html" class="block">
+      <a href="sports-photography.html" class="block">
         <div data-aos="fade-up" data-aos-delay="450" class="gallery-item rounded-xl overflow-hidden shadow-lg">
           <img src="images/Kyle.Swinging.jpg" alt="Action Shots" class="w-full h-64 object-cover rounded-xl">
           <div class="p-4 bg-white">
