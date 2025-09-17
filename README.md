@@ -125,7 +125,6 @@
 <section id="portfolio" class="py-20 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4">
     <h2 class="text-3xl font-bold text-center mb-12">Our Portfolio</h2>
-
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Real Estate -->
       <a href="real-estate.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
@@ -135,7 +134,6 @@
           <p class="text-gray-600 text-sm">Elegant Homes</p>
         </div>
       </a>
-
       <!-- Event Photography -->
       <a href="event-photography.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
         <img src="images/WeddingCelebration.JPG" alt="Event Photography" class="w-full h-64 object-cover">
@@ -144,7 +142,6 @@
           <p class="text-gray-600 text-sm">Wedding Celebration</p>
         </div>
       </a>
-
       <!-- Portrait -->
       <a href="portrait.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
         <img src="portrait.example.jpg" alt="Automotive" class="w-full h-64 object-cover">
@@ -153,7 +150,6 @@
           <p class="text-gray-600 text-sm">Express Yourself</p>
         </div>
       </a>
-      
       <!-- Automotive Photography -->
       <a href="automotive.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
         <img src="images/350z.boat.jpg" alt="Automotive" class="w-full h-64 object-cover">
@@ -162,7 +158,6 @@
           <p class="text-gray-600 text-sm">Power & Style</p>
         </div>
       </a>
-      
     <!-- Landscape Photography -->
       <a href="landscape-photography.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
         <img src="landscape.example.jpg" alt="Automotive" class="w-full h-64 object-cover">
@@ -171,7 +166,6 @@
           <p class="text-gray-600 text-sm">Beautiful Scenes</p>
         </div>
       </a>
-      
       <!-- Sports Photography -->
       <a href="sports-photography.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
         <img src="images/Kyle.Swinging.jpg" alt="Automotive" class="w-full h-64 object-cover">
@@ -181,7 +175,6 @@
         </div>
       </a>
     </div>
-
     <!-- View Full Portfolio Button -->
     <div class="text-center mt-12">
       <a href="full-portfolio.html"
@@ -300,7 +293,7 @@
                             <p class="text-blue-200">Sports Photography Client</p>
                         </div>
                     </div>
-                    <p class="text-blue-100">"The progress photos from our construction site were invaluable for our investors. Elevated Imagery delivered professional results on tight deadlines."</p>
+                    <p class="text-blue-100">"Best pictures and drone videos of all time!! Really great quality and quick work."</p>
                     <div class="mt-4 flex text-yellow-400">
                         <i data-feather="star" class="fill-current"></i>
                         <i data-feather="star" class="fill-current"></i>
