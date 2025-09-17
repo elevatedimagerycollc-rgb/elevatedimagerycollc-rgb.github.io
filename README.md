@@ -92,47 +92,35 @@
 </section>
 
 <!-- Services Section -->
-<section id="services" class="py-20 bg-gray-50">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-16">
-      <h2 data-aos="fade-up" class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
-      <p data-aos="fade-up" data-aos-delay="100" class="text-lg text-gray-600 max-w-2xl mx-auto">
-        We offer specialized photography services tailored to your unique needs.
-      </p>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <!-- Service 1 -->
-      <a href="real-estate-service.html" class="block">
-      <div data-aos="fade-up" data-aos-delay="200" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
-        <img src="images/house.example.jpg" alt="House" class="h-48 object-cover object-center w-full">
-        <div class="p-6">
-          <div class="flex items-center mb-4">
-            <div class="bg-blue-100 p-3 rounded-full"><i data-feather="home" class="text-blue-600"></i></div>
-            <h3 class="ml-3 text-xl font-semibold text-gray-900">Real Estate Photography</h3>
-          </div>
-          <p class="text-gray-600">Showcase properties with stunning aerial and interior photography that highlights every detail.</p>
+<section id="services" class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <!-- Real Estate Service -->
+      <div class="flex items-start space-x-4">
+        <img src="images/re.example.jpg" alt="Real Estate" class="w-16 h-16 rounded-lg object-cover shadow-md">
+        <div>
+          <h3 class="text-xl font-semibold text-gray-900">Real Estate Photography</h3>
+          <p class="text-gray-600 text-sm mt-2">Showcase properties with stunning aerial and interior visuals.</p>
         </div>
       </div>
+
       <!-- Service 2 -->
-      <div data-aos="fade-up" data-aos-delay="300" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
-        <div class="h-48 bg-cover bg-center" style="background-image: url('images/event.2.jpg');"></div>
-        <div class="p-6">
-          <div class="flex items-center mb-4">
-            <div class="bg-blue-100 p-3 rounded-full"><i data-feather="calendar" class="text-blue-600"></i></div>
-            <h3 class="ml-3 text-xl font-semibold text-gray-900">Event Coverage</h3>
-          </div>
-          <p class="text-gray-600">Capture the magic of your special events from unique aerial perspectives and ground-level moments.</p>
+      <div class="flex items-start space-x-4">
+        <img src="images/wedding.example.jpg" alt="Wedding" class="w-16 h-16 rounded-lg object-cover shadow-md">
+        <div>
+          <h3 class="text-xl font-semibold text-gray-900">Wedding Photography</h3>
+          <p class="text-gray-600 text-sm mt-2">Capture every precious moment of your special day with elegance.</p>
         </div>
       </div>
+
       <!-- Service 3 -->
-      <div data-aos="fade-up" data-aos-delay="400" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
-        <div class="h-48 bg-cover bg-center" style="background-image: url('images/commercial.3.jpg');"></div>
-        <div class="p-6">
-          <div class="flex items-center mb-4">
-            <div class="bg-blue-100 p-3 rounded-full"><i data-feather="briefcase" class="text-blue-600"></i></div>
-            <h3 class="ml-3 text-xl font-semibold text-gray-900">Commercial Projects</h3>
-          </div>
-          <p class="text-gray-600">Professional photography for businesses, construction sites, and large-scale commercial projects.</p>
+      <div class="flex items-start space-x-4">
+        <img src="images/automotive.example.jpg" alt="Automotive" class="w-16 h-16 rounded-lg object-cover shadow-md">
+        <div>
+          <h3 class="text-xl font-semibold text-gray-900">Automotive Photography</h3>
+          <p class="text-gray-600 text-sm mt-2">Dynamic and detailed imagery of vehicles for enthusiasts and dealers.</p>
         </div>
       </div>
     </div>
@@ -140,82 +128,74 @@
 </section>
 
 <!-- Portfolio Section -->
-<section id="portfolio" class="py-20 bg-white">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-16">
-      <h2 data-aos="fade-up" class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Portfolio</h2>
-      <p data-aos="fade-up" data-aos-delay="100" class="text-lg text-gray-600 max-w-2xl mx-auto">
-        A glimpse of our recent work across various photography disciplines.
-      </p>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<section id="portfolio" class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Our Portfolio</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Real Estate -->
-      <a href="real-estate.html" class="block">
-        <div data-aos="fade-up" data-aos-delay="200" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-          <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-64 object-cover rounded-xl">
-          <div class="p-4 bg-white">
-            <h3 class="text-lg font-semibold text-gray-900">Real Estate</h3>
-            <p class="text-gray-600 text-sm">Elegant Homes</p>
-          </div>
+      <a href="real-estate.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
+        <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-900">Real Estate</h3>
+          <p class="text-gray-600 text-sm">Elegant Homes</p>
         </div>
       </a>
-      <!-- Wedding Celebration -->
-      <a href="event-photography.html" class="block">
-        <div data-aos="fade-up" data-aos-delay="250" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-          <img src="images/WeddingCelebration.JPG" alt="Wedding" class="w-full h-64 object-cover rounded-xl">
-          <div class="p-4 bg-white">
-            <h3 class="text-lg font-semibold text-gray-900">Wedding Celebration</h3>
-            <p class="text-gray-600 text-sm">Event Photography</p>
-          </div>
+
+      <!-- Event Photography -->
+      <a href="event-photography.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
+        <img src="images/WeddingCelebration.JPG" alt="Wedding" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-900">Weddings</h3>
+          <p class="text-gray-600 text-sm">Unforgettable Moments</p>
         </div>
       </a>
-      <!-- Portraits -->
-      <a href="portraits.html" class="block">
-        <div data-aos="fade-up" data-aos-delay="300" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-          <img src="images/portrait.example.jpg" alt="Portrait" class="w-full h-64 object-cover rounded-xl">
-          <div class="p-4 bg-white">
-            <h3 class="text-lg font-semibold text-gray-900">Portraits</h3>
-            <p class="text-gray-600 text-sm">Express Yourself</p>
-          </div>
+
+      <!-- Portrait -->
+      <a href="portrait.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
+        <img src="portrait.example.jpg" alt="Automotive" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-900">Automotive</h3>
+          <p class="text-gray-600 text-sm">Power & Style</p>
         </div>
       </a>
-      <!-- Landscape Photography -->
-      <a href="landscape-photography.html" class="block">
-        <div data-aos="fade-up" data-aos-delay="350" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-          <img src="images/landscape.example.jpg" alt="Landscape" class="w-full h-64 object-cover rounded-xl">
-          <div class="p-4 bg-white">
-            <h3 class="text-lg font-semibold text-gray-900">Landscape Photography</h3>
-            <p class="text-gray-600 text-sm">Beautiful photos of manmade and natural scenery</p>
-          </div>
+      
+      <!-- Portfolio Item 4 -->
+      <a href="automotive.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
+        <img src="images/350z.boat.jpg" alt="Automotive" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-900">Automotive</h3>
+          <p class="text-gray-600 text-sm">Power & Style</p>
         </div>
       </a>
-      <!-- Automotive Excellence -->
-      <a href="automotive-photography.html" class="block">
-        <div data-aos="fade-up" data-aos-delay="400" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-          <img src="images/350z.boat.jpg" alt="Automotive" class="w-full h-64 object-cover rounded-xl">
-          <div class="p-4 bg-white">
-            <h3 class="text-lg font-semibold text-gray-900">Automotive Excellence</h3>
-            <p class="text-gray-600 text-sm">On the Road or Track</p>
-          </div>
+      
+    <!-- Landscape Photography -->
+      <a href="landscape-photography.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
+        <img src="landscape.example.jpg" alt="Automotive" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-900">Automotive</h3>
+          <p class="text-gray-600 text-sm">Power & Style</p>
         </div>
       </a>
-      <!-- Action Shots -->
-      <a href="sports-photography.html" class="block">
-        <div data-aos="fade-up" data-aos-delay="450" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-          <img src="images/Kyle.Swinging.jpg" alt="Action Shots" class="w-full h-64 object-cover rounded-xl">
-          <div class="p-4 bg-white">
-            <h3 class="text-lg font-semibold text-gray-900">Action Shots</h3>
-            <p class="text-gray-600 text-sm">Sports Photography</p>
-          </div>
+      
+      <!-- Sports Photography -->
+      <a href="sports-photography.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
+        <img src="images/Kyle.Swinging.jpg" alt="Automotive" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-900">Automotive</h3>
+          <p class="text-gray-600 text-sm">Power & Style</p>
         </div>
       </a>
     </div>
-   <div class="text-center mt-12" data-aos="fade-up">
- <a href="full-portfolio.html" 
-   class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
-  View Full Portfolio
-  <i data-feather="arrow-right" class="ml-2"></i>
-</a>
+
+    <!-- View Full Portfolio Button -->
+    <div class="text-center mt-12">
+      <a href="full-portfolio.html"
+         class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
+        View Full Portfolio
+        <i data-feather="arrow-right" class="ml-2"></i>
+      </a>
+    </div>
   </div>
 </section>
 
