@@ -138,7 +138,7 @@
   </div>
 </section>
 
-    <!-- Portfolio Section -->
+<!-- Portfolio Section -->
 <section id="portfolio" class="py-20 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
@@ -147,64 +147,77 @@
         A glimpse of our recent work across various photography disciplines.
       </p>
     </div>
-       <!-- Portfolio Item 1 -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div data-aos="fade-up" data-aos-delay="200" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-        <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-64 object-cover rounded-xl">
-        <div class="p-4 bg-white">
-          <h3 class="text-lg font-semibold text-gray-900">Real Estate</h3>
-          <p class="text-gray-600 text-sm">Elegant Homes</p>
+      <!-- Real Estate -->
+      <a href="real-estate.html" class="block">
+        <div data-aos="fade-up" data-aos-delay="200" class="gallery-item rounded-xl overflow-hidden shadow-lg">
+          <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-64 object-cover rounded-xl">
+          <div class="p-4 bg-white">
+            <h3 class="text-lg font-semibold text-gray-900">Real Estate</h3>
+            <p class="text-gray-600 text-sm">Elegant Homes</p>
+          </div>
         </div>
-      </div>
-         <!-- Portfolio Item 2 -->
-      <div data-aos="fade-up" data-aos-delay="250" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-        <img src="images/WeddingCelebration.jpg" alt="Wedding" class="w-full h-64 object-cover rounded-xl">
-        <div class="p-4 bg-white">
-          <h3 class="text-lg font-semibold text-gray-900">Wedding Celebration</h3>
-          <p class="text-gray-600 text-sm">Event Photography</p>
+      </a>
+      <!-- Wedding Celebration -->
+      <a href="weddings.html" class="block">
+        <div data-aos="fade-up" data-aos-delay="250" class="gallery-item rounded-xl overflow-hidden shadow-lg">
+          <img src="images/WeddingCelebration.jpg" alt="Wedding" class="w-full h-64 object-cover rounded-xl">
+          <div class="p-4 bg-white">
+            <h3 class="text-lg font-semibold text-gray-900">Wedding Celebration</h3>
+            <p class="text-gray-600 text-sm">Event Photography</p>
+          </div>
         </div>
-      </div>
-         <!-- Portfolio Item 3 -->
-      <div data-aos="fade-up" data-aos-delay="300" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-        <img src="images/portrait.example.jpg" alt="Portrait" class="w-full h-64 object-cover rounded-xl">
-        <div class="p-4 bg-white">
-          <h3 class="text-lg font-semibold text-gray-900">Portraits</h3>
-          <p class="text-gray-600 text-sm">Express Yourself</p>
+      </a>
+      <!-- Portraits -->
+      <a href="portraits.html" class="block">
+        <div data-aos="fade-up" data-aos-delay="300" class="gallery-item rounded-xl overflow-hidden shadow-lg">
+          <img src="images/portrait.example.jpg" alt="Portrait" class="w-full h-64 object-cover rounded-xl">
+          <div class="p-4 bg-white">
+            <h3 class="text-lg font-semibold text-gray-900">Portraits</h3>
+            <p class="text-gray-600 text-sm">Express Yourself</p>
+          </div>
         </div>
-      </div>
-                <!-- Portfolio Item 4 -->
-                <div data-aos="fade-up" data-aos-delay="350" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-                    <img src="images/landscape.example.jpg" alt="Beautiful Scenery" class="w-full h-64 object-cover">
-                    <div class="p-4 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900">Landscape Photography</h3>
-                        <p class="text-gray-600 text-sm">Beautiful photos of manmade and natural scenery</p>
-                    </div>
-                </div>
-                <!-- Portfolio Item 5 -->
-                <div data-aos="fade-up" data-aos-delay="400" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-                    <img src="images/350z.boat.jpg" alt="Construction Site" class="w-full h-64 object-cover">
-                    <div class="p-4 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900">Automotive Excellence</h3>
-                        <p class="text-gray-600 text-sm">On the Road or Track</p>
-                    </div>
-                </div>
-                <!-- Portfolio Item 6 -->
-                <div data-aos="fade-up" data-aos-delay="450" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-                    <img src="images/Kyle.Swinging.jpg" alt="Sports Event" class="w-full h-64 object-cover">
-                    <div class="p-4 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900">Action Shots</h3>
-                        <p class="text-gray-600 text-sm">Sports Photography</p>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-12" data-aos="fade-up">
-                <a href="#" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
-                    View Full Portfolio
-                    <i data-feather="arrow-right" class="ml-2"></i>
-                </a>
-            </div>
+      </a>
+      <!-- Landscape Photography -->
+      <a href="landscape.html" class="block">
+        <div data-aos="fade-up" data-aos-delay="350" class="gallery-item rounded-xl overflow-hidden shadow-lg">
+          <img src="images/landscape.example.jpg" alt="Landscape" class="w-full h-64 object-cover rounded-xl">
+          <div class="p-4 bg-white">
+            <h3 class="text-lg font-semibold text-gray-900">Landscape Photography</h3>
+            <p class="text-gray-600 text-sm">Beautiful photos of manmade and natural scenery</p>
+          </div>
         </div>
-    </section>
+      </a>
+      <!-- Automotive Excellence -->
+      <a href="automotive.html" class="block">
+        <div data-aos="fade-up" data-aos-delay="400" class="gallery-item rounded-xl overflow-hidden shadow-lg">
+          <img src="images/350z.boat.jpg" alt="Automotive" class="w-full h-64 object-cover rounded-xl">
+          <div class="p-4 bg-white">
+            <h3 class="text-lg font-semibold text-gray-900">Automotive Excellence</h3>
+            <p class="text-gray-600 text-sm">On the Road or Track</p>
+          </div>
+        </div>
+      </a>
+      <!-- Action Shots -->
+      <a href="action-shots.html" class="block">
+        <div data-aos="fade-up" data-aos-delay="450" class="gallery-item rounded-xl overflow-hidden shadow-lg">
+          <img src="images/Kyle.Swinging.jpg" alt="Action Shots" class="w-full h-64 object-cover rounded-xl">
+          <div class="p-4 bg-white">
+            <h3 class="text-lg font-semibold text-gray-900">Action Shots</h3>
+            <p class="text-gray-600 text-sm">Sports Photography</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="text-center mt-12" data-aos="fade-up">
+      <a href="portfolio-full.html" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
+        View Full Portfolio
+        <i data-feather="arrow-right" class="ml-2"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
 
     <!-- About Section -->
     <section id="about" class="py-20 bg-gray-50">
