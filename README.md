@@ -92,40 +92,34 @@
 </section>
 
 <!-- Services Section -->
-<section id="services" class="py-20 bg-white">
+<section id="services" class="py-24 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4">
-    <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
-
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-      <!-- Real Estate Service -->
-      <div class="flex items-start space-x-4">
-        <img src="images/re.example.jpg" alt="Real Estate" class="w-16 h-16 rounded-lg object-cover shadow-md">
-        <div>
-          <h3 class="text-xl font-semibold text-gray-900">Real Estate Photography</h3>
-          <p class="text-gray-600 text-sm mt-2">Showcase properties with stunning aerial and interior visuals.</p>
+    <h2 class="text-4xl font-bold text-center mb-16">Our Services</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+      <!-- Real Estate -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold text-gray-900">Real Estate Photography</h3>
+          <p class="text-gray-600 mt-3">Showcase properties with stunning aerial and interior visuals that captivate buyers.</p>
         </div>
       </div>
-
-      <!-- Service 2 -->
-      <div class="flex items-start space-x-4">
-        <img src="images/wedding.example.jpg" alt="Wedding" class="w-16 h-16 rounded-lg object-cover shadow-md">
-        <div>
-          <h3 class="text-xl font-semibold text-gray-900">Wedding Photography</h3>
-          <p class="text-gray-600 text-sm mt-2">Capture every precious moment of your special day with elegance.</p>
+      <!-- Event Coverage -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <img src="images/wedding.example.jpg" alt="Wedding" class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold text-gray-900">Wedding Photography</h3>
+          <p class="text-gray-600 mt-3">Capture every precious moment of your special day with timeless elegance.</p>
         </div>
       </div>
-
-      <!-- Service 3 -->
-      <div class="flex items-start space-x-4">
-        <img src="images/automotive.example.jpg" alt="Automotive" class="w-16 h-16 rounded-lg object-cover shadow-md">
-        <div>
-          <h3 class="text-xl font-semibold text-gray-900">Automotive Photography</h3>
-          <p class="text-gray-600 text-sm mt-2">Dynamic and detailed imagery of vehicles for enthusiasts and dealers.</p>
-        </div>
+      <!-- Commercial Projects -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <img src="images/automotive.example.jpg" alt="Automotive" class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold text-gray-900">Automotive Photography</h3>
+          <p class="text-gray-600 mt-3">Dynamic and detailed imagery of vehicles for enthusiasts, dealers, and collectors.</p>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
 <!-- Portfolio Section -->
 <section id="portfolio" class="py-20 bg-gray-50">
@@ -144,10 +138,10 @@
 
       <!-- Event Photography -->
       <a href="event-photography.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
-        <img src="images/WeddingCelebration.JPG" alt="Wedding" class="w-full h-64 object-cover">
+        <img src="images/WeddingCelebration.JPG" alt="Event Photography" class="w-full h-64 object-cover">
         <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-900">Weddings</h3>
-          <p class="text-gray-600 text-sm">Unforgettable Moments</p>
+          <h3 class="text-lg font-semibold text-gray-900">Event Photography</h3>
+          <p class="text-gray-600 text-sm">Wedding Celebration</p>
         </div>
       </a>
 
@@ -155,8 +149,8 @@
       <a href="portrait.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
         <img src="portrait.example.jpg" alt="Automotive" class="w-full h-64 object-cover">
         <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-900">Automotive</h3>
-          <p class="text-gray-600 text-sm">Power & Style</p>
+          <h3 class="text-lg font-semibold text-gray-900">Portraits</h3>
+          <p class="text-gray-600 text-sm">Express Yourself</p>
         </div>
       </a>
       
@@ -164,7 +158,7 @@
       <a href="automotive.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
         <img src="images/350z.boat.jpg" alt="Automotive" class="w-full h-64 object-cover">
         <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-900">Automotive</h3>
+          <h3 class="text-lg font-semibold text-gray-900">Automotive Photography</h3>
           <p class="text-gray-600 text-sm">Power & Style</p>
         </div>
       </a>
@@ -173,8 +167,8 @@
       <a href="landscape-photography.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
         <img src="landscape.example.jpg" alt="Automotive" class="w-full h-64 object-cover">
         <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-900">Automotive</h3>
-          <p class="text-gray-600 text-sm">Power & Style</p>
+          <h3 class="text-lg font-semibold text-gray-900">Landscape Photography</h3>
+          <p class="text-gray-600 text-sm">Beautiful Scenes</p>
         </div>
       </a>
       
@@ -182,8 +176,8 @@
       <a href="sports-photography.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
         <img src="images/Kyle.Swinging.jpg" alt="Automotive" class="w-full h-64 object-cover">
         <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-900">Automotive</h3>
-          <p class="text-gray-600 text-sm">Power & Style</p>
+          <h3 class="text-lg font-semibold text-gray-900">Sports Photography</h3>
+          <p class="text-gray-600 text-sm">Action Shots</p>
         </div>
       </a>
     </div>
