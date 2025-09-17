@@ -50,39 +50,55 @@
 
 <!-- Navigation -->
 <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-16">
-            <div class="flex items-center">
-                <a href="#" class="flex-shrink-0 flex items-center">
-                    <i data-feather="camera" class="h-8 w-8 text-white"></i>
-                    <span class="ml-2 text-xl font-bold text-blue-600">Elevated Imagery</span>
-                </a>
-            </div>
-            <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
-                <a href="#" class="text-blue-600 border-b-2 border-blue-600 hover:border-white px-3 py-2 text-sm font-medium">Home</a>
-                <a href="#services" class="text-gray-700 border-b-2 border-blue-600 hover:border-white px-3 py-2 text-sm font-medium">Services</a>
-                <a href="#portfolio" class="text-gray-700 border-b-2 border-blue-600 hover:border-white px-3 py-2 text-sm font-medium">Portfolio</a>
-                <a href="#about" class="text-gray-700 border-b-2 border-blue-600 hover:border-white px-3 py-2 text-sm font-medium">About</a>
-                <a href="#contact" class="text-gray-700 border-b-2 border-blue-600 hover:border-white px-3 py-2 text-sm font-medium">Contact</a>
-            </div>
-            <div class="-mr-2 flex items-center md:hidden">
-                <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
-                    <i data-feather="menu"></i>
-                </button>
-<!-- Mobile Menu (animated) -->
-<div id="mobile-menu" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out md:hidden bg-white shadow-md">
-  <div class="px-2 pt-2 pb-3 space-y-1">
-    <a href="#" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Home</a>
-    <a href="#services" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Services</a>
-    <a href="#portfolio" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Portfolio</a>
-    <a href="#about" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">About</a>
-    <a href="#contact" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Contact</a>
-  </div>
-</div>
-            </div>
-        </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-16">
+      <!-- Logo -->
+      <div class="flex items-center">
+        <a href="#" class="flex-shrink-0 flex items-center">
+          <i data-feather="camera" class="h-8 w-8 text-blue-600"></i>
+          <span class="ml-2 text-xl font-bold text-blue-600">Elevated Imagery</span>
+        </a>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+        <a href="#" class="text-blue-600 border-b-2 border-blue-600 px-3 py-2 text-sm font-medium">Home</a>
+        <a href="#services" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Services</a>
+        <a href="#portfolio" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Portfolio</a>
+        <a href="#about" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">About</a>
+        <a href="#contact" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Contact</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <div class="-mr-2 flex items-center md:hidden">
+        <button id="menu-button" type="button" class="p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none">
+          <i data-feather="menu" class="h-6 w-6"></i>
+        </button>
+      </div>
     </div>
+  </div>
+
+  <!-- Mobile Menu (hidden by default) -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+    <div class="px-2 pt-2 pb-3 space-y-1">
+      <a href="#" class="block text-blue-600 px-3 py-2 rounded-md text-base font-medium">Home</a>
+      <a href="#services" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Services</a>
+      <a href="#portfolio" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Portfolio</a>
+      <a href="#about" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">About</a>
+      <a href="#contact" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Contact</a>
+    </div>
+  </div>
 </nav>
+
+<script>
+  const menuButton = document.getElementById("menu-button");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuButton.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+</script>
+
 
     <!-- Hero Section -->
  <div id="vanta-globe" class="hero-bg min-h-screen flex items-center justify-center pt-16">
