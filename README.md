@@ -69,8 +69,8 @@
                 <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
                     <i data-feather="menu"></i>
                 </button>
-            <!-- Mobile Menu (hidden by default) -->
-<div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+<!-- Mobile Menu (animated) -->
+<div id="mobile-menu" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out md:hidden bg-white shadow-md">
   <div class="px-2 pt-2 pb-3 space-y-1">
     <a href="#" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Home</a>
     <a href="#services" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Services</a>
@@ -535,12 +535,17 @@
     <script>AOS.init();</script>
     <script>feather.replace();</script>  
 <script>
-  // Toggle mobile menu
   const menuButton = document.querySelector("nav button");
   const mobileMenu = document.getElementById("mobile-menu");
 
   menuButton.addEventListener("click", () => {
-    mobileMenu.classList.toggle("hidden");
+    if (mobileMenu.classList.contains("max-h-0")) {
+      mobileMenu.classList.remove("max-h-0");
+      mobileMenu.classList.add("max-h-screen");
+    } else {
+      mobileMenu.classList.add("max-h-0");
+      mobileMenu.classList.remove("max-h-screen");
+    }
   });
 </script>
 
