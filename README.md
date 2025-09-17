@@ -122,63 +122,75 @@
     </section>
 
 <!-- Portfolio Section -->
-<section id="portfolio" class="py-20 bg-gray-50">
+<section id="portfolio" class="py-24 bg-white">
   <div class="max-w-7xl mx-auto px-4">
-    <h2 class="text-3xl font-bold text-center mb-12">Our Portfolio</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <h2 class="text-4xl font-bold text-center mb-16">Our Portfolio</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
       <!-- Real Estate -->
-      <a href="real-estate.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
-        <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-64 object-cover">
-        <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-900">Real Estate</h3>
-          <p class="text-gray-600 text-sm">Elegant Homes</p>
+      <a href="real-estate.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <div class="aspect-[4/3] w-full">
+          <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-full object-cover">
+        </div>
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold text-gray-900">Real Estate</h3>
+          <p class="text-gray-600 mt-2">Elegant Homes</p>
         </div>
       </a>
-      <!-- Event Photography -->
-      <a href="event-photography.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
-        <img src="images/WeddingCelebration.JPG" alt="Event Photography" class="w-full h-64 object-cover">
-        <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-900">Event Photography</h3>
-          <p class="text-gray-600 text-sm">Wedding Celebration</p>
+      <!-- Event -->
+      <a href="event-photography.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <div class="aspect-[4/3] w-full">
+          <img src="images/WeddingCelebration.JPG" alt="Event Photography" class="w-full h-full object-cover">
+        </div>
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold text-gray-900">Event Photography</h3>
+          <p class="text-gray-600 mt-2">Wedding Celebration</p>
         </div>
       </a>
-      <!-- Portrait -->
-      <a href="portrait.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
-        <img src="portrait.example.jpg" alt="Automotive" class="w-full h-64 object-cover">
-        <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-900">Portraits</h3>
-          <p class="text-gray-600 text-sm">Express Yourself</p>
+      <!-- Portraits -->
+      <a href="portrait.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <div class="aspect-[4/3] w-full">
+          <img src="images/portrait.example.jpg" alt="Portraits" class="w-full h-full object-cover">
+        </div>
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold text-gray-900">Portraits</h3>
+          <p class="text-gray-600 mt-2">Express Yourself</p>
         </div>
       </a>
-      <!-- Automotive Photography -->
-      <a href="automotive.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
-        <img src="images/350z.boat.jpg" alt="Automotive" class="w-full h-64 object-cover">
-        <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-900">Automotive Photography</h3>
-          <p class="text-gray-600 text-sm">Power & Style</p>
+      <!-- Automotive -->
+      <a href="automotive.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <div class="aspect-[4/3] w-full">
+          <img src="images/350z.boat.jpg" alt="Automotive" class="w-full h-full object-cover">
+        </div>
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold text-gray-900">Automotive</h3>
+          <p class="text-gray-600 mt-2">Power & Style</p>
         </div>
       </a>
-    <!-- Landscape Photography -->
-      <a href="landscape-photography.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
-        <img src="landscape.example.jpg" alt="Automotive" class="w-full h-64 object-cover">
-        <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-900">Landscape Photography</h3>
-          <p class="text-gray-600 text-sm">Beautiful Scenes</p>
+      <!-- Landscapes -->
+      <a href="landscape-photography.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <div class="aspect-[4/3] w-full">
+          <img src="images/landscape.example.jpg" alt="Landscapes" class="w-full h-full object-cover">
+        </div>
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold text-gray-900">Landscape Photography</h3>
+          <p class="text-gray-600 mt-2">Beautiful Scenes</p>
         </div>
       </a>
-      <!-- Sports Photography -->
-      <a href="sports-photography.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
-        <img src="images/Kyle.Swinging.jpg" alt="Automotive" class="w-full h-64 object-cover">
-        <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-900">Sports Photography</h3>
-          <p class="text-gray-600 text-sm">Action Shots</p>
+      <!-- Sports -->
+      <a href="sports-photography.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <div class="aspect-[4/3] w-full">
+          <img src="images/Kyle.Swinging.jpg" alt="Sports Photography" class="w-full h-full object-cover">
+        </div>
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold text-gray-900">Sports Photography</h3>
+          <p class="text-gray-600 mt-2">Action Shots</p>
         </div>
       </a>
     </div>
     <!-- View Full Portfolio Button -->
-    <div class="text-center mt-12">
+    <div class="text-center mt-16">
       <a href="full-portfolio.html"
-         class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
+         class="inline-flex items-center px-6 py-3 rounded-md text-base font-medium shadow-md text-white bg-blue-600 hover:bg-blue-700 transition">
         View Full Portfolio
         <i data-feather="arrow-right" class="ml-2"></i>
       </a>
