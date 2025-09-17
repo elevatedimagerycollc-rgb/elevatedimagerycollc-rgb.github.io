@@ -103,7 +103,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- Service 1 -->
       <div data-aos="fade-up" data-aos-delay="200" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
-        <img src="//images/house.example.jpg" alt="House" class="h-48 object-cover object-center w-full">
+        <img src="/images/house.example.jpg" alt="House" class="h-48 object-cover object-center w-full">
         <div class="p-6">
           <div class="flex items-center mb-4">
             <div class="bg-blue-100 p-3 rounded-full"><i data-feather="home" class="text-blue-600"></i></div>
@@ -114,7 +114,7 @@
       </div>
       <!-- Service 2 -->
       <div data-aos="fade-up" data-aos-delay="300" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
-        <div class="h-48 bg-cover bg-center" style="background-image: url('//images/event.2.jpg');"></div>
+        <div class="h-48 bg-cover bg-center" style="background-image: url('images/event.2.jpg');"></div>
         <div class="p-6">
           <div class="flex items-center mb-4">
             <div class="bg-blue-100 p-3 rounded-full"><i data-feather="calendar" class="text-blue-600"></i></div>
@@ -125,7 +125,7 @@
       </div>
       <!-- Service 3 -->
       <div data-aos="fade-up" data-aos-delay="400" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
-        <div class="h-48 bg-cover bg-center" style="background-image: url('//images/commercial.3.jpg');"></div>
+        <div class="h-48 bg-cover bg-center" style="background-image: url('images/commercial.3.jpg');"></div>
         <div class="p-6">
           <div class="flex items-center mb-4">
             <div class="bg-blue-100 p-3 rounded-full"><i data-feather="briefcase" class="text-blue-600"></i></div>
@@ -150,7 +150,7 @@
        <!-- Portfolio Item 1 -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <div data-aos="fade-up" data-aos-delay="200" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-        <img src="//images/re.example.jpg" alt="Real Estate" class="w-full h-64 object-cover rounded-xl">
+        <img src="/images/re.example.jpg" alt="Real Estate" class="w-full h-64 object-cover rounded-xl">
         <div class="p-4 bg-white">
           <h3 class="text-lg font-semibold text-gray-900">Real Estate</h3>
           <p class="text-gray-600 text-sm">Elegant Homes</p>
@@ -158,7 +158,7 @@
       </div>
          <!-- Portfolio Item 2 -->
       <div data-aos="fade-up" data-aos-delay="250" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-        <img src="//images/wedding.5.jpg" alt="Wedding" class="w-full h-64 object-cover rounded-xl">
+        <img src="/images/wedding.5.jpg" alt="Wedding" class="w-full h-64 object-cover rounded-xl">
         <div class="p-4 bg-white">
           <h3 class="text-lg font-semibold text-gray-900">Wedding Celebration</h3>
           <p class="text-gray-600 text-sm">Event Photography</p>
@@ -166,7 +166,7 @@
       </div>
          <!-- Portfolio Item 3 -->
       <div data-aos="fade-up" data-aos-delay="300" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-        <img src="//images/portrait.example.jpg" alt="Portrait" class="w-full h-64 object-cover rounded-xl">
+        <img src="/images/portrait.example.jpg" alt="Portrait" class="w-full h-64 object-cover rounded-xl">
         <div class="p-4 bg-white">
           <h3 class="text-lg font-semibold text-gray-900">Portraits</h3>
           <p class="text-gray-600 text-sm">Express Yourself</p>
