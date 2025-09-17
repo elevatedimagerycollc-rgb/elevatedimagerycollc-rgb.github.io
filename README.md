@@ -90,10 +90,24 @@
 
   <!-- Hero Section -->
 <section class="relative w-full h-screen flex items-center justify-center">
-  <!-- Background Image + Gradient Overlay -->
   <div class="absolute inset-0 bg-center bg-cover" 
        style="background-image: linear-gradient(135deg, rgba(21,101,192,0.4), rgba(41,121,255,0.4)), url('/static/images/background.jpg');">
   </div>
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 data-aos="fade-up" class="text-4xl md:text-6xl font-bold text-white mb-6">Capture The World From New Perspectives</h1>
+    <p data-aos="fade-up" data-aos-delay="100" class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
+      Professional drone and camera photography services for Real Estate, Events, and Personal projects.
+    </p>
+    <div data-aos="fade-up" data-aos-delay="200" class="flex flex-col sm:flex-row justify-center gap-4">
+      <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">
+        Book a Session
+      </a>
+      <a href="#portfolio" class="bg-white border-2 border-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition duration-300">
+        View Portfolio
+      </a>
+    </div>
+  </div>
+</section>
 
   <!-- Hero Content -->
   <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -114,96 +128,87 @@
   </div>
 </section>
     
-    <!-- Services Section -->
-    <section id="services" class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 data-aos="fade-up" class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
-                <p data-aos="fade-up" data-aos-delay="100" class="text-lg text-gray-600 max-w-2xl mx-auto">We offer specialized photography services tailored to your unique needs.</p>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Service 1 -->
-                <div data-aos="fade-up" data-aos-delay="200" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
-                    <img src="images/house.example.jpg" alt="House" class="h-48 object-cover object-center w-full">
-                    <div class="p-6">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-blue-100 p-3 rounded-full">
-                                <i data-feather="home" class="text-blue-600"></i>
-                            </div>
-                            <h3 class="ml-3 text-xl font-semibold text-gray-900">Real Estate Photography</h3>
-                        </div>
-                        <p class="text-gray-600">Showcase properties with stunning aerial and interior photography that highlights every detail.</p>
-                    </div>
-                </div>
-                
-                <!-- Service 2 -->
-                <div data-aos="fade-up" data-aos-delay="300" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
-                    <div class="h-48 bg-cover bg-center" style="background-image: url('http://static.photos/event/640x360/2')"></div>
-                    <div class="p-6">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-blue-100 p-3 rounded-full">
-                                <i data-feather="calendar" class="text-blue-600"></i>
-                            </div>
-                            <h3 class="ml-3 text-xl font-semibold text-gray-900">Event Coverage</h3>
-                        </div>
-                        <p class="text-gray-600">Capture the magic of your special events from unique aerial perspectives and ground-level moments.</p>
-                    </div>
-                </div>
-                
-                <!-- Service 3 -->
-                <div data-aos="fade-up" data-aos-delay="400" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
-                    <div class="h-48 bg-cover bg-center" style="background-image: url('http://static.photos/commercial/640x360/3')"></div>
-                    <div class="p-6">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-blue-100 p-3 rounded-full">
-                                <i data-feather="briefcase" class="text-blue-600"></i>
-                            </div>
-                            <h3 class="ml-3 text-xl font-semibold text-gray-900">Commercial Projects</h3>
-                        </div>
-                        <p class="text-gray-600">Professional photography for businesses, construction sites, and large-scale commercial projects.</p>
-                    </div>
-                </div>
-            </div>
+<!-- Services Section -->
+<section id="services" class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 data-aos="fade-up" class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
+      <p data-aos="fade-up" data-aos-delay="100" class="text-lg text-gray-600 max-w-2xl mx-auto">
+        We offer specialized photography services tailored to your unique needs.
+      </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Service 1 -->
+      <div data-aos="fade-up" data-aos-delay="200" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
+        <img src="/static/images/house.example.jpg" alt="House" class="h-48 object-cover object-center w-full">
+        <div class="p-6">
+          <div class="flex items-center mb-4">
+            <div class="bg-blue-100 p-3 rounded-full"><i data-feather="home" class="text-blue-600"></i></div>
+            <h3 class="ml-3 text-xl font-semibold text-gray-900">Real Estate Photography</h3>
+          </div>
+          <p class="text-gray-600">Showcase properties with stunning aerial and interior photography that highlights every detail.</p>
         </div>
-    </section>
+      </div>
+      <!-- Service 2 -->
+      <div data-aos="fade-up" data-aos-delay="300" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
+        <div class="h-48 bg-cover bg-center" style="background-image: url('/static/images/event.2.jpg');"></div>
+        <div class="p-6">
+          <div class="flex items-center mb-4">
+            <div class="bg-blue-100 p-3 rounded-full"><i data-feather="calendar" class="text-blue-600"></i></div>
+            <h3 class="ml-3 text-xl font-semibold text-gray-900">Event Coverage</h3>
+          </div>
+          <p class="text-gray-600">Capture the magic of your special events from unique aerial perspectives and ground-level moments.</p>
+        </div>
+      </div>
+      <!-- Service 3 -->
+      <div data-aos="fade-up" data-aos-delay="400" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
+        <div class="h-48 bg-cover bg-center" style="background-image: url('/static/images/commercial.3.jpg');"></div>
+        <div class="p-6">
+          <div class="flex items-center mb-4">
+            <div class="bg-blue-100 p-3 rounded-full"><i data-feather="briefcase" class="text-blue-600"></i></div>
+            <h3 class="ml-3 text-xl font-semibold text-gray-900">Commercial Projects</h3>
+          </div>
+          <p class="text-gray-600">Professional photography for businesses, construction sites, and large-scale commercial projects.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 data-aos="fade-up" class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Portfolio</h2>
-                <p data-aos="fade-up" data-aos-delay="100" class="text-lg text-gray-600 max-w-2xl mx-auto">A glimpse of our recent work across various photography disciplines.</p>
-            </div>
-            
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Portfolio Item 1 -->
-                <div data-aos="fade-up" data-aos-delay="200" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-                    <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-64 object-cover">
-                    <div class="p-4 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900">Real Estate</h3>
-                        <p class="text-gray-600 text-sm">Elegant Homes</p>
-                    </div>
-                </div>
-                
-                <!-- Portfolio Item 2 -->
-                <div data-aos="fade-up" data-aos-delay="250" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-                    <img src="http://static.photos/wedding/640x360/5" alt="Wedding" class="w-full h-64 object-cover">
-                    <div class="p-4 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900">Wedding Celebration</h3>
-                        <p class="text-gray-600 text-sm">Event Photography</p>
-                    </div>
-                </div>
-                
-                <!-- Portfolio Item 3 -->
-                <div data-aos="fade-up" data-aos-delay="300" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-                    <img src="images/portrait.example.jpg" alt="Portrait" class="w-full h-64 object-cover">
-                    <div class="p-4 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900">Portraits</h3>
-                        <p class="text-gray-600 text-sm">Express Yourself</p>
-                    </div>
-                </div>
-                
+<section id="portfolio" class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 data-aos="fade-up" class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Portfolio</h2>
+      <p data-aos="fade-up" data-aos-delay="100" class="text-lg text-gray-600 max-w-2xl mx-auto">
+        A glimpse of our recent work across various photography disciplines.
+      </p>
+    </div>
+       <!-- Portfolio Item 1 -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div data-aos="fade-up" data-aos-delay="200" class="gallery-item rounded-xl overflow-hidden shadow-lg">
+        <img src="/static/images/re.example.jpg" alt="Real Estate" class="w-full h-64 object-cover rounded-xl">
+        <div class="p-4 bg-white">
+          <h3 class="text-lg font-semibold text-gray-900">Real Estate</h3>
+          <p class="text-gray-600 text-sm">Elegant Homes</p>
+        </div>
+      </div>
+         <!-- Portfolio Item 2 -->
+      <div data-aos="fade-up" data-aos-delay="250" class="gallery-item rounded-xl overflow-hidden shadow-lg">
+        <img src="/static/images/wedding.5.jpg" alt="Wedding" class="w-full h-64 object-cover rounded-xl">
+        <div class="p-4 bg-white">
+          <h3 class="text-lg font-semibold text-gray-900">Wedding Celebration</h3>
+          <p class="text-gray-600 text-sm">Event Photography</p>
+        </div>
+      </div>
+         <!-- Portfolio Item 3 -->
+      <div data-aos="fade-up" data-aos-delay="300" class="gallery-item rounded-xl overflow-hidden shadow-lg">
+        <img src="/static/images/portrait.example.jpg" alt="Portrait" class="w-full h-64 object-cover rounded-xl">
+        <div class="p-4 bg-white">
+          <h3 class="text-lg font-semibold text-gray-900">Portraits</h3>
+          <p class="text-gray-600 text-sm">Express Yourself</p>
+        </div>
+      </div>
                 <!-- Portfolio Item 4 -->
                 <div data-aos="fade-up" data-aos-delay="350" class="gallery-item rounded-xl overflow-hidden shadow-lg">
                     <img src="images/landscape.example.jpg" alt="Beautiful Scenery" class="w-full h-64 object-cover">
@@ -212,7 +217,6 @@
                         <p class="text-gray-600 text-sm">Beautiful photos of manmade and natural scenery</p>
                     </div>
                 </div>
-                
                 <!-- Portfolio Item 5 -->
                 <div data-aos="fade-up" data-aos-delay="400" class="gallery-item rounded-xl overflow-hidden shadow-lg">
                     <img src="images/350z.boat.jpg" alt="Construction Site" class="w-full h-64 object-cover">
@@ -221,7 +225,6 @@
                         <p class="text-gray-600 text-sm">On the Road or Track</p>
                     </div>
                 </div>
-                
                 <!-- Portfolio Item 6 -->
                 <div data-aos="fade-up" data-aos-delay="450" class="gallery-item rounded-xl overflow-hidden shadow-lg">
                     <img src="images/Kyle.Swinging.jpg" alt="Sports Event" class="w-full h-64 object-cover">
@@ -231,7 +234,6 @@
                     </div>
                 </div>
             </div>
-            
             <div class="text-center mt-12" data-aos="fade-up">
                 <a href="#" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
                     View Full Portfolio
@@ -363,16 +365,17 @@
     
     <!-- Parallax Section -->
 <section class="relative w-full h-96 flex items-center justify-center bg-fixed bg-center bg-cover"
-         style="background-image: url('http://static.photos/aerial/1200x630/14');">
-  <!-- Optional semi-transparent overlay -->
+         style="background-image: url('/static/images/aerial.14.jpg');">
   <div class="absolute inset-0 bg-black bg-opacity-30"></div>
-            <h2 data-aos="fade-up" class="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Elevate Your Visual Content?</h2>
-            <a data-aos="fade-up" data-aos-delay="100" href="#contact" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-600 bg-white hover:bg-blue-50">
-                Get in Touch
-                <i data-feather="arrow-right" class="ml-2"></i>
-            </a>
-        </div>
-    </div>
+  <div class="relative z-10 text-center px-4">
+    <h2 data-aos="fade-up" class="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Elevate Your Visual Content?</h2>
+    <a data-aos="fade-up" data-aos-delay="100" href="#contact" class="inline-flex items-center px-6 py-3 rounded-md bg-white text-blue-600 hover:bg-blue-50">
+      Get in Touch
+      <i data-feather="arrow-right" class="ml-2"></i>
+    </a>
+  </div>
+</section>
+
     <!-- Content -->
   <div class="relative z-10 text-center px-4">
     <h2 data-aos="fade-up" class="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -383,7 +386,6 @@
       <i data-feather="arrow-right" class="ml-2"></i>
     </a>
   </div>
-</section>
 
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-white">
