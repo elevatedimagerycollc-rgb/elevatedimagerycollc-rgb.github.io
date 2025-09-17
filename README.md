@@ -412,7 +412,7 @@
             </div>
             <div class="ml-4">
               <p class="text-base font-medium text-gray-900">Service Broadband</p>
-              <p class="text-base text-gray-600">State of Delaware (DE) United States of America</p>
+              <p class="text-base text-gray-600">Townsend Delaware (DE) 19734 United States of America</p>
             </div>
           </div>
         </div>
