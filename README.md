@@ -533,8 +533,9 @@
         });
     </script>
     <script>AOS.init();</script>
-    <script>feather.replace();  
-    // Toggle mobile menu
+    <script>feather.replace();</script>  
+<script>
+  // Toggle mobile menu
   const menuButton = document.querySelector("nav button");
   const mobileMenu = document.getElementById("mobile-menu");
 
@@ -542,4 +543,5 @@
     mobileMenu.classList.toggle("hidden");
   });
 </script>
+
 
