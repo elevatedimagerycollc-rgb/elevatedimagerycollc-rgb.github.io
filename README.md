@@ -415,23 +415,7 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="mt-8">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-4">Follow Us</h3>
-                        <div class="flex space-x-4">
-                            <a href="https://www.instagram.com/elevated_imagery.co/" target="_blank" class="text-blue-600 hover:text-blue-800">
-                                <i data-feather="instagram"></i>
-                            </a>
-                            <a href="https://www.facebook.com/share/15vMGx44dk/?mibextid=wwXIfr" target="_blank" class="text-blue-600 hover:text-blue-800">
-                                <i data-feather="facebook"></i>
-                            </a>
-                            <a href="http://www.youtube.com/@elevatedimagery-co" target="_blank" class="text-blue-600 hover:text-blue-800">
-                                <i data-feather="youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
+
                <div data-aos="fade-left">
   <form action="https://formspree.io/f/mdklrpba" method="POST" class="space-y-4">
     <!-- Name -->
@@ -485,7 +469,19 @@
   <!-- Success / Error Message -->
   <p id="form-status" class="mt-4 text-center font-medium"></p>
 </div>
-
+   <!-- Follow Us Section -->
+   <div class="mt-8">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-4">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="https://www.instagram.com/elevated_imagery.co/" target="_blank" class="text-blue-600 hover:text-blue-800">
+                                <i data-feather="instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/share/15vMGx44dk/?mibextid=wwXIfr" target="_blank" class="text-blue-600 hover:text-blue-800">
+                                <i data-feather="facebook"></i>
+                            </a>
+                            <a href="http://www.youtube.com/@elevatedimagery-co" target="_blank" class="text-blue-600 hover:text-blue-800">
+                                <i data-feather="youtube"></i>
+                            </a>
 <script>
   const form = document.getElementById("contact-form");
   const status = document.getElementById("form-status");
