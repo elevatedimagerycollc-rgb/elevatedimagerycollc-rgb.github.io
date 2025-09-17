@@ -432,50 +432,84 @@
                     </div>
                 </div>
                 
-                <div data-aos="fade-left">
-                    <form class="space-y-6">
-                        <div>
-                        <form action="https://formspree.io/f/mdklrpba" method="POST" class="space-y-4">
-<!-- Name -->
-  <input 
-    type="text" 
-    name="name" 
-    placeholder="Your Name" 
-    class="w-full p-2 border rounded-md" 
-    required
-  >
+               <div data-aos="fade-left">
+  <form action="https://formspree.io/f/mdklrpba" method="POST" class="space-y-4">
+    <!-- Name -->
+    <input 
+      type="text" 
+      name="name" 
+      placeholder="Your Name" 
+      class="w-full p-2 border rounded-md" 
+      required
+    >
 
-  <!-- Email -->
-  <input 
-    type="email" 
-    name="email" 
-    placeholder="Your Email" 
-    class="w-full p-2 border rounded-md" 
-    required
-  >
+    <!-- Email -->
+    <input 
+      type="email" 
+      name="email" 
+      placeholder="Your Email" 
+      class="w-full p-2 border rounded-md" 
+      required
+    >
 
-  <!-- Message -->
-  <textarea 
-    name="message" 
-    placeholder="Your Message" 
-    class="w-full p-2 border rounded-md" 
-    rows="5" 
-    required
-  ></textarea>
+    <!-- Service Dropdown -->
+    <select 
+      name="service" 
+      class="w-full p-2 border rounded-md"
+      required
+    >
+      <option value="">Select a Service</option>
+      <option value="Real Estate Photography">Real Estate Photography</option>
+      <option value="Drone Photography">Drone Photography</option>
+      <option value="Event Coverage">Event Coverage</option>
+      <option value="Other">Other</option>
+    </select>
 
-  <!-- Submit -->
-  <button 
-    type="submit" 
-    class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
-  >
-    Send Message
-  </button>
-</form>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Message -->
+    <textarea 
+      name="message" 
+      placeholder="Your Message" 
+      class="w-full p-2 border rounded-md" 
+      rows="5" 
+      required
+    ></textarea>
 
+    <!-- Submit -->
+    <button 
+      type="submit" 
+      class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+    >
+      Send Message
+    </button>
+  </form>
+  <!-- Success / Error Message -->
+  <p id="form-status" class="mt-4 text-center font-medium"></p>
+</div>
+
+<script>
+  const form = document.getElementById("contact-form");
+  const status = document.getElementById("form-status");
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    const data = new FormData(form);
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+      status.textContent = "✅ Thank you! Your message has been sent.";
+      status.className = "mt-4 text-green-600 text-center font-medium";
+      form.reset();
+    } else {
+      status.textContent = "❌ Oops! Something went wrong. Please try again.";
+      status.className = "mt-4 text-red-600 text-center font-medium";
+    }
+  });
+</script>
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
