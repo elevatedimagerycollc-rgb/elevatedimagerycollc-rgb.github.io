@@ -160,7 +160,7 @@
         </div>
       </a>
       
-      <!-- Portfolio Item 4 -->
+      <!-- Automotive Photography -->
       <a href="automotive.html" class="block gallery-item rounded-xl overflow-hidden shadow-lg bg-white">
         <img src="images/350z.boat.jpg" alt="Automotive" class="w-full h-64 object-cover">
         <div class="p-4">
