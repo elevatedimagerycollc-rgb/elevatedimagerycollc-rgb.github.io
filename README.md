@@ -373,11 +373,15 @@
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:grid lg:grid-cols-2 lg:gap-16">
+    <div class="lg:flex lg:items-start lg:gap-16">
+        
       <!-- Left column: Contact info -->
-      <div data-aos="fade-right" class="mb-12 lg:mb-0">
+      <div data-aos="fade-right" class="lg:w-1/2 mb-12 lg:mb-0">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Contact Us</h2>
-        <p class="text-lg text-gray-600 mb-8">Have a project in mind or want to discuss your photography needs? Reach out to us and we'll get back to you within 24 hours.</p>
+        <p class="text-lg text-gray-600 mb-8">
+          Have a project in mind or want to discuss your photography needs? 
+          Reach out to us and we'll get back to you within 24 hours.
+        </p>
 
         <div class="space-y-6">
           <div class="flex items-start">
@@ -412,58 +416,61 @@
             </div>
             <div class="ml-4">
               <p class="text-base font-medium text-gray-900">Service Broadband</p>
-              <p class="text-base text-gray-600">Townsend Delaware (DE) 19734 United States of America</p>
+              <p class="text-base text-gray-600">State of Delaware (DE), United States of America</p>
             </div>
           </div>
         </div>
       </div>
 
       <!-- Right column: Form + Follow Us -->
-      <div data-aos="fade-left">
-        <form id="contact-form" action="https://formspree.io/f/mdklrpba" method="POST" class="space-y-4">
-          <!-- Name -->
-          <input type="text" name="name" placeholder="Your Name" class="w-full p-2 border rounded-md" required>
+      <div data-aos="fade-left" class="lg:w-1/2 lg:pl-0">
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <form id="contact-form" action="https://formspree.io/f/mdklrpba" method="POST" class="space-y-4">
+            <!-- Name -->
+            <input type="text" name="name" placeholder="Your Name" class="w-full p-2 border rounded-md" required>
 
-          <!-- Email -->
-          <input type="email" name="email" placeholder="Your Email" class="w-full p-2 border rounded-md" required>
+            <!-- Email -->
+            <input type="email" name="email" placeholder="Your Email" class="w-full p-2 border rounded-md" required>
 
-          <!-- Service Dropdown -->
-          <select name="service" class="w-full p-2 border rounded-md" required>
-            <option value="">Select a Service</option>
-            <option value="Real Estate Photography">Real Estate Photography</option>
-            <option value="Drone Photography">Drone Photography</option>
-            <option value="Event Coverage">Event Coverage</option>
-            <option value="Other">Other</option>
-          </select>
+            <!-- Service Dropdown -->
+            <select name="service" class="w-full p-2 border rounded-md" required>
+              <option value="">Select a Service</option>
+              <option value="Real Estate Photography">Real Estate Photography</option>
+              <option value="Drone Photography">Drone Photography</option>
+              <option value="Event Coverage">Event Coverage</option>
+              <option value="Other">Other</option>
+            </select>
 
-          <!-- Message -->
-          <textarea name="message" placeholder="Your Message" class="w-full p-2 border rounded-md" rows="5" required></textarea>
+            <!-- Message -->
+            <textarea name="message" placeholder="Your Message" class="w-full p-2 border rounded-md" rows="5" required></textarea>
 
-          <!-- Submit -->
-          <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
-            Send Message
-          </button>
-        </form>
+            <!-- Submit -->
+            <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+              Send Message
+            </button>
+          </form>
 
-        <!-- Success / Error Message -->
-        <p id="form-status" class="mt-4 text-center font-medium"></p>
+          <!-- Success / Error Message -->
+          <p id="form-status" class="mt-4 text-center font-medium"></p>
 
-        <!-- Follow Us -->
-        <div class="mt-8">
-          <h3 class="text-lg font-semibold text-gray-900 mb-4">Follow Us</h3>
-          <div class="flex space-x-4">
-            <a href="https://www.instagram.com/elevated_imagery.co/" target="_blank" class="text-blue-600 hover:text-blue-800">
-              <i data-feather="instagram"></i>
-            </a>
-            <a href="https://www.facebook.com/share/15vMGx44dk/?mibextid=wwXIfr" target="_blank" class="text-blue-600 hover:text-blue-800">
-              <i data-feather="facebook"></i>
-            </a>
-            <a href="http://www.youtube.com/@elevatedimagery-co" target="_blank" class="text-blue-600 hover:text-blue-800">
-              <i data-feather="youtube"></i>
-            </a>
+          <!-- Follow Us -->
+          <div class="mt-8">
+            <h3 class="text-lg font-semibold text-gray-900 mb-4">Follow Us</h3>
+            <div class="flex space-x-4">
+              <a href="https://www.instagram.com/elevated_imagery.co/" target="_blank" class="w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 text-white hover:opacity-90 transition">
+                <i data-feather="instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/share/15vMGx44dk/?mibextid=wwXIfr" target="_blank" class="w-12 h-12 flex items-center justify-center rounded-full bg-blue-600 text-white hover:bg-blue-700 transition">
+                <i data-feather="facebook"></i>
+              </a>
+              <a href="http://www.youtube.com/@elevatedimagery-co" target="_blank" class="w-12 h-12 flex items-center justify-center rounded-full bg-red-600 text-white hover:bg-red-700 transition">
+                <i data-feather="youtube"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
