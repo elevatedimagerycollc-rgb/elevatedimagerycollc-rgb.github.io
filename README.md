@@ -206,8 +206,8 @@
                 <div data-aos="fade-up" data-aos-delay="350" class="gallery-item rounded-xl overflow-hidden shadow-lg">
                     <img src="images/landscape.example.jpg" alt="Beautiful Scenery" class="w-full h-64 object-cover">
                     <div class="p-4 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900">Mountain Range</h3>
-                        <p class="text-gray-600 text-sm">Landscape Photography</p>
+                        <h3 class="text-lg font-semibold text-gray-900">Landscape Photography</h3>
+                        <p class="text-gray-600 text-sm">Beautiful photos of manmade and natural scenery</p>
                     </div>
                 </div>
                 
@@ -435,42 +435,42 @@
                 <div data-aos="fade-left">
                     <form class="space-y-6">
                         <div>
-                            <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
-                            <input type="text" id="name" name="name" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
-                        </div>
-                        
-                        <div>
-                            <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
-                            <input type="email" id="email" name="email" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
-                        </div>
-                        
-                        <div>
-                            <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
-                            <input type="tel" id="phone" name="phone" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
-                        </div>
-                        
-                        <div>
-                            <label for="service" class="block text-sm font-medium text-gray-700">Service Interested In</label>
-                            <select id="service" name="service" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
-                                <option>Select a service</option>
-                                <option>Real Estate Photography</option>
-                                <option>Event Coverage</option>
-                                <option>Commercial Projects</option>
-                                <option>Other</option>
-                            </select>
-                        </div>
-                        
-                        <div>
-                            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
-                            <textarea id="message" name="message" rows="4" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
-                        </div>
-                        
-                        <div>
-                            <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
-                                Send Message
-                            </button>
-                        </div>
-                    </form>
+                        <form action="https://formspree.io/f/mdklrpba" method="POST" class="space-y-4">
+<!-- Name -->
+  <input 
+    type="text" 
+    name="name" 
+    placeholder="Your Name" 
+    class="w-full p-2 border rounded-md" 
+    required
+  >
+
+  <!-- Email -->
+  <input 
+    type="email" 
+    name="email" 
+    placeholder="Your Email" 
+    class="w-full p-2 border rounded-md" 
+    required
+  >
+
+  <!-- Message -->
+  <textarea 
+    name="message" 
+    placeholder="Your Message" 
+    class="w-full p-2 border rounded-md" 
+    rows="5" 
+    required
+  ></textarea>
+
+  <!-- Submit -->
+  <button 
+    type="submit" 
+    class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+  >
+    Send Message
+  </button>
+</form>
                 </div>
             </div>
         </div>
