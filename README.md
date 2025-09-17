@@ -10,43 +10,31 @@
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
-    <style>
+    
  <style>
+    /* Ensure full height and no default margin/padding */
     html, body {
         height: 100%;
         margin: 0;
         padding: 0;
     }
-    #vanta-globe {
-        width: 100%;
-        height: 100vh; /* Always full screen */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    /* iOS Safari fix */
-    @supports (-webkit-touch-callout: none) {
-        #vanta-globe {
-            height: -webkit-fill-available;
-        }
-    }
-        .hero-bg {
-        background: linear-gradient(135deg, rgba(21, 101, 192, 0.9) 0%, rgba(41, 121, 255, 0.8) 100%);
-    }
-        .gallery-item {
+
+    /* Gallery hover effect */
+    .gallery-item {
         transition: all 0.3s ease;
     }
     .gallery-item:hover {
         transform: scale(1.03);
         box-shadow: 0 10px 20px rgba(0,0,0,0.2);
     }
-        .parallax {
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+
+    /* iOS Safari full height fix */
+    @supports (-webkit-touch-callout: none) {
+        #vanta-globe {
+            height: -webkit-fill-available;
+        }
     }
-    </style>
+</style>
 
 <!-- Navigation -->
 <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
@@ -100,18 +88,31 @@
 </script>
 
 
-    <!-- Hero Section -->
- <div class="hero-bg min-h-screen flex items-center justify-center pt-16 bg-cover bg-center" 
-     style="background-image: url('images/background.jpg');">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-            <h1 data-aos="fade-up" class="text-4xl md:text-6xl font-bold text-white mb-6">Capture The World From New Perspectives</h1>
-            <p data-aos="fade-up" data-aos-delay="100" class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">Professional drone and camera photography services for Real Estate, Events, and Personal projects.</p>
-            <div data-aos="fade-up" data-aos-delay="200" class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">Book a Session</a>
-                <a href="#portfolio" class="bg-white border-2 border-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition duration-300">View Portfolio</a>
-            </div>
-        </div>
+  <!-- Hero Section -->
+<section class="relative w-full h-screen flex items-center justify-center">
+  <!-- Background Image + Gradient Overlay -->
+  <div class="absolute inset-0 bg-center bg-cover" 
+       style="background-image: linear-gradient(135deg, rgba(21,101,192,0.4), rgba(41,121,255,0.4)), url('/static/images/background.jpg');">
+  </div>
+
+  <!-- Hero Content -->
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 data-aos="fade-up" class="text-4xl md:text-6xl font-bold text-white mb-6">
+      Capture The World From New Perspectives
+    </h1>
+    <p data-aos="fade-up" data-aos-delay="100" class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
+      Professional drone and camera photography services for Real Estate, Events, and Personal projects.
+    </p>
+    <div data-aos="fade-up" data-aos-delay="200" class="flex flex-col sm:flex-row justify-center gap-4">
+      <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">
+        Book a Session
+      </a>
+      <a href="#portfolio" class="bg-white border-2 border-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition duration-300">
+        View Portfolio
+      </a>
     </div>
+  </div>
+</section>
     
     <!-- Services Section -->
     <section id="services" class="py-20 bg-gray-50">
@@ -359,10 +360,12 @@
             </div>
         </div>
     </section>
-
+    
     <!-- Parallax Section -->
-    <div class="parallax h-96 flex items-center justify-center" style="background-image: url('http://static.photos/aerial/1200x630/14')">
-        <div class="text-center px-4">
+<section class="relative w-full h-96 flex items-center justify-center bg-fixed bg-center bg-cover"
+         style="background-image: url('http://static.photos/aerial/1200x630/14');">
+  <!-- Optional semi-transparent overlay -->
+  <div class="absolute inset-0 bg-black bg-opacity-30"></div>
             <h2 data-aos="fade-up" class="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Elevate Your Visual Content?</h2>
             <a data-aos="fade-up" data-aos-delay="100" href="#contact" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-600 bg-white hover:bg-blue-50">
                 Get in Touch
@@ -370,6 +373,17 @@
             </a>
         </div>
     </div>
+    <!-- Content -->
+  <div class="relative z-10 text-center px-4">
+    <h2 data-aos="fade-up" class="text-3xl md:text-4xl font-bold text-white mb-4">
+      Ready to Elevate Your Visual Content?
+    </h2>
+    <a data-aos="fade-up" data-aos-delay="100" href="#contact" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-600 bg-white hover:bg-blue-50">
+      Get in Touch
+      <i data-feather="arrow-right" class="ml-2"></i>
+    </a>
+  </div>
+</section>
 
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-white">
