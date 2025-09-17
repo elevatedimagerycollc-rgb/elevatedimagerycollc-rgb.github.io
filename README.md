@@ -71,15 +71,16 @@
 
   <!-- Hero Section -->
 <section class="relative w-full h-screen flex items-center justify-center">
-  <div class="absolute inset-0 bg-center bg-cover" 
-       style="background-image: linear-gradient(135deg, rgba(21,101,192,0.4), rgba(41,121,255,0.4)), url('//images/background.jpg');">
+  <div class="absolute inset-0 bg-cover bg-center" 
+       style="background-image: url('/static/images/background.jpg');">
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-800/40 to-blue-400/40"></div>
   </div>
-  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h1 data-aos="fade-up" class="text-4xl md:text-6xl font-bold text-white mb-6">Capture The World From New Perspectives</h1>
-    <p data-aos="fade-up" data-aos-delay="100" class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
+  <div class="relative z-10 text-center px-4">
+    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Capture The World From New Perspectives</h1>
+    <p class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
       Professional drone and camera photography services for Real Estate, Events, and Personal projects.
     </p>
-    <div data-aos="fade-up" data-aos-delay="200" class="flex flex-col sm:flex-row justify-center gap-4">
+    <div class="flex flex-col sm:flex-row justify-center gap-4">
       <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">
         Book a Session
       </a>
@@ -90,25 +91,6 @@
   </div>
 </section>
 
-  <!-- Hero Content -->
-  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h1 data-aos="fade-up" class="text-4xl md:text-6xl font-bold text-white mb-6">
-      Capture The World From New Perspectives
-    </h1>
-    <p data-aos="fade-up" data-aos-delay="100" class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
-      Professional drone and camera photography services for Real Estate, Events, and Personal projects.
-    </p>
-    <div data-aos="fade-up" data-aos-delay="200" class="flex flex-col sm:flex-row justify-center gap-4">
-      <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">
-        Book a Session
-      </a>
-      <a href="#portfolio" class="bg-white border-2 border-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition duration-300">
-        View Portfolio
-      </a>
-    </div>
-  </div>
-</section>
-    
 <!-- Services Section -->
 <section id="services" class="py-20 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
