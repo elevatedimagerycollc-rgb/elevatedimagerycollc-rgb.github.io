@@ -70,7 +70,7 @@
       </div>
 
       <!-- Mobile Menu Button -->
-      <div class="-mr-2 flex items-center md:hidden">
+      <div class="flex items-center md:hidden">
         <button id="menu-button" type="button" class="p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none">
           <i data-feather="menu" class="h-6 w-6"></i>
         </button>
