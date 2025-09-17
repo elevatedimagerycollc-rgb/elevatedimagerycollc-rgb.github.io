@@ -102,6 +102,7 @@
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- Service 1 -->
+      <a href="real-estate-service.html" class="block">
       <div data-aos="fade-up" data-aos-delay="200" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
         <img src="images/house.example.jpg" alt="House" class="h-48 object-cover object-center w-full">
         <div class="p-6">
