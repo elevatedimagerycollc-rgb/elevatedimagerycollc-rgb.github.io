@@ -69,6 +69,16 @@
                 <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
                     <i data-feather="menu"></i>
                 </button>
+            <!-- Mobile Menu (hidden by default) -->
+<div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+  <div class="px-2 pt-2 pb-3 space-y-1">
+    <a href="#" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Home</a>
+    <a href="#services" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Services</a>
+    <a href="#portfolio" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Portfolio</a>
+    <a href="#about" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">About</a>
+    <a href="#contact" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Contact</a>
+  </div>
+</div>
             </div>
         </div>
     </div>
@@ -523,4 +533,13 @@
         });
     </script>
     <script>AOS.init();</script>
-    <script>feather.replace();</script>
+    <script>feather.replace();  
+    // Toggle mobile menu
+  const menuButton = document.querySelector("nav button");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuButton.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+</script>
+
