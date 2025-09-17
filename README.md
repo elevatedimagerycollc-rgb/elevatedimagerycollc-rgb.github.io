@@ -212,6 +212,7 @@
     <div class="text-center mt-12" data-aos="fade-up">
       <a href="portfolio-full.html" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
         View Full Portfolio
+        <a href="full-portfolio.html" class="block">
         <i data-feather="arrow-right" class="ml-2"></i>
       </a>
     </div>
