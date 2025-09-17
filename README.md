@@ -101,7 +101,8 @@
 
 
     <!-- Hero Section -->
- <div id="vanta-globe" class="hero-bg min-h-screen flex items-center justify-center pt-16">
+ <div class="hero-bg min-h-screen flex items-center justify-center pt-16 bg-cover bg-center" 
+     style="background-image: url('images/background.jpg');">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
             <h1 data-aos="fade-up" class="text-4xl md:text-6xl font-bold text-white mb-6">Capture The World From New Perspectives</h1>
             <p data-aos="fade-up" data-aos-delay="100" class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">Professional drone and camera photography services for Real Estate, Events, and Personal projects.</p>
@@ -530,23 +531,6 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        // Initialize Vanta.js globe effect
-        VANTA.GLOBE({
-            el: "#vanta-globe",
-            mouseControls: true,
-            touchControls: true,
-            gyroControls: false,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            scale: 1.00,
-            scaleMobile: 1.00,
-            color: 0x3a86ff,
-            backgroundColor: 0x1565c0,
-            size: 0.8
-        });
-    </script>
     <script>AOS.init();</script>
     <script>feather.replace();</script>  
 <script>
