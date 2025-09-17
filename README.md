@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -73,7 +72,7 @@
   <!-- Hero Section -->
 <section class="relative w-full h-screen flex items-center justify-center">
   <div class="absolute inset-0 bg-center bg-cover" 
-       style="background-image: linear-gradient(135deg, rgba(21,101,192,0.4), rgba(41,121,255,0.4)), url('/static/images/background.jpg');">
+       style="background-image: linear-gradient(135deg, rgba(21,101,192,0.4), rgba(41,121,255,0.4)), url('//images/background.jpg');">
   </div>
   <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <h1 data-aos="fade-up" class="text-4xl md:text-6xl font-bold text-white mb-6">Capture The World From New Perspectives</h1>
@@ -122,7 +121,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- Service 1 -->
       <div data-aos="fade-up" data-aos-delay="200" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
-        <img src="/static/images/house.example.jpg" alt="House" class="h-48 object-cover object-center w-full">
+        <img src="//images/house.example.jpg" alt="House" class="h-48 object-cover object-center w-full">
         <div class="p-6">
           <div class="flex items-center mb-4">
             <div class="bg-blue-100 p-3 rounded-full"><i data-feather="home" class="text-blue-600"></i></div>
@@ -133,7 +132,7 @@
       </div>
       <!-- Service 2 -->
       <div data-aos="fade-up" data-aos-delay="300" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
-        <div class="h-48 bg-cover bg-center" style="background-image: url('/static/images/event.2.jpg');"></div>
+        <div class="h-48 bg-cover bg-center" style="background-image: url('//images/event.2.jpg');"></div>
         <div class="p-6">
           <div class="flex items-center mb-4">
             <div class="bg-blue-100 p-3 rounded-full"><i data-feather="calendar" class="text-blue-600"></i></div>
@@ -144,7 +143,7 @@
       </div>
       <!-- Service 3 -->
       <div data-aos="fade-up" data-aos-delay="400" class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
-        <div class="h-48 bg-cover bg-center" style="background-image: url('/static/images/commercial.3.jpg');"></div>
+        <div class="h-48 bg-cover bg-center" style="background-image: url('//images/commercial.3.jpg');"></div>
         <div class="p-6">
           <div class="flex items-center mb-4">
             <div class="bg-blue-100 p-3 rounded-full"><i data-feather="briefcase" class="text-blue-600"></i></div>
@@ -169,7 +168,7 @@
        <!-- Portfolio Item 1 -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <div data-aos="fade-up" data-aos-delay="200" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-        <img src="/static/images/re.example.jpg" alt="Real Estate" class="w-full h-64 object-cover rounded-xl">
+        <img src="//images/re.example.jpg" alt="Real Estate" class="w-full h-64 object-cover rounded-xl">
         <div class="p-4 bg-white">
           <h3 class="text-lg font-semibold text-gray-900">Real Estate</h3>
           <p class="text-gray-600 text-sm">Elegant Homes</p>
@@ -177,7 +176,7 @@
       </div>
          <!-- Portfolio Item 2 -->
       <div data-aos="fade-up" data-aos-delay="250" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-        <img src="/static/images/wedding.5.jpg" alt="Wedding" class="w-full h-64 object-cover rounded-xl">
+        <img src="//images/wedding.5.jpg" alt="Wedding" class="w-full h-64 object-cover rounded-xl">
         <div class="p-4 bg-white">
           <h3 class="text-lg font-semibold text-gray-900">Wedding Celebration</h3>
           <p class="text-gray-600 text-sm">Event Photography</p>
@@ -185,7 +184,7 @@
       </div>
          <!-- Portfolio Item 3 -->
       <div data-aos="fade-up" data-aos-delay="300" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-        <img src="/static/images/portrait.example.jpg" alt="Portrait" class="w-full h-64 object-cover rounded-xl">
+        <img src="//images/portrait.example.jpg" alt="Portrait" class="w-full h-64 object-cover rounded-xl">
         <div class="p-4 bg-white">
           <h3 class="text-lg font-semibold text-gray-900">Portraits</h3>
           <p class="text-gray-600 text-sm">Express Yourself</p>
@@ -347,7 +346,7 @@
     
     <!-- Parallax Section -->
 <section class="relative w-full h-96 flex items-center justify-center bg-fixed bg-center bg-cover"
-         style="background-image: url('/static/images/aerial.14.jpg');">
+         style="background-image: url('//images/aerial.14.jpg');">
   <div class="absolute inset-0 bg-black bg-opacity-30"></div>
   <div class="relative z-10 text-center px-4">
     <h2 data-aos="fade-up" class="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Elevate Your Visual Content?</h2>
