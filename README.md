@@ -372,141 +372,102 @@
 
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="lg:grid lg:grid-cols-2 lg:gap-16">
-                <div data-aos="fade-right" class="mb-12 lg:mb-0">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Contact Us</h2>
-                    <p class="text-lg text-gray-600 mb-8">Have a project in mind or want to discuss your photography needs? Reach out to us and we'll get back to you within 24 hours.</p>
-                    
-                    <div class="space-y-6">
-                        <div class="flex items-start">
-                            <div class="flex-shrink-0">
-                                <div class="flex items-center justify-center h-10 w-10 rounded-full bg-blue-100">
-                                    <i data-feather="mail" class="text-blue-600"></i>
-                                </div>
-                            </div>
-                            <div class="ml-4">
-                                <p class="text-base font-medium text-gray-900">Email</p>
-                                <p class="text-base text-gray-600">elevatedimagery.co.llc@gmail.com</p>
-                            </div>
-                        </div>
-                        
-                        <div class="flex items-start">
-                            <div class="flex-shrink-0">
-                                <div class="flex items-center justify-center h-10 w-10 rounded-full bg-blue-100">
-                                    <i data-feather="phone" class="text-blue-600"></i>
-                                </div>
-                            </div>
-                            <div class="ml-4">
-                                <p class="text-base font-medium text-gray-900">Phone</p>
-                                <p class="text-base text-gray-600">(406) 295-2589</p>
-                            </div>
-                        </div>
-                        
-                        <div class="flex items-start">
-                            <div class="flex-shrink-0">
-                                <div class="flex items-center justify-center h-10 w-10 rounded-full bg-blue-100">
-                                    <i data-feather="map-pin" class="text-blue-600"></i>
-                                </div>
-                            </div>
-                            <div class="ml-4">
-                                <p class="text-base font-medium text-gray-900">Service Broadband</p>
-                                <p class="text-base text-gray-600">State of Delaware (DE) United States of Amercica</p>
-                            </div>
-                        </div>
-                    </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="lg:grid lg:grid-cols-2 lg:gap-16">
+      <!-- Left column: Contact info -->
+      <div data-aos="fade-right" class="mb-12 lg:mb-0">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Contact Us</h2>
+        <p class="text-lg text-gray-600 mb-8">Have a project in mind or want to discuss your photography needs? Reach out to us and we'll get back to you within 24 hours.</p>
 
-               <div data-aos="fade-left">
-  <form action="https://formspree.io/f/mdklrpba" method="POST" class="space-y-4">
-    <!-- Name -->
-    <input 
-      type="text" 
-      name="name" 
-      placeholder="Your Name" 
-      class="w-full p-2 border rounded-md" 
-      required
-    >
+        <div class="space-y-6">
+          <div class="flex items-start">
+            <div class="flex-shrink-0">
+              <div class="flex items-center justify-center h-10 w-10 rounded-full bg-blue-100">
+                <i data-feather="mail" class="text-blue-600"></i>
+              </div>
+            </div>
+            <div class="ml-4">
+              <p class="text-base font-medium text-gray-900">Email</p>
+              <p class="text-base text-gray-600">elevatedimagery.co.llc@gmail.com</p>
+            </div>
+          </div>
 
-    <!-- Email -->
-    <input 
-      type="email" 
-      name="email" 
-      placeholder="Your Email" 
-      class="w-full p-2 border rounded-md" 
-      required
-    >
+          <div class="flex items-start">
+            <div class="flex-shrink-0">
+              <div class="flex items-center justify-center h-10 w-10 rounded-full bg-blue-100">
+                <i data-feather="phone" class="text-blue-600"></i>
+              </div>
+            </div>
+            <div class="ml-4">
+              <p class="text-base font-medium text-gray-900">Phone</p>
+              <p class="text-base text-gray-600">(406) 295-2589</p>
+            </div>
+          </div>
 
-    <!-- Service Dropdown -->
-    <select 
-      name="service" 
-      class="w-full p-2 border rounded-md"
-      required
-    >
-      <option value="">Select a Service</option>
-      <option value="Real Estate Photography">Real Estate Photography</option>
-      <option value="Drone Photography">Drone Photography</option>
-      <option value="Event Coverage">Event Coverage</option>
-      <option value="Other">Other</option>
-    </select>
+          <div class="flex items-start">
+            <div class="flex-shrink-0">
+              <div class="flex items-center justify-center h-10 w-10 rounded-full bg-blue-100">
+                <i data-feather="map-pin" class="text-blue-600"></i>
+              </div>
+            </div>
+            <div class="ml-4">
+              <p class="text-base font-medium text-gray-900">Service Broadband</p>
+              <p class="text-base text-gray-600">State of Delaware (DE) United States of America</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <!-- Message -->
-    <textarea 
-      name="message" 
-      placeholder="Your Message" 
-      class="w-full p-2 border rounded-md" 
-      rows="5" 
-      required
-    ></textarea>
+      <!-- Right column: Form + Follow Us -->
+      <div data-aos="fade-left">
+        <form id="contact-form" action="https://formspree.io/f/mdklrpba" method="POST" class="space-y-4">
+          <!-- Name -->
+          <input type="text" name="name" placeholder="Your Name" class="w-full p-2 border rounded-md" required>
 
-    <!-- Submit -->
-    <button 
-      type="submit" 
-      class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
-    >
-      Send Message
-    </button>
-  </form>
-  <!-- Success / Error Message -->
-  <p id="form-status" class="mt-4 text-center font-medium"></p>
-</div>
-   <!-- Follow Us Section -->
-   <div class="mt-8">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-4">Follow Us</h3>
-                        <div class="flex space-x-4">
-                            <a href="https://www.instagram.com/elevated_imagery.co/" target="_blank" class="text-blue-600 hover:text-blue-800">
-                                <i data-feather="instagram"></i>
-                            </a>
-                            <a href="https://www.facebook.com/share/15vMGx44dk/?mibextid=wwXIfr" target="_blank" class="text-blue-600 hover:text-blue-800">
-                                <i data-feather="facebook"></i>
-                            </a>
-                            <a href="http://www.youtube.com/@elevatedimagery-co" target="_blank" class="text-blue-600 hover:text-blue-800">
-                                <i data-feather="youtube"></i>
-                            </a>
-<script>
-  const form = document.getElementById("contact-form");
-  const status = document.getElementById("form-status");
+          <!-- Email -->
+          <input type="email" name="email" placeholder="Your Email" class="w-full p-2 border rounded-md" required>
 
-  form.addEventListener("submit", async (event) => {
-    event.preventDefault();
+          <!-- Service Dropdown -->
+          <select name="service" class="w-full p-2 border rounded-md" required>
+            <option value="">Select a Service</option>
+            <option value="Real Estate Photography">Real Estate Photography</option>
+            <option value="Drone Photography">Drone Photography</option>
+            <option value="Event Coverage">Event Coverage</option>
+            <option value="Other">Other</option>
+          </select>
 
-    const data = new FormData(form);
-    const response = await fetch(form.action, {
-      method: form.method,
-      body: data,
-      headers: { 'Accept': 'application/json' }
-    });
+          <!-- Message -->
+          <textarea name="message" placeholder="Your Message" class="w-full p-2 border rounded-md" rows="5" required></textarea>
 
-    if (response.ok) {
-      status.textContent = "✅ Thank you! Your message has been sent.";
-      status.className = "mt-4 text-green-600 text-center font-medium";
-      form.reset();
-    } else {
-      status.textContent = "❌ Oops! Something went wrong. Please try again.";
-      status.className = "mt-4 text-red-600 text-center font-medium";
-    }
-  });
-</script>
-    
+          <!-- Submit -->
+          <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+            Send Message
+          </button>
+        </form>
+
+        <!-- Success / Error Message -->
+        <p id="form-status" class="mt-4 text-center font-medium"></p>
+
+        <!-- Follow Us -->
+        <div class="mt-8">
+          <h3 class="text-lg font-semibold text-gray-900 mb-4">Follow Us</h3>
+          <div class="flex space-x-4">
+            <a href="https://www.instagram.com/elevated_imagery.co/" target="_blank" class="text-blue-600 hover:text-blue-800">
+              <i data-feather="instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/share/15vMGx44dk/?mibextid=wwXIfr" target="_blank" class="text-blue-600 hover:text-blue-800">
+              <i data-feather="facebook"></i>
+            </a>
+            <a href="http://www.youtube.com/@elevatedimagery-co" target="_blank" class="text-blue-600 hover:text-blue-800">
+              <i data-feather="youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
