@@ -158,7 +158,7 @@
       </div>
          <!-- Portfolio Item 2 -->
       <div data-aos="fade-up" data-aos-delay="250" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-        <img src="images/wedding.5.jpg" alt="Wedding" class="w-full h-64 object-cover rounded-xl">
+        <img src="images/weddingcelebration.jpg" alt="Wedding" class="w-full h-64 object-cover rounded-xl">
         <div class="p-4 bg-white">
           <h3 class="text-lg font-semibold text-gray-900">Wedding Celebration</h3>
           <p class="text-gray-600 text-sm">Event Photography</p>
