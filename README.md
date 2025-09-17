@@ -106,18 +106,18 @@
       </div>
       <!-- Event Coverage -->
       <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
-        <img src="images/wedding.example.jpg" alt="Wedding" class="w-full h-56 object-cover">
+        <img src="images/WeddingCelebration.JPG" alt="Wedding" class="w-full h-56 object-cover">
         <div class="p-6">
-          <h3 class="text-2xl font-semibold text-gray-900">Wedding Photography</h3>
-          <p class="text-gray-600 mt-3">Capture every precious moment of your special day with timeless elegance.</p>
+          <h3 class="text-2xl font-semibold text-gray-900">Event Coverage</h3>
+          <p class="text-gray-600 mt-3">Capture the Majic of your special events from unique arial perspectives and ground level moments.</p>
         </div>
       </div>
       <!-- Commercial Projects -->
       <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
-        <img src="images/automotive.example.jpg" alt="Automotive" class="w-full h-56 object-cover">
+        <img src="images/landscape.example.jpg" alt="Automotive" class="w-full h-56 object-cover">
         <div class="p-6">
-          <h3 class="text-2xl font-semibold text-gray-900">Automotive Photography</h3>
-          <p class="text-gray-600 mt-3">Dynamic and detailed imagery of vehicles for enthusiasts, dealers, and collectors.</p>
+          <h3 class="text-2xl font-semibold text-gray-900">Commercial Projects</h3>
+          <p class="text-gray-600 mt-3">Professional photography for buisnesses, construction sites, and large scale commercial projects.</p>
       </div>
     </section>
 
