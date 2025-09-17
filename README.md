@@ -1,40 +1,22 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elevated Imagery | Drone & Camera Photography</title>
-    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
-    
- <style>
-    /* Ensure full height and no default margin/padding */
-    html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    /* Gallery hover effect */
-    .gallery-item {
-        transition: all 0.3s ease;
-    }
-    .gallery-item:hover {
-        transform: scale(1.03);
-        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    }
-
-    /* iOS Safari full height fix */
-    @supports (-webkit-touch-callout: none) {
-        #vanta-globe {
-            height: -webkit-fill-available;
-        }
-    }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elevated Imagery | Drone & Camera Photography</title>
+  <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <style>
+    html, body { height: 100%; margin: 0; padding: 0; }
+    .gallery-item { transition: all 0.3s ease; }
+    .gallery-item:hover { transform: scale(1.03); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+    @supports (-webkit-touch-callout: none) { #vanta-globe { height: -webkit-fill-available; } }
+  </style>
+</head>
+<body class="bg-white">
 
 <!-- Navigation -->
 <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
