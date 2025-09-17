@@ -211,13 +211,11 @@
       </a>
     </div>
    <div class="text-center mt-12" data-aos="fade-up">
-  <a href="https://my-other-site.com" 
-     target="_blank" 
-     class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
-    View Full Portfolio
-    <i data-feather="arrow-right" class="ml-2"></i>
-  </a>
-</div>
+ <a href="full-portfolio.html" 
+   class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
+  View Full Portfolio
+  <i data-feather="arrow-right" class="ml-2"></i>
+</a>
   </div>
 </section>
 
@@ -353,17 +351,6 @@
     </a>
   </div>
 </section>
-
-    <!-- Content -->
-  <div class="relative z-10 text-center px-4">
-    <h2 data-aos="fade-up" class="text-3xl md:text-4xl font-bold text-white mb-4">
-      Ready to Elevate Your Visual Content?
-    </h2>
-    <a data-aos="fade-up" data-aos-delay="100" href="#contact" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-600 bg-white hover:bg-blue-50">
-      Get in Touch
-      <i data-feather="arrow-right" class="ml-2"></i>
-    </a>
-  </div>
 
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-white">
@@ -527,17 +514,3 @@
     </footer>
     <script>AOS.init();</script>
     <script>feather.replace();</script>  
-<script>
-  const menuButton = document.querySelector("nav button");
-  const mobileMenu = document.getElementById("mobile-menu");
-
-  menuButton.addEventListener("click", () => {
-    if (mobileMenu.classList.contains("max-h-0")) {
-      mobileMenu.classList.remove("max-h-0");
-      mobileMenu.classList.add("max-h-screen");
-    } else {
-      mobileMenu.classList.add("max-h-0");
-      mobileMenu.classList.remove("max-h-screen");
-    }
-  });
-</script>
