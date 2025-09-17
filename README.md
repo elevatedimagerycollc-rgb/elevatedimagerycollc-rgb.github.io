@@ -77,7 +77,7 @@
   </div>
   <div class="relative z-10 text-center px-4">
     <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Capture The World From New Perspectives</h1>
-    <p class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
+    <p class="text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto">
       Professional drone and camera photography services for Real Estate, Events, and Personal projects.
     </p>
     <div class="flex flex-col sm:flex-row justify-center gap-4">
@@ -158,7 +158,7 @@
       </div>
          <!-- Portfolio Item 2 -->
       <div data-aos="fade-up" data-aos-delay="250" class="gallery-item rounded-xl overflow-hidden shadow-lg">
-        <img src="images/weddingcelebration.jpg" alt="Wedding" class="w-full h-64 object-cover rounded-xl">
+        <img src="images/WeddingCelebration.jpg" alt="Wedding" class="w-full h-64 object-cover rounded-xl">
         <div class="p-4 bg-white">
           <h3 class="text-lg font-semibold text-gray-900">Wedding Celebration</h3>
           <p class="text-gray-600 text-sm">Event Photography</p>
