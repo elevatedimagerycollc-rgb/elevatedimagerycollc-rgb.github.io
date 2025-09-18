@@ -13,7 +13,6 @@
     .gallery-item { transition: all 0.3s ease; }
     .gallery-item:hover { transform: scale(1.03); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
     @supports (-webkit-touch-callout: none) { #vanta-globe { height: -webkit-fill-available; } }
-<style>
   /* Desktop background (default) */
   body {
     background: url('images/wallpaper.jpg') no-repeat center center;
@@ -26,10 +25,11 @@
     body {
       background: url('images/mobile.jpg') no-repeat center center;
       background-size: cover;
-      background-attachment: scroll; /* disable parallax on mobile for performance */
+      background-attachment: fixed; /* parallax effect on mobile */
     }
   }
 </style>
+
   <!-- Navigation -->
   <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
