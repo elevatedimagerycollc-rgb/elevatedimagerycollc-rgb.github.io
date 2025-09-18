@@ -36,115 +36,47 @@
   </style>
 </head>
 
-<body>
+<body class="overflow-x-hidden">
 
-  <!-- Hero Section -->
-  <section class="relative h-screen overflow-hidden">
-
-    <!-- Desktop background (parallax) -->
-    <div class="hidden md:block absolute inset-0 bg-[url('images/wallpaper.jpg')] bg-center bg-cover bg-fixed"></div>
-
-    <!-- Mobile hero image with light blue behind it -->
-    <div class="md:hidden absolute inset-0 bg-sky-200">
-      <img src="images/mobile.jpg" class="absolute inset-0 w-full h-full object-cover">
-    </div>
-
-    <!-- Hero overlay (optional for readability) -->
-    <div class="absolute inset-0 bg-black/30 md:bg-transparent"></div>
-
-    <!-- Hero text -->
-    <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
-      <h1 class="text-white text-4xl md:text-6xl font-bold mb-6">
-        Capture The World From New Perspectives
-      </h1>
-      <p class="text-white text-lg md:text-2xl max-w-3xl mb-8">
-        Professional drone and camera photography services for Real Estate, Events, and Personal projects.
-      </p>
-      <div class="flex flex-col sm:flex-row gap-4">
-        <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">
-          Book a Session
-        </a>
-        <a href="#portfolio" class="bg-white border-2 border-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition duration-300">
-          View Portfolio
-        </a>
-      </div>
-    </div>
-  </section>
   <!-- Navigation -->
   <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between h-16">
+      <div class="flex justify-between h-16 items-center">
         <!-- Logo -->
-        <div class="flex items-center">
-          <a href="#" class="flex-shrink-0 flex items-center">
-            <i data-feather="camera" class="h-8 w-8 text-blue-600"></i>
-            <span class="ml-2 text-xl font-bold text-blue-600">Elevated Imagery</span>
-          </a>
+        <a href="#" class="flex items-center text-blue-600 font-bold text-xl">
+          <i data-feather="camera" class="h-8 w-8"></i>
+          <span class="ml-2">Elevated Imagery</span>
+        </a>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex space-x-8">
+          <a href="#" class="text-blue-600 border-b-2 border-blue-600 px-3 py-2 text-sm font-medium">Home</a>
+          <a href="#services" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Services</a>
+          <a href="#portfolio" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Portfolio</a>
+          <a href="#about" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">About</a>
+          <a href="#contact" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Contact</a>
         </div>
-     </section>
-        
-      <!-- Desktop Menu -->
-      <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
-        <a href="#" class="text-blue-600 border-b-2 border-blue-600 px-3 py-2 text-sm font-medium">Home</a>
-        <a href="#services" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Services</a>
-        <a href="#portfolio" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Portfolio</a>
-        <a href="#about" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">About</a>
-        <a href="#contact" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Contact</a>
-      </div>
 
-      <!-- Mobile Menu Button -->
-      <div class="flex items-center md:hidden">
-        <button id="menu-button" type="button" class="p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none">
-          <i data-feather="menu" class="h-6 w-6"></i>
-        </button>
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+          <button id="menu-button" class="p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none">
+            <i data-feather="menu" class="h-6 w-6"></i>
+          </button>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Mobile Menu (hidden by default) -->
-  <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
-    <div class="px-2 pt-2 pb-3 space-y-1">
-      <a href="#" class="block text-blue-600 px-3 py-2 rounded-md text-base font-medium">Home</a>
-      <a href="#services" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Services</a>
-      <a href="#portfolio" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Portfolio</a>
-      <a href="#about" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">About</a>
-      <a href="#contact" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Contact</a>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+      <div class="px-2 pt-2 pb-3 space-y-1">
+        <a href="#" class="block text-blue-600 px-3 py-2 rounded-md text-base font-medium">Home</a>
+        <a href="#services" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Services</a>
+        <a href="#portfolio" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Portfolio</a>
+        <a href="#about" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">About</a>
+        <a href="#contact" class="block text-gray-700 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium">Contact</a>
+      </div>
     </div>
-  </div>
-</nav>
-
-<script>
-  const menuButton = document.getElementById("menu-button");
-  const mobileMenu = document.getElementById("mobile-menu");
-
-  menuButton.addEventListener("click", () => {
-    mobileMenu.classList.toggle("hidden");
-  });
-</script>
-
-
-  <!-- Hero Section -->
-<section class="relative w-full h-screen flex items-center justify-center">
-  <div class="absolute inset-0 bg-cover bg-center" 
-       style="background-image: url('/static/images/background.jpg');">
-    <div class="absolute inset-0 bg-gradient-to-br from-blue-800/40 to-blue-400/40"></div>
-  </div>
-  <div class="relative z-10 text-center px-4">
-    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Capture The World From New Perspectives</h1>
-    <p class="text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto">
-      Professional drone and camera photography services for Real Estate, Events, and Personal projects.
-    </p>
-    <div class="flex flex-col sm:flex-row justify-center gap-4">
-      <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">
-        Book a Session
-      </a>
-      <a href="#" class="bg-white border-2 border-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition duration-300">
-        View 
-      </a>
-    </div>
-  </div>
-</section>
-
+  </nav>
 <!-- Services Section -->
 <section id="services" class="py-24">
   <div class="max-w-6xl mx-auto px-6 text-center 
