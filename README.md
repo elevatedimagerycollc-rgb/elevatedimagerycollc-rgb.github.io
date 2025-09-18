@@ -102,10 +102,11 @@ body {
 </section>
 
 <!-- Services Section -->
-<section id="services" class="py-24 bg-white/70 backdrop-blur-sm">
-  <div class="max-w-6xl mx-auto px-6 text-center">
+<section id="services" class="py-24">
+  <div class="max-w-6xl mx-auto px-6 text-center 
+              bg-white/70 backdrop-blur-sm rounded-2xl shadow-lg p-12">
     <h2 class="text-3xl font-bold mb-12">Our Services</h2>
-    <div class="grid md:grid-cols-3 gap-12">
+    <div class="grid md:grid-cols-3 gap-8">
       
       <!-- Real Estate -->
       <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
@@ -139,12 +140,11 @@ body {
 </section>
 
 <!-- Portfolio Section -->
-<section id="portfolio" class="py-24 bg-white/70 backdrop-blur-sm">
-  <div class="max-w-7xl mx-auto px-6 text-center">
-    <h2 class="text-7xl font-bold mb-16">Our Portfolio</h2>
-
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
-      
+<section id="portfolio" class="py-24">
+  <div class="max-w-6xl mx-auto px-6 text-center 
+              bg-white/70 backdrop-blur-sm rounded-2xl shadow-lg p-12">
+    <h2 class="text-3xl font-bold mb-12">Our Portfolio</h2>
+    
       <!-- Real Estate -->
       <a href="real-estate.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
         <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-56 object-cover">
@@ -213,10 +213,11 @@ body {
 </section>
 
     <!-- About Section -->
-    <section id="about" class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
-                <div data-aos="fade-right" class="mb-12 lg:mb-0">
+  <section id="about" class="py-24">
+  <div class="max-w-4xl mx-auto px-6 text-center 
+              bg-white/70 backdrop-blur-sm rounded-2xl shadow-lg p-12">
+    <h2 class="text-3xl font-bold mb-6">About Us</h2>
+    <p class="text-lg leading-relaxed">
                     <img src="http://static.photos/photographer/640x360/10" alt="Photographer" class="rounded-xl shadow-xl w-full">
                 </div>
                 <div data-aos="fade-left">
