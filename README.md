@@ -13,25 +13,16 @@
     .gallery-item { transition: all 0.3s ease; }
     .gallery-item:hover { transform: scale(1.03); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
     @supports (-webkit-touch-callout: none) { #vanta-globe { height: -webkit-fill-available; } }
+body {
+  background: url('images/wallpaper.jpg') no-repeat center center;
+  background-size: cover;
+}
+      body {
+        background-attachment: fixed;
+      }
+    }
   </style>
 </head>
-
-<body class="m-0 p-0">
-
- <!-- Hero Section with guaranteed full coverage -->
-  <section 
-    class="min-h-screen h-screen bg-cover bg-center bg-no-repeat bg-[url('images/mobile.jpg')] md:bg-[url('images/wallpaper.jpg')] md:bg-fixed"
-  >
-    <div class="flex items-center justify-center h-full">
-      <h1 class="text-white text-4xl md:text-6xl font-bold text-center">
-        Elevated Imagery
-      </h1>
-    </div>
-  </section>
-<script>
-    AOS.init();
-    feather.replace();
-  </script>
 <body>
 
   <!-- Navigation -->
