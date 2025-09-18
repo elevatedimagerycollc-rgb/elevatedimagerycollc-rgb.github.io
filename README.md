@@ -18,8 +18,6 @@ body {
   background: url('images/wallpaper.jpg') no-repeat center center;
   background-size: cover;
 }
-    /* Only apply parallax fixed effect on desktop */
-    @media (min-width: 800px) {
       body {
         background-attachment: fixed;
       }
