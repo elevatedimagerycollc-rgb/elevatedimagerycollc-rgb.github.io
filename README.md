@@ -23,7 +23,7 @@
  @media (max-width: 767px) {
   body {
     background: url('images/mobile.jpg') no-repeat center center;
-    background-size: contain; /* prevents zooming */
+    background-size: cover; /* prevents zooming */
     background-attachment: fixed; /* parallax effect on mobile */
   }
 }
