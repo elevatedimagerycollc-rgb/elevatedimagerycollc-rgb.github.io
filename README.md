@@ -15,13 +15,12 @@
     .gallery-item:hover { transform: scale(1.03); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
     @supports (-webkit-touch-callout: none) { #vanta-globe { height: -webkit-fill-available; } }
   
-    body {
-      background: url('/images/background.jpg') no-repeat center center;
-      background-size: cover;
-    }
-
+body {
+  background: url('images/background.jpg') no-repeat center center;
+  background-size: cover;
+}
     /* Only apply parallax fixed effect on desktop */
-    @media (min-width: 768px) {
+    @media (min-width: 800px) {
       body {
         background-attachment: fixed;
       }
