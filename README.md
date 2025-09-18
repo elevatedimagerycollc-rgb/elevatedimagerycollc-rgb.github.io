@@ -102,9 +102,9 @@ body {
 </section>
 
 <!-- Services Section -->
-<section id="services" class="py-24 bg-gray-50">
+<section id="services" class="py-24">
   <div class="max-w-7xl mx-auto px-4">
-    <h2 class="text-4xl font-bold text-center mb-16">Our Services</h2>
+    <h2 class="text-4xl font-bold text-center text-white mb-16">Our Services</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
       
       <!-- Real Estate -->
@@ -139,9 +139,9 @@ body {
 </section>
 
 <!-- Portfolio Section -->
-<section id="portfolio" class="py-24 bg-white">
+<section id="portfolio" class="py-24">
   <div class="max-w-7xl mx-auto px-4">
-    <h2 class="text-4xl font-bold text-center mb-16">Our Portfolio</h2>
+    <h2 class="text-4xl font-bold text-white text-center mb-16">Our Portfolio</h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
       
