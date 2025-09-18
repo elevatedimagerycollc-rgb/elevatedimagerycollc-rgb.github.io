@@ -20,14 +20,14 @@
     background-attachment: fixed; /* parallax effect on desktop */
   }
 
-  /* Mobile background */
-  @media (max-width: 767px) {
-    body {
-      background: url('images/mobile.jpg') no-repeat center center;
-      background-size: cover;
-      background-attachment: fixed; /* parallax effect on mobile */
-    }
+ @media (max-width: 767px) {
+  body {
+    background: url('images/mobile.jpg') no-repeat center center;
+    background-size: contain; /* prevents zooming */
+    background-attachment: scroll; /* no parallax on mobile */
+    background-color: #000; /* fill gaps with black or a complementary color */
   }
+}
 </style>
 
   <!-- Navigation -->
