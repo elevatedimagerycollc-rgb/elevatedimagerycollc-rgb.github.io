@@ -212,6 +212,7 @@
         View Full Portfolio
         <i data-feather="arrow-right" class="ml-2"></i>
       </a>
+   </div>
   </div>
 </section>
 
