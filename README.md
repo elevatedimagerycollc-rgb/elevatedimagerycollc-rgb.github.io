@@ -16,7 +16,7 @@
     @supports (-webkit-touch-callout: none) { #vanta-globe { height: -webkit-fill-available; } }
   
     body {
-      background: url('/static/images/background.jpg') no-repeat center center;
+      background: url('/images/background.jpg') no-repeat center center;
       background-size: cover;
     }
 
@@ -98,8 +98,8 @@
       <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">
         Book a Session
       </a>
-      <a href="#portfolio" class="bg-white border-2 border-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition duration-300">
-        View Portfolio
+      <a href="#" class="bg-white border-2 border-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition duration-300">
+        View 
       </a>
     </div>
   </div>
@@ -145,74 +145,108 @@
 
 <!-- Portfolio Section -->
 <section id="portfolio" class="py-24">
-  <div class="max-w-3x2 mx-auto px-4 text-center 
+  <div class="max-w-6xl mx-auto px-4 text-center 
               bg-white/70 backdrop-blur-sm rounded-2xl shadow-lg p-12">
     <h2 class="text-3xl font-bold mb-12">Our Portfolio</h2>
-    
-      <!-- Real Estate -->
-      <a href="real-estate.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
-        <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-56 object-cover">
-        <div class="p-6">
-          <h3 class="text-xl font-semibold text-gray-900">Real Estate</h3>
-          <p class="text-gray-600 mt-2">Elegant Homes</p>
+
+    <!-- Grid Layout -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Card Example -->
+      <a href="real-estate.html" 
+         class="group block bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:-translate-y-2 hover:shadow-2xl relative">
+        <div class="relative overflow-hidden">
+          <img src="images/re.example.jpg" alt="Real Estate" 
+               class="w-full h-56 object-cover transform transition duration-500 group-hover:scale-110">
+          <!-- Overlay -->
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500"></div>
+        </div>
+        <div class="p-6 relative z-10">
+          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-white">Real Estate</h3>
+          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-200">Elegant Homes</p>
         </div>
       </a>
 
       <!-- Event Photography -->
-      <a href="event-photography.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
-        <img src="images/WeddingCelebration.JPG" alt="Event Photography" class="w-full h-56 object-cover">
-        <div class="p-6">
-          <h3 class="text-xl font-semibold text-gray-900">Event Photography</h3>
-          <p class="text-gray-600 mt-2">Wedding Celebration</p>
+      <a href="event-photography.html" 
+         class="group block bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:-translate-y-2 hover:shadow-2xl relative">
+        <div class="relative overflow-hidden">
+          <img src="images/WeddingCelebration.JPG" alt="Event Photography" 
+               class="w-full h-56 object-cover transform transition duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500"></div>
+        </div>
+        <div class="p-6 relative z-10">
+          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-white">Event Photography</h3>
+          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-200">Wedding Celebration</p>
         </div>
       </a>
 
       <!-- Portraits -->
-      <a href="portrait.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
-        <img src="images/portrait.example.jpg" alt="Portrait Photography" class="w-full h-56 object-cover">
-        <div class="p-6">
-          <h3 class="text-xl font-semibold text-gray-900">Portraits</h3>
-          <p class="text-gray-600 mt-2">Express Yourself</p>
+      <a href="portrait.html" 
+         class="group block bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:-translate-y-2 hover:shadow-2xl relative">
+        <div class="relative overflow-hidden">
+          <img src="images/portrait.example.jpg" alt="Portraits" 
+               class="w-full h-56 object-cover transform transition duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500"></div>
+        </div>
+        <div class="p-6 relative z-10">
+          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-white">Portraits</h3>
+          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-200">Express Yourself</p>
         </div>
       </a>
 
       <!-- Automotive -->
-      <a href="automotive.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
-        <img src="images/350z.boat.jpg" alt="Automotive" class="w-full h-56 object-cover">
-        <div class="p-6">
-          <h3 class="text-xl font-semibold text-gray-900">Automotive Photography</h3>
-          <p class="text-gray-600 mt-2">Power & Style</p>
+      <a href="automotive.html" 
+         class="group block bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:-translate-y-2 hover:shadow-2xl relative">
+        <div class="relative overflow-hidden">
+          <img src="images/350z.boat.jpg" alt="Automotive" 
+               class="w-full h-56 object-cover transform transition duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500"></div>
+        </div>
+        <div class="p-6 relative z-10">
+          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-white">Automotive Photography</h3>
+          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-200">Power & Style</p>
         </div>
       </a>
 
       <!-- Landscape -->
-      <a href="landscape-photography.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
-        <img src="images/landscape.example.jpg" alt="Landscape Photography" class="w-full h-56 object-cover">
-        <div class="p-6">
-          <h3 class="text-xl font-semibold text-gray-900">Landscape Photography</h3>
-          <p class="text-gray-600 mt-2">Beautiful Scenes</p>
+      <a href="landscape-photography.html" 
+         class="group block bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:-translate-y-2 hover:shadow-2xl relative">
+        <div class="relative overflow-hidden">
+          <img src="images/landscape.example.jpg" alt="Landscape" 
+               class="w-full h-56 object-cover transform transition duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500"></div>
+        </div>
+        <div class="p-6 relative z-10">
+          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-white">Landscape Photography</h3>
+          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-200">Beautiful Scenes</p>
         </div>
       </a>
 
       <!-- Sports -->
-      <a href="sports-photography.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
-        <img src="images/Kyle.Swinging.jpg" alt="Sports Photography" class="w-full h-56 object-cover">
-        <div class="p-6">
-          <h3 class="text-xl font-semibold text-gray-900">Sports Photography</h3>
-          <p class="text-gray-600 mt-2">Action Shots</p>
+      <a href="sports-photography.html" 
+         class="group block bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:-translate-y-2 hover:shadow-2xl relative">
+        <div class="relative overflow-hidden">
+          <img src="images/Kyle.Swinging.jpg" alt="Sports" 
+               class="w-full h-56 object-cover transform transition duration-500 group-hover:scale-110">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500"></div>
+        </div>
+        <div class="p-6 relative z-10">
+          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-white">Sports Photography</h3>
+          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-200">Action Shots</p>
         </div>
       </a>
 
     </div>
+  </div>
 
-    <!-- View Full Portfolio Button -->
-    <div class="text-center mt-16">
-      <a href="full-portfolio.html"
-         class="inline-flex items-center px-8 py-4 border border-transparent text-lg font-medium rounded-xl shadow-md text-white bg-blue-600 hover:bg-blue-700">
-        View Full Portfolio
-        <i data-feather="arrow-right" class="ml-2"></i>
-      </a>
-   </div>
+  <!-- View Full Portfolio Button (outside container) -->
+  <div class="text-center mt-16">
+    <a href="full-portfolio.html"
+       class="inline-flex items-center px-8 py-4 border border-transparent text-lg font-medium rounded-xl shadow-md text-white bg-blue-600 hover:bg-blue-700 transform transition hover:-translate-y-1 hover:shadow-lg">
+      View Full Portfolio
+      <i data-feather="arrow-right" class="ml-2"></i>
+    </a>
   </div>
 </section>
 
