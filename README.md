@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -14,30 +15,33 @@
     .gallery-item:hover { transform: scale(1.03); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
     @supports (-webkit-touch-callout: none) { #vanta-globe { height: -webkit-fill-available; } }
   
-body {
-  background: url('images/background.jpg') no-repeat center center;
-  background-size: cover;
-}
+    body {
+      background: url('/static/images/background.jpg') no-repeat center center;
+      background-size: cover;
+    }
 
-/* Only apply parallax fixed effect on desktop */
-@media (min-width: 768px) {
-  body {
-    background-attachment: fixed; }
-}
+    /* Only apply parallax fixed effect on desktop */
+    @media (min-width: 768px) {
+      body {
+        background-attachment: fixed;
+      }
+    }
   </style>
 </head>
 
-<!-- Navigation -->
-<nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex justify-between h-16">
-      <!-- Logo -->
-      <div class="flex items-center">
-        <a href="#" class="flex-shrink-0 flex items-center">
-          <i data-feather="camera" class="h-8 w-8 text-blue-600"></i>
-          <span class="ml-2 text-xl font-bold text-blue-600">Elevated Imagery</span>
-        </a>
-      </div>
+<body>
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <!-- Logo -->
+        <div class="flex items-center">
+          <a href="#" class="flex-shrink-0 flex items-center">
+            <i data-feather="camera" class="h-8 w-8 text-blue-600"></i>
+            <span class="ml-2 text-xl font-bold text-blue-600">Elevated Imagery</span>
+          </a>
+        </div>
 
       <!-- Desktop Menu -->
       <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
@@ -232,7 +236,7 @@ body {
                             </div>
                             <div class="ml-3">
                                 <p class="text-base font-medium text-gray-900">FAA Certified Pilots</p>
-                                <p class="text-base text-gray-600">All our drone operators are fully licensed and insured.</p>
+                                <p class="text-base text-gray-600">Our drone operators are fully licensed and experienced.</p>
                             </div>
                         </div>
                         <div class="flex items-start">
