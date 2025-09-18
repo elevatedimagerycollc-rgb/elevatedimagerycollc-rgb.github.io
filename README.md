@@ -96,6 +96,7 @@
   <div class="max-w-7xl mx-auto px-4">
     <h2 class="text-4xl font-bold text-center mb-16">Our Services</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+      
       <!-- Real Estate -->
       <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
         <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-56 object-cover">
@@ -104,22 +105,28 @@
           <p class="text-gray-600 mt-3">Showcase properties with stunning aerial and interior visuals that captivate buyers.</p>
         </div>
       </div>
+
       <!-- Event Coverage -->
       <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
         <img src="images/WeddingCelebration.JPG" alt="Wedding" class="w-full h-56 object-cover">
         <div class="p-6">
           <h3 class="text-2xl font-semibold text-gray-900">Event Coverage</h3>
-          <p class="text-gray-600 mt-3">Capture the Majic of your special events from unique arial perspectives and ground level moments.</p>
+          <p class="text-gray-600 mt-3">Capture the magic of your special events from unique aerial perspectives and ground level moments.</p>
         </div>
       </div>
+
       <!-- Commercial Projects -->
       <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
-        <img src="images/landscape.example.jpg" alt="Automotive" class="w-full h-56 object-cover">
+        <img src="images/landscape.example.jpg" alt="Commercial Projects" class="w-full h-56 object-cover">
         <div class="p-6">
           <h3 class="text-2xl font-semibold text-gray-900">Commercial Projects</h3>
-          <p class="text-gray-600 mt-3">Professional photography for buisnesses, construction sites, and large scale commercial projects.</p>
+          <p class="text-gray-600 mt-3">Professional photography for businesses, construction sites, and large-scale projects.</p>
+        </div>
       </div>
-    </section>
+
+    </div>
+  </div>
+</section>
 
 <!-- Portfolio Section -->
 <section id="portfolio" class="py-24 bg-white">
