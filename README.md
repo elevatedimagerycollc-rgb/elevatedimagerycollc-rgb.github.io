@@ -82,11 +82,11 @@
   <section class="relative h-screen w-full flex items-center justify-center overflow-hidden">
 
     <!-- Desktop Parallax Background -->
-    <div class="hidden md:block absolute inset-0 z-0 bg-[url('images/hero-desktop.jpg')] bg-center bg-cover bg-fixed"></div>
+    <div class="hidden md:block absolute inset-0 z-0 bg-[url('images/wallpaper.jpg')] bg-center bg-cover bg-fixed"></div>
 
     <!-- Mobile Background with Sky Blue -->
     <div class="md:hidden absolute inset-0 z-0 bg-sky-200">
-      <img src="images/hero-mobile.jpg" alt="Hero Mobile" class="w-full h-full object-cover">
+      <img src="images/mobile.jpg" alt="Hero Mobile" class="w-full h-full object-cover">
     </div>
 
     <!-- Optional overlay for readability -->
