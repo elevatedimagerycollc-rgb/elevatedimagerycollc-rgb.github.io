@@ -157,11 +157,11 @@ body {
           <img src="images/re.example.jpg" alt="Real Estate" 
                class="w-full h-56 object-cover transform transition duration-500 group-hover:scale-110">
           <!-- Overlay -->
-          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500"></div>
+          <div class="absolute inset-0  opacity-0 group-hover:opacity-100 transition duration-500"></div>
         </div>
         <div class="p-6 relative z-10">
-          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-white">Real Estate</h3>
-          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-200">Elegant Homes</p>
+          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-gray-900">Real Estate</h3>
+          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-900">Elegant Homes</p>
         </div>
       </a>
 
@@ -171,11 +171,11 @@ body {
         <div class="relative overflow-hidden">
           <img src="images/WeddingCelebration.JPG" alt="Event Photography" 
                class="w-full h-56 object-cover transform transition duration-500 group-hover:scale-110">
-          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500"></div>
+          <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500"></div>
         </div>
         <div class="p-6 relative z-10">
-          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-white">Event Photography</h3>
-          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-200">Wedding Celebration</p>
+          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-gray-900">Event Photography</h3>
+          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-900">Wedding Celebration</p>
         </div>
       </a>
 
@@ -185,11 +185,11 @@ body {
         <div class="relative overflow-hidden">
           <img src="images/portrait.example.jpg" alt="Portraits" 
                class="w-full h-56 object-cover transform transition duration-500 group-hover:scale-110">
-          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500"></div>
+          <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500"></div>
         </div>
         <div class="p-6 relative z-10">
-          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-white">Portraits</h3>
-          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-200">Express Yourself</p>
+          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-gray-900">Portraits</h3>
+          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-900">Express Yourself</p>
         </div>
       </a>
 
@@ -199,11 +199,11 @@ body {
         <div class="relative overflow-hidden">
           <img src="images/350z.boat.jpg" alt="Automotive" 
                class="w-full h-56 object-cover transform transition duration-500 group-hover:scale-110">
-          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500"></div>
+          <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500"></div>
         </div>
         <div class="p-6 relative z-10">
-          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-white">Automotive Photography</h3>
-          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-200">Power & Style</p>
+          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-gray-900">Automotive Photography</h3>
+          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-900">Power & Style</p>
         </div>
       </a>
 
@@ -213,11 +213,11 @@ body {
         <div class="relative overflow-hidden">
           <img src="images/landscape.example.jpg" alt="Landscape" 
                class="w-full h-56 object-cover transform transition duration-500 group-hover:scale-110">
-          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500"></div>
+          <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500"></div>
         </div>
         <div class="p-6 relative z-10">
-          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-white">Landscape Photography</h3>
-          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-200">Beautiful Scenes</p>
+          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-gray-900">Landscape Photography</h3>
+          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-900">Beautiful Scenes</p>
         </div>
       </a>
 
@@ -227,11 +227,11 @@ body {
         <div class="relative overflow-hidden">
           <img src="images/Kyle.Swinging.jpg" alt="Sports" 
                class="w-full h-56 object-cover transform transition duration-500 group-hover:scale-110">
-          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500"></div>
+          <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500"></div>
         </div>
         <div class="p-6 relative z-10">
-          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-white">Sports Photography</h3>
-          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-200">Action Shots</p>
+          <h3 class="text-xl font-semibold text-gray-900 transition duration-300 group-hover:text-gray-900">Sports Photography</h3>
+          <p class="text-gray-600 mt-2 transition duration-300 group-hover:text-gray-900">Action Shots</p>
         </div>
       </a>
 
