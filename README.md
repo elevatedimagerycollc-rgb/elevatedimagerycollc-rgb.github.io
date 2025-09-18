@@ -142,7 +142,7 @@ body {
 
 <!-- Portfolio Section -->
 <section id="portfolio" class="py-24">
-  <div class="max-w-6xl mx-auto px-6 text-center 
+  <div class="max-w-3x2 mx-auto px-4 text-center 
               bg-white/70 backdrop-blur-sm rounded-2xl shadow-lg p-12">
     <h2 class="text-3xl font-bold mb-12">Our Portfolio</h2>
     
