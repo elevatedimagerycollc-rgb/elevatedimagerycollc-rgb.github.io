@@ -24,7 +24,7 @@
   /* Mobile background */
   @media (max-width: 767px) {
     body {
-      background: url('images/mobile-wallpaper.jpg') no-repeat center center;
+      background: url('images/mobile.jpg') no-repeat center center;
       background-size: cover;
       background-attachment: scroll; /* disable parallax on mobile for performance */
     }
