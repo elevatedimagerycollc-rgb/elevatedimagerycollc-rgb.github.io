@@ -15,7 +15,7 @@
     @supports (-webkit-touch-callout: none) { #vanta-globe { height: -webkit-fill-available; } }
   
 body {
-  background: url('images/background.jpg') no-repeat center center;
+  background: url('images/wallpaper.jpg') no-repeat center center;
   background-size: cover;
 }
     /* Only apply parallax fixed effect on desktop */
