@@ -4,25 +4,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Elevated Imagery | Drone & Camera Photography</title>
   <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+
+  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Feather Icons -->
   <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
   <style>
-    html, body { height: 100%; margin: 0; padding: 0; }
-    .gallery-item { transition: all 0.3s ease; }
-    .gallery-item:hover { transform: scale(1.03); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
-    @supports (-webkit-touch-callout: none) { #vanta-globe { height: -webkit-fill-available; } }
- 
-<section class="relative h-screen md:h-screen overflow-hidden bg-sky-200">    
-    /* Desktop background (default) */
-  body {
-    background: url('images/wallpaper.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed; /* parallax effect on desktop */
-  }
-  <!-- Mobile hero image -->
-  <img src="images/mobile.jpg" class="md:hidden w-full h-full object-cover">
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .gallery-item {
+      transition: all 0.3s ease;
+    }
+    .gallery-item:hover {
+      transform: scale(1.03);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    @supports (-webkit-touch-callout: none) {
+      #vanta-globe { height: -webkit-fill-available; }
+    }
+  </style>
+</head>
+
+<body class="bg-sky-200">
+
+  <!-- Hero Section -->
+  <section class="relative h-screen overflow-hidden">
+
+    <!-- Desktop background -->
+    <div class="hidden md:block absolute inset-0 bg-[url('images/wallpaper.jpg')] bg-center bg-cover bg-fixed"></div>
+
+    <!-- Mobile hero image -->
+    <img src="images/mobile.jpg" class="md:hidden absolute inset-0 w-full h-full object-cover">
+
+    <!-- Hero overlay (optional, for better text readability) -->
+    <div class="absolute inset-0 bg-black/30 md:bg-transparent"></div>
+
+    <!-- Hero text -->
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+      <h1 class="text-white text-4xl md:text-6xl font-bold mb-6">
+        Capture The World From New Perspectives
+      </h1>
+      <p class="text-white text-lg md:text-2xl max-w-3xl mb-8">
+        Professional drone and camera photography services for Real Estate, Events, and Personal projects.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">
+          Book a Session
+        </a>
+        <a href="#portfolio" class="bg-white border-2 border-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition duration-300">
+          View Portfolio
+        </a>
+      </div>
+    </div>
+  </section>
 
   <!-- Navigation -->
   <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
@@ -539,4 +584,9 @@
     </footer>
     <script>AOS.init();</script>
     <script>feather.replace();</script>  
-
+<script>
+    AOS.init();
+    feather.replace();
+  </script>
+</body>
+</html>
