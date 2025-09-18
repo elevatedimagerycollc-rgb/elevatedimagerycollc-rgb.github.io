@@ -15,7 +15,7 @@
     @supports (-webkit-touch-callout: none) { #vanta-globe { height: -webkit-fill-available; } }
   </style>
 </head>
-<body class="bg-white">
+<body style="background: url('images/background.jpg') no-repeat center center fixed; background-size: cover;">
 
 <!-- Navigation -->
 <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
