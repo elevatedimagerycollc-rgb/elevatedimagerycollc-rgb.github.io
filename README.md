@@ -14,7 +14,7 @@
     .gallery-item:hover { transform: scale(1.03); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
     @supports (-webkit-touch-callout: none) { #vanta-globe { height: -webkit-fill-available; } }
   </style>
-</head>
+  
 body {
   background: url('images/background.jpg') no-repeat center center;
   background-size: cover;
@@ -23,9 +23,10 @@ body {
 /* Only apply parallax fixed effect on desktop */
 @media (min-width: 768px) {
   body {
-    background-attachment: fixed;
-  }
+    background-attachment: fixed; }
 }
+  </style>
+</head>
 
 <!-- Navigation -->
 <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
