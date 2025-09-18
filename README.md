@@ -77,6 +77,39 @@
       </div>
     </div>
   </nav>
+
+  <!-- Hero Section -->
+  <section class="relative h-screen w-full flex items-center justify-center overflow-hidden">
+
+    <!-- Desktop Parallax Background -->
+    <div class="hidden md:block absolute inset-0 z-0 bg-[url('images/hero-desktop.jpg')] bg-center bg-cover bg-fixed"></div>
+
+    <!-- Mobile Background with Sky Blue -->
+    <div class="md:hidden absolute inset-0 z-0 bg-sky-200">
+      <img src="images/hero-mobile.jpg" alt="Hero Mobile" class="w-full h-full object-cover">
+    </div>
+
+    <!-- Optional overlay for readability -->
+    <div class="absolute inset-0 z-10 bg-black/20 md:bg-transparent"></div>
+
+    <!-- Hero Content -->
+    <div class="relative z-20 text-center px-4 flex flex-col items-center">
+      <h1 class="text-white text-4xl md:text-6xl font-bold mb-4">
+        Capture the World from New Perspectives
+      </h1>
+      <p class="text-white text-lg md:text-2xl max-w-3xl mb-6">
+        Professional drone and camera photography for real estate, events, and personal projects.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">
+          Book a Session
+        </a>
+        <a href="#portfolio" class="bg-white border-2 border-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition duration-300">
+          View Portfolio
+        </a>
+      </div>
+    </div>
+  </section>
 <!-- Services Section -->
 <section id="services" class="py-24">
   <div class="max-w-6xl mx-auto px-6 text-center 
