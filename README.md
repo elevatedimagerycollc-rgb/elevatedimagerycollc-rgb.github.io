@@ -24,8 +24,7 @@
   body {
     background: url('images/mobile.jpg') no-repeat center center;
     background-size: contain; /* prevents zooming */
-    background-attachment: scroll; /* no parallax on mobile */
-    background-color: #000; /* fill gaps with black or a complementary color */
+    background-attachment: fixed; /* parallax effect on mobile */
   }
 }
 </style>
