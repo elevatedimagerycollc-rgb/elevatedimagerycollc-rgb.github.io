@@ -13,7 +13,6 @@
     .gallery-item { transition: all 0.3s ease; }
     .gallery-item:hover { transform: scale(1.03); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
     @supports (-webkit-touch-callout: none) { #vanta-globe { height: -webkit-fill-available; } }
-  </style>
   
 body {
   background: url('images/background.jpg') no-repeat center center;
