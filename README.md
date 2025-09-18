@@ -125,7 +125,7 @@
 <section id="portfolio" class="py-24 bg-white">
   <div class="max-w-7xl mx-auto px-4">
     <h2 class="text-4xl font-bold text-center mb-16">Our Portfolio</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Real Estate -->
       <a href="real-estate.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
         <div class="aspect-[4/3] w-full">
@@ -257,7 +257,7 @@
                 <p data-aos="fade-up" data-aos-delay="100" class="text-xl text-blue-100 max-w-2xl mx-auto">What our clients say about our work</p>
             </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8">
                 <!-- Testimonial 1 -->
                 <div data-aos="fade-up" data-aos-delay="200" class="bg-blue-700 rounded-xl p-6 shadow-lg">
                     <div class="flex items-center mb-4">
