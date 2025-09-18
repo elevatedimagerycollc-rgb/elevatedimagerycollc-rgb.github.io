@@ -36,18 +36,20 @@
   </style>
 </head>
 
-<body class="bg-sky-200">
+<body>
 
   <!-- Hero Section -->
   <section class="relative h-screen overflow-hidden">
 
-    <!-- Desktop background -->
+    <!-- Desktop background (parallax) -->
     <div class="hidden md:block absolute inset-0 bg-[url('images/wallpaper.jpg')] bg-center bg-cover bg-fixed"></div>
 
-    <!-- Mobile hero image -->
-    <img src="images/mobile.jpg" class="md:hidden absolute inset-0 w-full h-full object-cover">
+    <!-- Mobile hero image with light blue behind it -->
+    <div class="md:hidden absolute inset-0 bg-sky-200">
+      <img src="images/mobile.jpg" class="absolute inset-0 w-full h-full object-cover">
+    </div>
 
-    <!-- Hero overlay (optional, for better text readability) -->
+    <!-- Hero overlay (optional for readability) -->
     <div class="absolute inset-0 bg-black/30 md:bg-transparent"></div>
 
     <!-- Hero text -->
@@ -68,7 +70,6 @@
       </div>
     </div>
   </section>
-
   <!-- Navigation -->
   <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
