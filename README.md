@@ -306,7 +306,7 @@
                         <img class="h-12 w-12 rounded-full" src="http://static.photos/people/200x200/13" alt="Client">
                         <div class="ml-4">
                             <h4 class="text-lg font-semibold">Kyle Rees</h4>
-                            <p class="text-blue-200">Sports Photography Client</p>
+                            <p class="text-blue-200">Sports Client</p>
                         </div>
                     </div>
                     <p class="text-blue-100">"Best pictures and drone videos of all time!! Really great quality and quick work."</p>
