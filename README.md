@@ -13,21 +13,16 @@
     .gallery-item { transition: all 0.3s ease; }
     .gallery-item:hover { transform: scale(1.03); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
     @supports (-webkit-touch-callout: none) { #vanta-globe { height: -webkit-fill-available; } }
-  /* Desktop background (default) */
+ 
+<section class="relative h-screen md:h-screen overflow-hidden bg-sky-200">    
+    /* Desktop background (default) */
   body {
     background: url('images/wallpaper.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed; /* parallax effect on desktop */
   }
-
- @media (max-width: 767px) {
-  body {
-    background: url('images/mobile.jpg') no-repeat center center;
-    background-size: cover; /* prevents zooming */
-    background-attachment: fixed; /* parallax effect on mobile */
-  }
-}
-</style>
+  <!-- Mobile hero image -->
+  <img src="images/mobile.jpg" class="md:hidden w-full h-full object-cover">
 
   <!-- Navigation -->
   <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
@@ -40,7 +35,8 @@
             <span class="ml-2 text-xl font-bold text-blue-600">Elevated Imagery</span>
           </a>
         </div>
-
+     </section>
+        
       <!-- Desktop Menu -->
       <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
         <a href="#" class="text-blue-600 border-b-2 border-blue-600 px-3 py-2 text-sm font-medium">Home</a>
