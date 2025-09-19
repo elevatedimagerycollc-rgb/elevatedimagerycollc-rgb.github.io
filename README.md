@@ -83,13 +83,13 @@
 
   <!-- Desktop: Full-screen parallax background -->
   <div class="hidden md:block absolute inset-0 z-0 bg-fixed bg-center bg-cover"
-       style="background-image: url('images/hero-desktop.jpg');">
+       style="background-image: url('images/wallpaper.jpg');">
   </div>
 
   <!-- Mobile: Sky blue background with optional hero image -->
   <div class="md:hidden absolute inset-0 z-0 bg-sky-200">
     <div class="w-full h-full bg-center bg-cover"
-         style="background-image: url('images/hero-mobile.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;">
+         style="background-image: url('images/mobile.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;">
     </div>
   </div>
 
