@@ -33,6 +33,8 @@
     @supports (-webkit-touch-callout: none) {
       #vanta-globe { height: -webkit-fill-available; }
     }
+  </style>
+</head>
 <body class="overflow-x-hidden">
 
   <!-- Navigation -->
@@ -79,7 +81,7 @@
 <section 
   class="relative h-screen flex items-center justify-center text-white 
          bg-center bg-cover"
-  style="background-image: url('images/hero-desktop.jpg'); background-attachment: fixed;">
+  style="background-image: url('images/wallpaper.jpg'); background-attachment: fixed;">
 
   <!-- Overlay to darken background if needed -->
   <div class="absolute inset-0 bg-black/40"></div>
@@ -120,7 +122,7 @@
       max-width: 400px;
       height: 250px;
       margin: 0 auto 20px;
-      background: url('images/mobile-hero.jpg') no-repeat center/cover;
+      background: url('images/mobile.jpg') no-repeat center/cover;
       border-radius: 12px;
     }
   }
@@ -564,8 +566,12 @@
             </div>
         </div>
     </footer>
-<script>
-  AOS.init();
-  feather.replace();
-</script>
+ <script>
+    // Initialize AOS
+    AOS.init();
 
+    // Feather Icons
+    feather.replace();
+  </script>
+</body>
+</html>
