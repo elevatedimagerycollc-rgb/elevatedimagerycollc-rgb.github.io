@@ -205,9 +205,10 @@
   </section>
 
   <!-- About Section -->
-<section id="services" class="py-24 bg-white/70 backdrop-blur-sm">
-  <div class="max-w-6xl mx-auto px-6 text-center">
-    <div class="grid md:grid-cols-3 gap-8">
+<section id="about" class="py-20 bg-white/70 backdrop-blur-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+        <div data-aos="fade-right" class="mb-12 lg:mb-0">
           <img src="http://static.photos/photographer/640x360/10" alt="Photographer" class="rounded-xl shadow-xl w-full">
         </div>
         <div data-aos="fade-left">
