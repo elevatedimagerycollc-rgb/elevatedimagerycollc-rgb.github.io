@@ -228,7 +228,7 @@
               </div>
               <div class="ml-3">
                 <p class="text-base font-medium text-gray-900">FAA Certified Pilots</p>
-                <p class="text-base text-gray-600">All our drone operators are fully licensed and insured.</p>
+                <p class="text-base text-gray-600">All our drone operators are fully licensed and experienced</p>
               </div>
             </div>
             <div class="flex items-start">
