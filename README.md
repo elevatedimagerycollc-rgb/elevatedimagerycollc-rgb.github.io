@@ -141,9 +141,10 @@
   </section>
 
   <!-- Portfolio Section -->
-<section id="portfolio" class="py-24 bg-white/70 backdrop-blur-sm">
+<section id="services" class="py-24 bg-white/70 backdrop-blur-sm">
   <div class="max-w-6xl mx-auto px-6 text-center">
     <h2 class="text-3xl font-bold mb-12">Our Portfolio</h2>
+    <div class="grid md:grid-cols-3 gap-8">
         <!-- Real Estate -->
         <a href="real-estate.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
           <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-56 object-cover">
