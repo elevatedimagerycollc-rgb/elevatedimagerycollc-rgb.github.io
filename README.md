@@ -211,9 +211,9 @@
         <div data-aos="fade-right" class="mb-12 lg:mb-0">
           <img src="http://static.photos/photographer/640x360/10" alt="Photographer" class="rounded-xl shadow-xl w-full">
         </div>
-        <div data-aos="fade-left">
-          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About Elevated Imagery</h2>
-          <p class="text-lg text-gray-600 mb-6">
+       <div data-aos="fade-left" class="flex flex-col justify-center items-center text-center">
+  <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About Elevated Imagery</h2>
+  <p class="text-lg text-gray-600 mb-6">
             Founded in May 2025, Elevated Imagery has been at the forefront of aerial and traditional photography, combining technical expertise with artistic vision to deliver stunning visual content.
           </p>
           <p class="text-lg text-gray-600 mb-6">
