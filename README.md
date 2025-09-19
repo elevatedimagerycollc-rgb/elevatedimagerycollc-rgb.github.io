@@ -33,6 +33,10 @@
     @supports (-webkit-touch-callout: none) {
       #vanta-globe { height: -webkit-fill-available; }
     }
+      <!-- Desktop: Full-screen parallax background -->
+  <div class="hidden md:block absolute inset-0 z-0 bg-fixed bg-center bg-cover"
+       style="background-image: url('images/wallpaper.jpg');">
+  </div>
   </style>
 </head>
 
@@ -80,11 +84,6 @@
 
 <!-- Hero Section -->
 <section class="relative w-full h-screen flex items-center justify-center overflow-hidden">
-
-  <!-- Desktop: Full-screen parallax background -->
-  <div class="hidden md:block absolute inset-0 z-0 bg-fixed bg-center bg-cover"
-       style="background-image: url('images/wallpaper.jpg');">
-  </div>
 
   <!-- Mobile: Sky blue background with optional hero image -->
   <div class="md:hidden absolute inset-0 z-0 bg-sky-200">
