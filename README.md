@@ -33,13 +33,6 @@
     @supports (-webkit-touch-callout: none) {
       #vanta-globe { height: -webkit-fill-available; }
     }
-      <!-- Desktop: Full-screen parallax background -->
-  <div class="hidden md:block absolute inset-0 z-0 bg-fixed bg-center bg-cover"
-       style="background-image: url('images/wallpaper.jpg');">
-  </div>
-  </style>
-</head>
-
 <body class="overflow-x-hidden">
 
   <!-- Navigation -->
@@ -83,37 +76,55 @@
   </nav>
 
 <!-- Hero Section -->
-<section class="relative w-full h-screen flex items-center justify-center overflow-hidden">
+<section 
+  class="relative h-screen flex items-center justify-center text-white 
+         bg-center bg-cover"
+  style="background-image: url('images/hero-desktop.jpg'); background-attachment: fixed;">
 
-  <!-- Mobile: Sky blue background with optional hero image -->
-  <div class="md:hidden absolute inset-0 z-0 bg-sky-200">
-    <div class="w-full h-full bg-center bg-cover"
-         style="background-image: url('images/mobile.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;">
-    </div>
-  </div>
-
-  <!-- Overlay for readability -->
-  <div class="absolute inset-0 z-10 bg-black/30 md:bg-black/40"></div>
+  <!-- Overlay to darken background if needed -->
+  <div class="absolute inset-0 bg-black/40"></div>
 
   <!-- Hero Content -->
-  <div class="relative z-20 text-center px-4 flex flex-col items-center">
-    <h1 class="text-white text-4xl md:text-6xl font-bold mb-4">
-      Capture the World from New Perspectives
-    </h1>
-    <p class="text-white text-lg md:text-2xl max-w-3xl mb-6">
-      Professional drone and camera photography for real estate, events, and personal projects.
-    </p>
-    <div class="flex flex-col sm:flex-row gap-4">
-      <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">
-        Book a Session
+  <div class="relative z-10 text-center px-6">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Elevated Imagery</h1>
+    <p class="text-lg md:text-2xl mb-6">Drone & Camera Photography</p>
+    <div class="space-x-4">
+      <a href="#contact" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg">
+        Book Now
       </a>
-      <a href="#portfolio" class="bg-white border-2 border-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition duration-300">
+      <a href="#portfolio" class="bg-gray-800 hover:bg-gray-900 px-6 py-3 rounded-lg">
         View Portfolio
       </a>
     </div>
   </div>
 
 </section>
+
+<style>
+  /* Desktop background (default) */
+  section[style*="hero-desktop.jpg"] {
+    background-attachment: fixed;
+  }
+
+  /* Mobile background */
+  @media (max-width: 767px) {
+    section[style*="hero-desktop.jpg"] {
+      background-image: none !important; /* disable parallax image */
+      background-color: #87CEEB; /* sky blue */
+    }
+
+    section[style*="hero-desktop.jpg"] .relative.z-10::before {
+      content: "";
+      display: block;
+      width: 100%;
+      max-width: 400px;
+      height: 250px;
+      margin: 0 auto 20px;
+      background: url('images/mobile-hero.jpg') no-repeat center/cover;
+      border-radius: 12px;
+    }
+  }
+</style>
 
 <!-- Services Section -->
 <section id="services" class="py-24">
@@ -553,11 +564,8 @@
             </div>
         </div>
     </footer>
-    <script>AOS.init();</script>
-    <script>feather.replace();</script>  
 <script>
-    AOS.init();
-    feather.replace();
-  </script>
-</body>
-</html>
+  AOS.init();
+  feather.replace();
+</script>
+
