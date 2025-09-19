@@ -38,7 +38,7 @@
     }
   </style>
 </head>
-<body style="background: url('images/background.jpg') no-repeat center center fixed; background-size: cover;">
+<body style="background: url('images/wallpaper.jpg') no-repeat center center fixed; background-size: cover;">
 
   <!-- Navigation -->
   <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
@@ -108,10 +108,10 @@
   </section>
 
   <!-- Services Section -->
-  <section id="services" class="py-24 bg-gray-50">
-    <div class="max-w-7xl mx-auto px-4">
-      <h2 class="text-4xl font-bold text-center mb-16">Our Services</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+<section id="services" class="py-24 bg-white/70 backdrop-blur-sm">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-12">Our Services</h2>
+    <div class="grid md:grid-cols-3 gap-8">
         <!-- Real Estate -->
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
           <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-56 object-cover">
@@ -141,10 +141,9 @@
   </section>
 
   <!-- Portfolio Section -->
-  <section id="portfolio" class="py-24 bg-white">
-    <div class="max-w-7xl mx-auto px-4">
-      <h2 class="text-4xl font-bold text-center mb-16">Our Portfolio</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+<section id="portfolio" class="py-24 bg-white/70 backdrop-blur-sm">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-12">Our Portfolio</h2>
         <!-- Real Estate -->
         <a href="real-estate.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
           <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-56 object-cover">
