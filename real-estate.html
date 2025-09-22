@@ -9,10 +9,13 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-</head>
-<body class="bg-blue-50 min-h-screen flex flex-col">
 
-  <!-- Navbar (same as main page) -->
+  <!-- Lightbox2 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+
+  <!-- Navbar -->
   <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16">
@@ -22,7 +25,7 @@
             <span class="ml-2">Elevated Imagery</span>
           </a>
         </div>
-        <!-- Example Desktop Nav -->
+        <!-- Desktop Nav -->
         <div class="hidden md:flex md:items-center md:space-x-8">
           <a href="index.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a>
           <a href="#portfolio" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Portfolio</a>
@@ -42,9 +45,8 @@
       <a href="#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Contact Us</a>
     </section>
 
-    <!-- 650 Vivaldi Image Grid -->
+    <!-- 650 Vivaldi Dr -->
     <section id="portfolio" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <!-- Clickable Title -->
       <h2 class="text-3xl font-bold text-center mb-8">
         <a href="https://www.zillow.com/homedetails/650-Vivaldi-Dr-Middletown-DE-19709/245968250_zpid/"
            target="_blank"
@@ -52,21 +54,30 @@
           650 Vivaldi Dr.
         </a>
       </h2>
-
-      <!-- Photo Grid -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <img src="estate-images/650-outside.jpg" alt="Property 1" class="w-full h-64 object-cover rounded-xl shadow-lg">
-        <img src="estate-images/650-back.jpg" alt="Property 2" class="w-full h-64 object-cover rounded-xl shadow-lg">
-        <img src="estate-images/650-main.jpg" alt="Property 3" class="w-full h-64 object-cover rounded-xl shadow-lg">
-        <img src="estate-images/650-master.jpg" alt="Property 4" class="w-full h-64 object-cover rounded-xl shadow-lg">
-        <img src="estate-images/650-grand.jpg" alt="Property 5" class="w-full h-64 object-cover rounded-xl shadow-lg">
-        <img src="estate-images/650-loft.jpg" alt="Property 6" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        <a href="estate-images/650-outside.jpg" data-lightbox="vivaldi" data-title="Front of 650 Vivaldi Dr.">
+          <img src="estate-images/650-outside.jpg" alt="Front" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        </a>
+        <a href="estate-images/650-back.jpg" data-lightbox="vivaldi" data-title="Backyard of 650 Vivaldi Dr.">
+          <img src="estate-images/650-back.jpg" alt="Backyard" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        </a>
+        <a href="estate-images/650-main.jpg" data-lightbox="vivaldi" data-title="Main Living Area">
+          <img src="estate-images/650-main.jpg" alt="Main Living" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        </a>
+        <a href="estate-images/650-master.jpg" data-lightbox="vivaldi" data-title="Master Bedroom">
+          <img src="estate-images/650-master.jpg" alt="Master Bedroom" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        </a>
+        <a href="estate-images/650-grand.jpg" data-lightbox="vivaldi" data-title="Grand Foyer">
+          <img src="estate-images/650-grand.jpg" alt="Foyer" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        </a>
+        <a href="estate-images/650-loft.jpg" data-lightbox="vivaldi" data-title="Loft Area">
+          <img src="estate-images/650-loft.jpg" alt="Loft" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        </a>
       </div>
     </section>
 
-    <!-- 115 Biddeford Image Grid -->
+    <!-- 115 Biddeford Dr -->
     <section id="biddeford" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <!-- Clickable Title -->
       <h2 class="text-3xl font-bold text-center mb-8">
         <a href="https://www.zillow.com/homedetails/115-Biddeford-Dr-Elkton-MD-21921/36679652_zpid/"
            target="_blank"
@@ -74,19 +85,29 @@
           115 Biddeford Dr.
         </a>
       </h2>
-
-      <!-- Photo Grid -->
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <img src="estate-images/115-front.jpg" alt="Property 1" class="w-full h-64 object-cover rounded-xl shadow-lg">
-    <img src="estate-images/115-entry.jpg" alt="Property 2" class="w-full h-64 object-cover rounded-xl shadow-lg">
-    <img src="estate-images/115-master.jpg" alt="Property 3" class="w-full h-64 object-cover rounded-xl shadow-lg">
-    <img src="estate-images/115-bedroom.jpg" alt="Property 4" class="w-full h-64 object-cover rounded-xl shadow-lg">
-    <img src="estate-images/115-kitchen.jpg" alt="Property 5" class="w-full h-64 object-cover rounded-xl shadow-lg">
-    <img src="estate-images/115-back.jpg" alt="Property 6" class="w-full h-64 object-cover rounded-xl shadow-lg">
-  </div>
-</section>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <a href="estate-images/115-front.jpg" data-lightbox="biddeford" data-title="Front of 115 Biddeford Dr.">
+          <img src="estate-images/115-front.jpg" alt="Front" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        </a>
+        <a href="estate-images/115-entry.jpg" data-lightbox="biddeford" data-title="Entryway">
+          <img src="estate-images/115-entry.jpg" alt="Entry" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        </a>
+        <a href="estate-images/115-master.jpg" data-lightbox="biddeford" data-title="Master Bedroom">
+          <img src="estate-images/115-master.jpg" alt="Master Bedroom" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        </a>
+        <a href="estate-images/115-bedroom.jpg" data-lightbox="biddeford" data-title="Guest Bedroom">
+          <img src="estate-images/115-bedroom.jpg" alt="Bedroom" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        </a>
+        <a href="estate-images/115-kitchen.jpg" data-lightbox="biddeford" data-title="Kitchen">
+          <img src="estate-images/115-kitchen.jpg" alt="Kitchen" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        </a>
+        <a href="estate-images/115-back.jpg" data-lightbox="biddeford" data-title="Backyard">
+          <img src="estate-images/115-back.jpg" alt="Backyard" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        </a>
+      </div>
+    </section>
   </main>
-  
+
   <!-- Footer -->
   <footer id="contact" class="bg-gray-900 text-white py-12 mt-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -94,7 +115,11 @@
     </div>
   </footer>
 
+  <!-- Scripts -->
   <script>AOS.init();</script>
   <script>feather.replace();</script>
+
+  <!-- Lightbox2 JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 </body>
 </html>
