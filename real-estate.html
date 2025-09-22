@@ -22,6 +22,12 @@
             <span class="ml-2">Elevated Imagery</span>
           </a>
         </div>
+        <!-- Example Desktop Nav -->
+        <div class="hidden md:flex md:items-center md:space-x-8">
+          <a href="index.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a>
+          <a href="#portfolio" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Portfolio</a>
+          <a href="#contact" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Contact</a>
+        </div>
       </div>
     </div>
   </nav>
@@ -32,12 +38,12 @@
     <section class="pt-24 pb-12 text-center">
       <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Real Estate Photography</h1>
       <p class="text-gray-600 max-w-2xl mx-auto mb-8">Elegant Homes showcased through stunning aerial and interior photography.</p>
-      <a href="index.html#portfolio" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Back to Portfolio</a>
-      <a href="index.html#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Contact Us</a>
+      <a href="#portfolio" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">View Portfolio</a>
+      <a href="#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Contact Us</a>
     </section>
 
     <!-- 650 Vivaldi Image Grid -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <section id="portfolio" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <!-- Clickable Title -->
       <h2 class="text-3xl font-bold text-center mb-8">
         <a href="https://www.zillow.com/homedetails/650-Vivaldi-Dr-Middletown-DE-19709/245968250_zpid/"
@@ -59,17 +65,17 @@
     </section>
 
     <!-- 115 Biddeford Image Grid -->
-<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-  <!-- Clickable Title -->
-  <h2 class="text-3xl font-bold text-center mb-8">
-    <a href="https://www.zillow.com/homedetails/115-Biddeford-Dr-Elkton-MD-21921/36679652_zpid/"
-       target="_blank"
-       class="text-blue-600 hover:underline">
-      115 Biddeford Dr.
-    </a>
-  </h2>
+    <section id="biddeford" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <!-- Clickable Title -->
+      <h2 class="text-3xl font-bold text-center mb-8">
+        <a href="https://www.zillow.com/homedetails/115-Biddeford-Dr-Elkton-MD-21921/36679652_zpid/"
+           target="_blank"
+           class="text-blue-600 hover:underline">
+          115 Biddeford Dr.
+        </a>
+      </h2>
 
-  <!-- Photo Grid -->
+      <!-- Photo Grid -->
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
     <img src="estate-images/115-front.jpg" alt="Property 1" class="w-full h-64 object-cover rounded-xl shadow-lg">
     <img src="estate-images/115-entry.jpg" alt="Property 2" class="w-full h-64 object-cover rounded-xl shadow-lg">
@@ -80,9 +86,9 @@
   </div>
 </section>
   </main>
-
+  
   <!-- Footer -->
-  <footer class="bg-gray-900 text-white py-12 mt-12">
+  <footer id="contact" class="bg-gray-900 text-white py-12 mt-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <p>© 2025 Elevated Imagery LLC. All rights reserved.</p>
     </div>
