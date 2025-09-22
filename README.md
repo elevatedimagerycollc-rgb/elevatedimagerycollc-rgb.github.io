@@ -141,7 +141,7 @@
   </section>
 
   <!-- Portfolio Section -->
-<section id="services" class="py-24 bg-white/70 backdrop-blur-sm">
+<section id="portfolio" class="py-24 bg-white/70 backdrop-blur-sm">
   <div class="max-w-6xl mx-auto px-6 text-center">
     <h2 class="text-3xl font-bold mb-12">Our Portfolio</h2>
     <div class="grid md:grid-cols-3 gap-8">
