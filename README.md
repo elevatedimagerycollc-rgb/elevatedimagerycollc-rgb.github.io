@@ -101,8 +101,8 @@
         Professional drone and camera photography services for Real Estate, Events, and Personal projects.
       </p>
       <div class="flex flex-col sm:flex-row justify-center gap-4">
-        <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">Book a Session</a>
-        <a href="#portfolio" class="bg-white border-2 border-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition duration-300">View Portfolio</a>
+        <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-600 hover:text-gray-900 px-6 py-3 rounded-lg font-medium shadow-lg transition duration-300">Book a Session</a>
+        <a href="#portfolio" class="bg-white border-2 border-white text-blue-600 hover:bg-blue-600 hover:text-gray-900 px-6 py-3 rounded-lg font-medium transition duration-300">View Portfolio</a>
       </div>
     </div>
   </section>
@@ -113,7 +113,8 @@
     <h2 class="text-3xl font-bold mb-12">Our Services</h2>
     <div class="grid md:grid-cols-3 gap-8">
         <!-- Real Estate -->
-        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+       <a href="real-estate.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">  
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
           <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-56 object-cover">
           <div class="p-6">
             <h3 class="text-2xl font-semibold text-gray-900">Real Estate Photography</h3>
