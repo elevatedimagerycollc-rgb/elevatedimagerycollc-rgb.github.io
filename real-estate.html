@@ -5,22 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Real Estate Photography | Elevated Imagery</title>
   <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+
+  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS for animations -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Feather Icons -->
   <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-
-  <!-- Lightbox2 CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
-
-  <!-- 
-    Lightbox2 by Lokesh Dhakar
-    https://lokeshdhakar.com/projects/lightbox2/
-    License: MIT
-    Please keep this attribution per the license request.
-  -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 </head>
-<body class="bg-white min-h-screen flex flex-col">
+<body class="bg-blue-50 min-h-screen flex flex-col">
 
   <!-- Navbar -->
   <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
@@ -32,15 +30,29 @@
             <span class="ml-2">Elevated Imagery</span>
           </a>
         </div>
+        <div class="hidden md:flex md:items-center md:space-x-8">
+          <a href="index.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a>
+          <a href="#portfolio" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Portfolio</a>
+          <a href="#contact" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Contact</a>
+        </div>
       </div>
     </div>
   </nav>
 
   <!-- Main Content -->
-  <main class="flex-grow pt-24">
+  <main class="flex-grow">
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Real Estate Photography</h1>
+      <p class="text-gray-600 max-w-2xl mx-auto mb-8">Elegant Homes showcased through stunning aerial and interior photography.</p>
+      <a href="#portfolio" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">View Portfolio</a>
+      <a href="#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Contact Us</a>
+    </section>
 
-    <!-- 650 Vivaldi -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+      <!-- 650 Vivaldi -->
       <h2 class="text-3xl font-bold text-center mb-8">
         <a href="https://www.zillow.com/homedetails/650-Vivaldi-Dr-Middletown-DE-19709/245968250_zpid/"
            target="_blank"
@@ -48,75 +60,91 @@
           650 Vivaldi Dr.
         </a>
       </h2>
-
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <a href="estate-images/650-outside.jpg" data-lightbox="vivaldi" data-title="Front of Home">
-          <img src="estate-images/650-outside.jpg" alt="Property 1" class="w-full h-64 object-cover rounded-xl shadow-lg">
+          <img src="estate-images/650-outside.jpg" alt="Front" class="w-full h-64 object-cover rounded-xl shadow-lg">
         </a>
         <a href="estate-images/650-back.jpg" data-lightbox="vivaldi" data-title="Backyard">
-          <img src="estate-images/650-back.jpg" alt="Property 2" class="w-full h-64 object-cover rounded-xl shadow-lg">
+          <img src="estate-images/650-back.jpg" alt="Backyard" class="w-full h-64 object-cover rounded-xl shadow-lg">
         </a>
-        <a href="estate-images/650-main.jpg" data-lightbox="vivaldi" data-title="Main Living Room">
-          <img src="estate-images/650-main.jpg" alt="Property 3" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        <a href="estate-images/650-main.jpg" data-lightbox="vivaldi" data-title="Living Room">
+          <img src="estate-images/650-main.jpg" alt="Living Room" class="w-full h-64 object-cover rounded-xl shadow-lg">
         </a>
         <a href="estate-images/650-master.jpg" data-lightbox="vivaldi" data-title="Master Bedroom">
-          <img src="estate-images/650-master.jpg" alt="Property 4" class="w-full h-64 object-cover rounded-xl shadow-lg">
+          <img src="estate-images/650-master.jpg" alt="Master" class="w-full h-64 object-cover rounded-xl shadow-lg">
         </a>
         <a href="estate-images/650-grand.jpg" data-lightbox="vivaldi" data-title="Grand Staircase">
-          <img src="estate-images/650-grand.jpg" alt="Property 5" class="w-full h-64 object-cover rounded-xl shadow-lg">
+          <img src="estate-images/650-grand.jpg" alt="Staircase" class="w-full h-64 object-cover rounded-xl shadow-lg">
         </a>
         <a href="estate-images/650-loft.jpg" data-lightbox="vivaldi" data-title="Loft">
-          <img src="estate-images/650-loft.jpg" alt="Property 6" class="w-full h-64 object-cover rounded-xl shadow-lg">
+          <img src="estate-images/650-loft.jpg" alt="Loft" class="w-full h-64 object-cover rounded-xl shadow-lg">
         </a>
       </div>
-    </section>
 
-    <!-- 115 Biddeford -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <h2 class="text-3xl font-bold text-center mb-8">
+      <!-- 115 Biddeford -->
+      <h2 class="text-3xl font-bold text-center mt-16 mb-8">
         <a href="https://www.zillow.com/homedetails/115-Biddeford-Dr-Elkton-MD-21921/36679652_zpid/"
            target="_blank"
            class="text-blue-600 hover:underline">
           115 Biddeford Dr.
         </a>
       </h2>
-
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <a href="estate-images/115-outside.jpg" data-lightbox="biddeford" data-title="Front of Home">
-          <img src="estate-images/115-outside.jpg" alt="Biddeford Property 1" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        <a href="estate-images/115-front.jpg" data-lightbox="biddeford" data-title="Front of Home">
+          <img src="estate-images/115-front.jpg" alt="Front" class="w-full h-64 object-cover rounded-xl shadow-lg">
         </a>
-        <a href="estate-images/115-back.jpg" data-lightbox="biddeford" data-title="Backyard">
-          <img src="estate-images/115-back.jpg" alt="Biddeford Property 2" class="w-full h-64 object-cover rounded-xl shadow-lg">
-        </a>
-        <a href="estate-images/115-kitchen.jpg" data-lightbox="biddeford" data-title="Kitchen">
-          <img src="estate-images/115-kitchen.jpg" alt="Biddeford Property 3" class="w-full h-64 object-cover rounded-xl shadow-lg">
-        </a>
-        <a href="estate-images/115-living.jpg" data-lightbox="biddeford" data-title="Living Room">
-          <img src="estate-images/115-living.jpg" alt="Biddeford Property 4" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        <a href="estate-images/115-entry.jpg" data-lightbox="biddeford" data-title="Entryway">
+          <img src="estate-images/115-entry.jpg" alt="Entry" class="w-full h-64 object-cover rounded-xl shadow-lg">
         </a>
         <a href="estate-images/115-master.jpg" data-lightbox="biddeford" data-title="Master Bedroom">
-          <img src="estate-images/115-master.jpg" alt="Biddeford Property 5" class="w-full h-64 object-cover rounded-xl shadow-lg">
+          <img src="estate-images/115-master.jpg" alt="Master" class="w-full h-64 object-cover rounded-xl shadow-lg">
         </a>
-        <a href="estate-images/115-basement.jpg" data-lightbox="biddeford" data-title="Finished Basement">
-          <img src="estate-images/115-basement.jpg" alt="Biddeford Property 6" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        <a href="estate-images/115-bedroom.jpg" data-lightbox="biddeford" data-title="Bedroom">
+          <img src="estate-images/115-bedroom.jpg" alt="Bedroom" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        </a>
+        <a href="estate-images/115-kitchen.jpg" data-lightbox="biddeford" data-title="Kitchen">
+          <img src="estate-images/115-kitchen.jpg" alt="Kitchen" class="w-full h-64 object-cover rounded-xl shadow-lg">
+        </a>
+        <a href="estate-images/115-back.jpg" data-lightbox="biddeford" data-title="Backyard">
+          <img src="estate-images/115-back.jpg" alt="Backyard" class="w-full h-64 object-cover rounded-xl shadow-lg">
         </a>
       </div>
     </section>
   </main>
 
   <!-- Footer -->
-  <footer class="bg-gray-900 text-white py-12 mt-12">
+  <footer id="contact" class="bg-gray-900 text-white py-12 mt-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <p>© 2025 Elevated Imagery LLC. All rights reserved.</p>
     </div>
   </footer>
 
-  <!-- Scripts -->
-  <script>AOS.init();</script>
-  <script>feather.replace();</script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+  <!-- Back to Top Button -->
+  <button id="backToTop"
+          class="hidden fixed bottom-6 right-6 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700">
+    ↑
+  </button>
+
+  <script>
+    AOS.init();
+    feather.replace();
+
+    // Back to Top button behavior
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backToTop.classList.remove('hidden');
+      } else {
+        backToTop.classList.add('hidden');
+      }
+    });
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
 </body>
 </html>
+
 
 /*!
  * Lightbox v2.11.3
