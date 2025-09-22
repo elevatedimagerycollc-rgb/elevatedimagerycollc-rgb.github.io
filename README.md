@@ -113,7 +113,7 @@
     <h2 class="text-3xl font-bold mb-12">Our Services</h2>
     <div class="grid md:grid-cols-3 gap-8">
         <!-- Real Estate -->
-      <a href="real-estate-service.html" class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
           <img src="images/re.example.jpg" alt="Real Estate" class="w-full h-56 object-cover">
           <div class="p-6">
             <h3 class="text-2xl font-semibold text-gray-900">Real Estate Photography</h3>
