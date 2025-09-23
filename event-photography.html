@@ -5,14 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Event Photography | Elevated Imagery</title>
   <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+
+  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS for animations -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-</head>
-<body class="bg-white">
 
-  <!-- Navbar (same as main page) -->
+  <!-- Feather Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+  <!-- Lightbox2 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+</head>
+<body class="bg-blue-100 min-h-screen flex flex-col">
+
+  <!-- Navbar -->
   <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16">
@@ -22,39 +32,61 @@
             <span class="ml-2">Elevated Imagery</span>
           </a>
         </div>
+        <div class="hidden md:flex md:items-center md:space-x-8">
+          <a href="https://elevatedimagerycollc-rgb.github.io/#home" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a>
+          <a href="https://elevatedimagerycollc-rgb.github.io/#portfolio" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Portfolio</a>
+          <a href="https://elevatedimagerycollc-rgb.github.io/#contact" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Contact</a>
+        </div>
       </div>
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="pt-24 pb-12 text-center">
-    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Event Photography</h1>
-    <p class="text-gray-600 max-w-2xl mx-auto mb-8">We take photos and videos to capture your favorite moments, so you can cherish them forever. You can watch our films on our youtube, linked right under our "Follow us" section.</p>
-    <a href="index.html#portfolio" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Back to Portfolio</a>
-    <a href="index.html#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Contact Us</a>
-  </section>
+  <!-- Main Content -->
+  <main class="flex-grow">
 
-  <!-- Image Grid -->
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- Example Images -->
-      <img src="images/WeddingCelebration.JPG" alt="Engagement 1" class="w-full h-64 object-cover rounded-xl shadow-lg">
-      <img src="images/re2.jpg" alt="Engagement 2" class="w-full h-64 object-cover rounded-xl shadow-lg">
-      <img src="images/re3.jpg" alt="Engagement 3" class="w-full h-64 object-cover rounded-xl shadow-lg">
-      <img src="images/re4.jpg" alt="Engagement 4" class="w-full h-64 object-cover rounded-xl shadow-lg">
-      <img src="images/re5.jpg" alt="Engagement 5" class="w-full h-64 object-cover rounded-xl shadow-lg">
-      <img src="images/re6.jpg" alt="Engagement 6" class="w-full h-64 object-cover rounded-xl shadow-lg">
-    </div>
-  </section>
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Events</h1>
+      <p class="text-gray-600 max-w-2xl mx-auto mb-8">Have us record your events for you.</p>
+      <a href="https://elevatedimagerycollc-rgb.github.io/#portfolio" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">View Portfolio</a>
+      <a href="https://elevatedimagerycollc-rgb.github.io/#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Contact Us</a>
+    </section>
+
+    <!-- Portrait Image Section -->
+    <section class="py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          </a>
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <a href="images/portrait.example.jpg" data-lightbox="Portraits" data-title="Bayside">
+            <img src="images/portrait.example.jpg" alt="Front View" class="w-full h-64 object-cover rounded-xl shadow-lg">
+          </a>
+          <a href="portrait-images/portrait1.jpg" data-lightbox="Portraits" data-title="Wave">
+            <img src="portrait-images/portrait1.jpg" alt="Backyard" class="w-full h-64 object-cover rounded-xl shadow-lg">
+          </a>
+          <a href="portrait-images/portrait3.jpg" data-lightbox="Portraits" data-title="Dad and Daughter">
+            <img src="portrait-images/portrait3.jpg" alt="Living Room" class="w-full h-64 object-cover rounded-xl shadow-lg">
+          </a>
+          <a href="portrait-images/portrait2.jpg" data-lightbox="Portraits" data-title="Karen and Peter">
+            <img src="portrait-images/portrait2.JPG" alt="Master Bedroom" class="w-full h-64 object-cover rounded-xl shadow-lg">
+          </a>
+          <a href="portrait-images/portrait4.jpg" data-lightbox="Portraits" data-title="Beach">
+            <img src="portrait-images/portrait4.jpg" alt="Grand Hall" class="w-full h-64 object-cover rounded-xl shadow-lg">
+          </a>
+          <a href="portrait-images/portrait6.jpg" data-lightbox="Portraits" data-title="Mother and Father">
+            <img src="portrait-images/portrait6.JPG" alt="Loft" class="w-full h-64 object-cover rounded-xl shadow-lg">
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
-  <footer class="bg-gray-900 text-white py-12 mt-12">
+  <footer id="contact" class="bg-gray-900 text-white py-12 w-full mt-auto">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <p>© 2025 Elevated Imagery LLC. All rights reserved.</p>
     </div>
   </footer>
-
-  <script>AOS.init();</script>
-  <script>feather.replace();</script>
+  </script>
 </body>
 </html>
