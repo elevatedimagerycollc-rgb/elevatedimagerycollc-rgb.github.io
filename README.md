@@ -162,7 +162,7 @@
           </div>
         </a>
         <!-- Portraits -->
-        <a href="portrait.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <a href="portraits.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
           <img src="images/portrait.example.jpg" alt="Portrait Photography" class="w-full h-56 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-900">Portraits</h3>
@@ -170,7 +170,7 @@
           </div>
         </a>
         <!-- Automotive -->
-        <a href="automotive.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <a href="automotive-photography.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition">
           <img src="images/350z.boat.jpg" alt="Automotive" class="w-full h-56 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-900">Automotive Photography</h3>
@@ -272,11 +272,11 @@
           <div class="flex items-center mb-4">
             <img class="h-12 w-12 rounded-full" src="http://static.photos/people/200x200/11" alt="Client">
             <div class="ml-4">
-              <h4 class="text-lg font-semibold">Tony Stark</h4>
+              <h4 class="text-lg font-semibold">Kim Simpson</h4>
               <p class="text-blue-200">Real Estate Agent</p>
             </div>
           </div>
-          <p class="text-blue-100">"The aerial shots Elevated Imagery provided for our luxury listings helped us sell properties 30% faster than before. Their attention to detail is unmatched."</p>
+          <p class="text-blue-100">"."</p>
           <div class="mt-4 flex text-yellow-400">
             <i data-feather="star" class="fill-current"></i>
             <i data-feather="star" class="fill-current"></i>
@@ -306,7 +306,7 @@
         <!-- Testimonial 3 -->
         <div data-aos="fade-up" data-aos-delay="400" class="bg-blue-700 rounded-xl p-6 shadow-lg">
           <div class="flex items-center mb-4">
-            <img class="h-12 w-12 rounded-full" src="http://static.photos/people/200x200/13" alt="Client">
+            <img class="h-12 w-12 rounded-full" src="images/kyle-profile.jpg" alt="Client">
             <div class="ml-4">
               <h4 class="text-lg font-semibold">Kyle Rees</h4>
               <p class="text-blue-200">Sports Client</p>
