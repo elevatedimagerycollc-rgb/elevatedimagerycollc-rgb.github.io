@@ -475,6 +475,10 @@
     </div>
   </footer>
 
+    <!-- Attribution: Lightbox2 by Lokesh Dhakar (https://lokeshdhakar.com/projects/lightbox2/) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
   <script>AOS.init();</script>
   <script>feather.replace();</script>
 </body>
