@@ -214,7 +214,7 @@
        <div data-aos="fade-left" class="flex flex-col justify-center items-center text-center">
   <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About Elevated Imagery</h2>
   <p class="text-lg text-gray-600 mb-6">
-            Founded in May 2025, Elevated Imagery has been at the forefront of aerial and traditional photography, combining technical expertise with artistic vision to deliver stunning visual content.
+           Founded in May 2025, Elevated Imagery is a family operated business built on a passion for storytelling through photography and a commitment to quality.
           </p>
           <p class="text-lg text-gray-600 mb-6">
             Our team of FAA-certified drone pilots and professional photographers work together to capture images that tell your story from perspectives you've never seen before.
