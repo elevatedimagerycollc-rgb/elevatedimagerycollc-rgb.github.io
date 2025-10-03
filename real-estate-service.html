@@ -15,24 +15,79 @@
   </nav>
 
   <!-- Page Content -->
-  <section class="pt-24 pb-12 max-w-7xl mx-auto px-4">
-    <h1 class="text-4xl font-bold text-gray-900 mb-6">Real Estate Photography</h1>
-    <p class="text-lg text-gray-600 mb-8">
-      Showcase your properties with stunning aerial and interior photography that highlights every detail.
-    </p>
+  <section class="pt-24 pb-16 max-w-6xl mx-auto px-4">
+    <h1 class="text-4xl font-bold text-gray-900 mb-8 text-center">Real Estate Photography</h1>
 
-    <!-- Gallery -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <img src="images/house.example.jpg" alt="Luxury Home" class="rounded-xl shadow-md">
-      <img src="images/re.example.jpg" alt="Modern Living Room" class="rounded-xl shadow-md">
-      <img src="images/landscape.example.jpg" alt="Property View" class="rounded-xl shadow-md">
+    <!-- Content Block -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+      <!-- Left Image -->
+      <img src="images/house.example.jpg" alt="Luxury Home" class="rounded-xl shadow-md cursor-pointer" onclick="openModal(this)">
+
+      <!-- Center Text -->
+      <div class="text-center lg:text-left">
+        <p class="text-lg text-gray-700 leading-relaxed mb-4">
+          At Elevated Imagery, we specialize in capturing properties in their best light. 
+          From crisp interior shots that showcase space and detail, to breathtaking aerial 
+          perspectives that highlight a property’s surroundings, our photography helps 
+          real estate listings stand out and attract buyers.
+        </p>
+        <p class="text-lg text-gray-700 leading-relaxed">
+          We offer flexible packages tailored to every property type—whether you’re 
+          selling a cozy starter home or a luxury estate. Let us bring out the unique 
+          character of your listings.
+        </p>
+      </div>
+
+      <!-- Right Image -->
+      <img src="images/re.example.jpg" alt="Modern Living Room" class="rounded-xl shadow-md cursor-pointer" onclick="openModal(this)">
+    </div>
+
+    <!-- Full-width image below -->
+    <div class="mt-10">
+      <img src="images/landscape.example.jpg" alt="Property View" class="rounded-xl shadow-md w-full cursor-pointer" onclick="openModal(this)">
     </div>
   </section>
+
+  <!-- Modal -->
+  <div id="lightbox" class="hidden fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50" onclick="outsideClick(event)">
+    <span class="absolute top-6 right-8 text-white text-4xl cursor-pointer" onclick="closeModal()">&times;</span>
+    <img id="lightbox-img" src="" alt="Preview" class="max-h-[90%] max-w-[90%] rounded-lg shadow-xl">
+  </div>
 
   <!-- Footer (same as index.html) -->
   <footer class="bg-gray-900 text-white py-12">
     <!-- your footer code here -->
   </footer>
+
+  <!-- Lightbox Script -->
+  <script>
+    function openModal(imgElement) {
+      const modal = document.getElementById("lightbox");
+      const modalImg = document.getElementById("lightbox-img");
+      modal.classList.remove("hidden");
+      modalImg.src = imgElement.src;
+    }
+
+    function closeModal() {
+      document.getElementById("lightbox").classList.add("hidden");
+    }
+
+    function outsideClick(event) {
+      const modal = document.getElementById("lightbox");
+      const modalImg = document.getElementById("lightbox-img");
+      // Only close if clicking outside the image
+      if (event.target === modal) {
+        closeModal();
+      }
+    }
+
+    // Close on Esc key
+    document.addEventListener("keydown", function(event) {
+      if (event.key === "Escape") {
+        closeModal();
+      }
+    });
+  </script>
 
 </body>
 </html>
