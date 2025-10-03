@@ -145,5 +145,34 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   </script>
+   <!-- Lightbox Script -->
+  <script>
+    function openModal(imgElement) {
+      const modal = document.getElementById("lightbox");
+      const modalImg = document.getElementById("lightbox-img");
+      modal.classList.remove("hidden");
+      modalImg.src = imgElement.src;
+    }
+
+    function closeModal() {
+      document.getElementById("lightbox").classList.add("hidden");
+    }
+
+    function outsideClick(event) {
+      const modal = document.getElementById("lightbox");
+      const modalImg = document.getElementById("lightbox-img");
+      // Only close if clicking outside the image
+      if (event.target === modal) {
+        closeModal();
+      }
+    }
+
+    // Close on Esc key
+    document.addEventListener("keydown", function(event) {
+      if (event.key === "Escape") {
+        closeModal();
+      }
+    });
+  </script>
 </body>
 </html>
