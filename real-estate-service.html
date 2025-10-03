@@ -18,35 +18,70 @@
   <section class="pt-24 pb-16 max-w-6xl mx-auto px-4">
     <h1 class="text-4xl font-bold text-gray-900 mb-8 text-center">Real Estate Photography</h1>
 
-    <!-- Content Block -->
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
-      <!-- Left Image -->
-      <img src="images/house.example.jpg" alt="Luxury Home" class="rounded-xl shadow-md cursor-pointer" onclick="openModal(this)">
+<!-- Real Estate Photography Section -->
+<section id="real-estate" class="py-20">
+  <div class="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
+    <div class="bg-white/70 backdrop-blur-md p-8 rounded-xl">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+        
+        <!-- Left: Stacked Images -->
+        <div data-aos="fade-right" class="space-y-6 mb-12 lg:mb-0">
+          <img src="images/house.example.jpg" alt="Luxury Home" class="rounded-xl shadow-lg w-full cursor-pointer" onclick="openModal(this)">
+          <img src="images/re.example.jpg" alt="Modern Living Room" class="rounded-xl shadow-lg w-full cursor-pointer" onclick="openModal(this)">
+          <img src="images/landscape.example.jpg" alt="Property View" class="rounded-xl shadow-lg w-full cursor-pointer" onclick="openModal(this)">
+        </div>
 
-      <!-- Center Text -->
-      <div class="text-center lg:text-left">
-        <p class="text-lg text-gray-700 leading-relaxed mb-4">
-          At Elevated Imagery, we specialize in capturing properties in their best light. 
-          From crisp interior shots that showcase space and detail, to breathtaking aerial 
-          perspectives that highlight a property’s surroundings, our photography helps 
-          real estate listings stand out and attract buyers.
-        </p>
-        <p class="text-lg text-gray-700 leading-relaxed">
-          We offer flexible packages tailored to every property type—whether you’re 
-          selling a cozy starter home or a luxury estate. Let us bring out the unique 
-          character of your listings.
-        </p>
+        <!-- Right: Text Content -->
+        <div data-aos="fade-left" class="flex flex-col justify-center text-left">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Real Estate Photography</h2>
+          <p class="text-lg md:text-xl text-gray-700 mb-6 leading-relaxed">
+            At Elevated Imagery, we help you showcase properties in their best light. 
+            From warm and inviting interiors to dramatic aerial views, our photography 
+            ensures every listing captures attention and stands out in the market.
+          </p>
+          <p class="text-lg md:text-xl text-gray-700 mb-6 leading-relaxed">
+            Whether you're selling a cozy starter home, a luxury estate, or large 
+            commercial property, our team delivers polished visuals that highlight 
+            the true character of your spaces.
+          </p>
+          <ul class="space-y-4 text-lg text-gray-700">
+            <li class="flex items-start">
+              <div class="flex-shrink-0">
+                <div class="flex items-center justify-center h-8 w-8 rounded-full bg-blue-100">
+                  <i data-feather="home" class="text-blue-600"></i>
+                </div>
+              </div>
+              <p class="ml-3"><span class="font-medium text-gray-900">Interior & Exterior Shots</span> – Highlight the best features of your listing.</p>
+            </li>
+            <li class="flex items-start">
+              <div class="flex-shrink-0">
+                <div class="flex items-center justify-center h-8 w-8 rounded-full bg-blue-100">
+                  <i data-feather="airplay" class="text-blue-600"></i>
+                </div>
+              </div>
+              <p class="ml-3"><span class="font-medium text-gray-900">Aerial Drone Photography</span> – Showcase property layout and surroundings.</p>
+            </li>
+            <li class="flex items-start">
+              <div class="flex-shrink-0">
+                <div class="flex items-center justify-center h-8 w-8 rounded-full bg-blue-100">
+                  <i data-feather="edit-3" class="text-blue-600"></i>
+                </div>
+              </div>
+              <p class="ml-3"><span class="font-medium text-gray-900">Professional Editing</span> – Every image is enhanced for maximum impact.</p>
+            </li>
+          </ul>
+        </div>
+
       </div>
-
-      <!-- Right Image -->
-      <img src="images/re.example.jpg" alt="Modern Living Room" class="rounded-xl shadow-md cursor-pointer" onclick="openModal(this)">
     </div>
+  </div>
+</section>
 
-    <!-- Full-width image below -->
-    <div class="mt-10">
-      <img src="images/landscape.example.jpg" alt="Property View" class="rounded-xl shadow-md w-full cursor-pointer" onclick="openModal(this)">
-    </div>
-  </section>
+<!-- Lightbox Modal -->
+<div id="lightbox" class="hidden fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50" onclick="outsideClick(event)">
+  <span class="absolute top-6 right-8 text-white text-4xl cursor-pointer" onclick="closeModal()">&times;</span>
+  <img id="lightbox-img" src="" alt="Preview" class="max-h-[90%] max-w-[90%] rounded-lg shadow-xl">
+</div>
 
   <!-- Modal -->
   <div id="lightbox" class="hidden fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50" onclick="outsideClick(event)">
