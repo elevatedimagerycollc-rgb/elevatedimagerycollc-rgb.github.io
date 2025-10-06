@@ -5,18 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Event Photography | Elevated Imagery</title>
   <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+  </head>
+<body class="bg-purple-100">
 
-  <!-- Tailwind -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- AOS for animations -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-  <!-- Feather Icons -->
-  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-
-  <!-- Navbar -->
+    <!-- Navbar -->
   <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16">
@@ -34,6 +26,15 @@
       </div>
     </div>
   </nav>
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS for animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Feather Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 
   <!-- Main Content -->
   <main class="flex-grow">
@@ -87,7 +88,12 @@
       <p>© 2025 Elevated Imagery LLC. All rights reserved.</p>
     </div>
   </footer>
-  </script>
+
+<!-- Custom Lightbox Modal -->
+<div id="lightbox" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center hidden" onclick="outsideClick(event)">
+  <img id="lightbox-img" src="" alt="Enlarged Photo" class="max-h-[90%] max-w-[90%] rounded-xl shadow-2xl">
+  <button onclick="closeModal()" class="absolute top-4 right-6 text-white text-3xl font-bold cursor-pointer">&times;</button>
+</div>
   
    <!-- Lightbox Script -->
   <script>
