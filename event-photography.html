@@ -52,33 +52,30 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <h2 class="text-3xl font-semibold text-center mb-8">Portrait Gallery</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  <img src="images/portrait.example.jpg" alt="Portrait Example" 
+       class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
+       onclick="openModal(this)" data-index="0">
 
-      <img src="images/portrait.example.jpg" alt="Portrait Example"
-           class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
-           onclick="openModal(this)">
+  <img src="portrait-images/portrait1.jpg" alt="Wave"
+       class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
+       onclick="openModal(this)" data-index="1">
 
-      <img src="portrait-images/portrait1.jpg" alt="Wave"
-           class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
-           onclick="openModal(this)">
+  <img src="portrait-images/portrait3.jpg" alt="Dad and Daughter"
+       class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
+       onclick="openModal(this)" data-index="2">
 
-      <img src="portrait-images/portrait3.jpg" alt="Dad and Daughter"
-           class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
-           onclick="openModal(this)">
+  <img src="portrait-images/portrait2.JPG" alt="Karen and Peter"
+       class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
+       onclick="openModal(this)" data-index="3">
 
-      <img src="portrait-images/portrait2.JPG" alt="Karen and Peter"
-           class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
-           onclick="openModal(this)">
+  <img src="portrait-images/portrait4.jpg" alt="Beach"
+       class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
+       onclick="openModal(this)" data-index="4">
 
-      <img src="portrait-images/portrait4.jpg" alt="Beach"
-           class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
-           onclick="openModal(this)">
-
-      <img src="portrait-images/portrait6.JPG" alt="Mother and Father"
-           class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
-           onclick="openModal(this)">
-
-    </div>
-  </div>
+  <img src="portrait-images/portrait6.JPG" alt="Mother and Father"
+       class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
+       onclick="openModal(this)" data-index="5">
+</div>
 </section>
   </main>
 
@@ -90,39 +87,67 @@
   </footer>
 
 <!-- Custom Lightbox Modal -->
-<div id="lightbox" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center hidden" onclick="outsideClick(event)">
-  <img id="lightbox-img" src="" alt="Enlarged Photo" class="max-h-[90%] max-w-[90%] rounded-xl shadow-2xl">
-  <button onclick="closeModal()" class="absolute top-4 right-6 text-white text-3xl font-bold cursor-pointer">&times;</button>
+<div id="lightbox" 
+     class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center hidden"
+     onclick="outsideClick(event)">
+
+  <!-- Left Arrow -->
+  <button id="prevBtn" 
+          class="absolute left-6 text-white text-5xl font-bold cursor-pointer select-none"
+          onclick="changeImage(-1)">&#10094;</button>
+
+  <!-- Main Image -->
+  <img id="lightbox-img" src="" alt="Enlarged Photo" 
+       class="max-h-[90%] max-w-[90%] rounded-xl shadow-2xl">
+
+  <!-- Right Arrow -->
+  <button id="nextBtn" 
+          class="absolute right-6 text-white text-5xl font-bold cursor-pointer select-none"
+          onclick="changeImage(1)">&#10095;</button>
+
+  <!-- Close Button -->
+  <button onclick="closeModal()" 
+          class="absolute top-4 right-6 text-white text-3xl font-bold cursor-pointer">&times;</button>
 </div>
+
   
-   <!-- Lightbox Script -->
   <script>
-    function openModal(imgElement) {
-      const modal = document.getElementById("lightbox");
-      const modalImg = document.getElementById("lightbox-img");
-      modal.classList.remove("hidden");
-      modalImg.src = imgElement.src;
-    }
+  let currentIndex = 0;
+  const images = document.querySelectorAll('.cursor-pointer');
 
-    function closeModal() {
-      document.getElementById("lightbox").classList.add("hidden");
-    }
+  function openModal(imgElement) {
+    const modal = document.getElementById("lightbox");
+    const modalImg = document.getElementById("lightbox-img");
+    currentIndex = parseInt(imgElement.dataset.index);
+    modal.classList.remove("hidden");
+    modalImg.src = images[currentIndex].src;
+  }
 
-    function outsideClick(event) {
-      const modal = document.getElementById("lightbox");
-      const modalImg = document.getElementById("lightbox-img");
-      // Only close if clicking outside the image
-      if (event.target === modal) {
-        closeModal();
-      }
-    }
+  function closeModal() {
+    document.getElementById("lightbox").classList.add("hidden");
+  }
 
-    // Close on Esc key
-    document.addEventListener("keydown", function(event) {
-      if (event.key === "Escape") {
-        closeModal();
-      }
-    });
-  </script>
+  function changeImage(direction) {
+    currentIndex += direction;
+    if (currentIndex < 0) currentIndex = images.length - 1;
+    if (currentIndex >= images.length) currentIndex = 0;
+    document.getElementById("lightbox-img").src = images[currentIndex].src;
+  }
+
+  function outsideClick(event) {
+    const modal = document.getElementById("lightbox");
+    if (event.target === modal) {
+      closeModal();
+    }
+  }
+
+  // Close or navigate with keyboard
+  document.addEventListener("keydown", function(event) {
+    if (event.key === "Escape") closeModal();
+    if (event.key === "ArrowRight") changeImage(1);
+    if (event.key === "ArrowLeft") changeImage(-1);
+    
+  });
+</script>
 </body>
 </html>
