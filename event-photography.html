@@ -16,12 +16,6 @@
   <!-- Feather Icons -->
   <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 
-  <!-- Lightbox2 -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
-</head>
-<body class="bg-violet-100 min-h-screen flex flex-col">
-
   <!-- Navbar -->
   <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -58,8 +52,7 @@
           </a>
         </h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <a href="images/portrait.example.jpg" data-lightbox="Portraits" data-title="Bayside">
-            <img src="images/portrait.example.jpg" alt="Front View" class="w-full h-64 object-cover rounded-xl shadow-lg">
+            <img src="images/portrait.example.jpg" alt="Portrait Example" class="rounded-xl shadow-lg w-3/4 cursor-pointer" onclick="openModal(this)">
           </a>
           <a href="portrait-images/portrait1.jpg" data-lightbox="Portraits" data-title="Wave">
             <img src="portrait-images/portrait1.jpg" alt="Backyard" class="w-full h-64 object-cover rounded-xl shadow-lg">
@@ -87,6 +80,36 @@
       <p>© 2025 Elevated Imagery LLC. All rights reserved.</p>
     </div>
   </footer>
+  </script>
+  
+   <!-- Lightbox Script -->
+  <script>
+    function openModal(imgElement) {
+      const modal = document.getElementById("lightbox");
+      const modalImg = document.getElementById("lightbox-img");
+      modal.classList.remove("hidden");
+      modalImg.src = imgElement.src;
+    }
+
+    function closeModal() {
+      document.getElementById("lightbox").classList.add("hidden");
+    }
+
+    function outsideClick(event) {
+      const modal = document.getElementById("lightbox");
+      const modalImg = document.getElementById("lightbox-img");
+      // Only close if clicking outside the image
+      if (event.target === modal) {
+        closeModal();
+      }
+    }
+
+    // Close on Esc key
+    document.addEventListener("keydown", function(event) {
+      if (event.key === "Escape") {
+        closeModal();
+      }
+    });
   </script>
 </body>
 </html>
