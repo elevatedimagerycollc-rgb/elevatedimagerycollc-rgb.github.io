@@ -4,15 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Automotive Photography | Elevated Imagery</title>
-  <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-</head>
-<body class="bg-white">
+  <meta name="apple-mobile-web-app-capable" content="yes">
 
-  <!-- Navbar (same as main page) -->
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- CSS to discourage long-press on mobile -->
+  <style>
+    img {
+      -webkit-touch-callout: none; /* iOS long-press menu */
+      -webkit-user-select: none;   /* prevent selection */
+      user-select: none;
+    }
+  </style>
+</head>
+<body class="bg-purple-100 flex flex-col min-h-screen">
+
+    <!-- Navbar -->
   <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16">
@@ -22,39 +30,120 @@
             <span class="ml-2">Elevated Imagery</span>
           </a>
         </div>
+        <div class="hidden md:flex md:items-center md:space-x-8">
+          <a href="https://elevatedimagerycollc-rgb.github.io/#home" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a>
+          <a href="https://elevatedimagerycollc-rgb.github.io/#portfolio" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Portfolio</a>
+          <a href="https://elevatedimagerycollc-rgb.github.io/#contact" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Contact</a>
+        </div>
       </div>
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="pt-24 pb-12 text-center">
-    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Real Estate Photography</h1>
-    <p class="text-gray-600 max-w-2xl mx-auto mb-8">Show off your stunning vehicles/equipment to reflect your mood and personality!</p>
-    <a href="index.html#portfolio" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Back to Portfolio</a>
-    <a href="index.html#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Contact Us</a>
-  </section>
+  <!-- AOS for animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <!-- Image Grid -->
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- Example Images -->
-      <img src="images/350z.boat.jpg" alt="Property 1" class="w-full h-64 object-cover rounded-xl shadow-lg">
-      <img src="images/re2.jpg" alt="Property 2" class="w-full h-64 object-cover rounded-xl shadow-lg">
-      <img src="images/re3.jpg" alt="Property 3" class="w-full h-64 object-cover rounded-xl shadow-lg">
-      <img src="images/re4.jpg" alt="Property 4" class="w-full h-64 object-cover rounded-xl shadow-lg">
-      <img src="images/re5.jpg" alt="Property 5" class="w-full h-64 object-cover rounded-xl shadow-lg">
-      <img src="images/re6.jpg" alt="Property 6" class="w-full h-64 object-cover rounded-xl shadow-lg">
-    </div>
-  </section>
+  <!-- Feather Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 
-  <!-- Footer -->
-  <footer class="bg-gray-900 text-white py-12 mt-12">
+  <!-- Main Content -->
+  <main class="flex-grow">
+    
+ <!-- Hero Section -->
+    <section class="pt-24 pb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Automotive Photography</h1>
+      <p class="text-gray-600 max-w-2xl mx-auto mb-8">Wether on the road or on the track, we will record your special moments.</p>
+      <a href="https://elevatedimagerycollc-rgb.github.io/#portfolio" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">View Portfolio</a>
+      <a href="https://elevatedimagerycollc-rgb.github.io/#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Contact Us</a>
+    </section>
+
+
+    <!-- Gallery Section -->
+    <section class="py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div id="portrait-gallery" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+           <img src="images/350z.boat.jpg" alt="350Z boat" class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer" data-index="0">
+          <img src="portrait-images/portrait1.jpg" alt="Wave" class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer" data-index="1">
+          <img src="portrait-images/portrait2.JPG" alt="Karen and Peter" class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer" data-index="2">
+          <img src="portrait-images/portrait3.jpg" alt="Dad and Daughter" class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer" data-index="3">
+          <img src="portrait-images/portrait4.jpg" alt="Beach" class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer" data-index="4">
+          <img src="portrait-images/portrait6.JPG" alt="Mother and Father" class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer" data-index="5">
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+  
+    <!-- Footer -->
+  <footer id="contact" class="bg-gray-900 text-white py-12 w-full mt-auto">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <p>© 2025 Elevated Imagery LLC. All rights reserved.</p>
     </div>
   </footer>
 
-  <script>AOS.init();</script>
-  <script>feather.replace();</script>
+  <!-- Modal Lightbox -->
+  <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center hidden z-50">
+    <button id="prevBtn" class="absolute left-6 text-white text-5xl font-bold cursor-pointer select-none" onclick="changeImage(-1)">&#10094;</button>
+    <img id="lightbox-img" src="" alt="Enlarged Photo" class="max-h-[90%] max-w-[90%] rounded-xl shadow-2xl">
+    <button id="nextBtn" class="absolute right-6 text-white text-5xl font-bold cursor-pointer select-none" onclick="changeImage(1)">&#10095;</button>
+    <button onclick="closeModal()" class="absolute top-4 right-6 text-white text-3xl font-bold cursor-pointer">&times;</button>
+  </div>
+
+  <script>
+    const galleryImages = document.querySelectorAll('#portrait-gallery img');
+    let currentIndex = 0;
+
+    // Open modal
+    galleryImages.forEach((img, idx) => {
+      img.addEventListener('click', () => openModal(idx));
+      // Disable right-click & drag on desktop
+      img.addEventListener('contextmenu', e => e.preventDefault());
+      img.addEventListener('dragstart', e => e.preventDefault());
+    });
+
+    function openModal(idx) {
+      currentIndex = idx;
+      const modal = document.getElementById("lightbox");
+      const modalImg = document.getElementById("lightbox-img");
+      modalImg.src = galleryImages[currentIndex].src;
+      modal.classList.remove("hidden");
+    }
+
+    function closeModal() {
+      document.getElementById("lightbox").classList.add("hidden");
+    }
+
+    function changeImage(direction) {
+      currentIndex = (currentIndex + direction + galleryImages.length) % galleryImages.length;
+      document.getElementById("lightbox-img").src = galleryImages[currentIndex].src;
+    }
+
+    // Close modal by clicking outside image
+    document.getElementById("lightbox").addEventListener('click', (e) => {
+      if(e.target.id === 'lightbox') closeModal();
+    });
+
+    // Keyboard navigation
+    document.addEventListener("keydown", (e) => {
+      if(e.key === "Escape") closeModal();
+      if(e.key === "ArrowRight") changeImage(1);
+      if(e.key === "ArrowLeft") changeImage(-1);
+    });
+
+    // Mobile swipe support
+    let startX = 0;
+    const modal = document.getElementById("lightbox");
+
+    modal.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, {passive:true});
+    modal.addEventListener('touchend', e => {
+      const diff = startX - e.changedTouches[0].clientX;
+      if(Math.abs(diff) > 50) {
+        diff > 0 ? changeImage(1) : changeImage(-1);
+      }
+    });
+  </script>
+
 </body>
 </html>
