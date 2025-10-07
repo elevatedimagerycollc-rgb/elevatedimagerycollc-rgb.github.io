@@ -4,183 +4,115 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Event Photography | Elevated Imagery</title>
-  <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <style>
-  img {
-    -webkit-touch-callout: none; /* disables long-press menu on iOS */
-    -webkit-user-select: none;   /* prevents selection */
-    user-select: none;
-  }
-</style>
-  </head>
-<body class="bg-purple-100" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
 
-
-    <!-- Navbar -->
-  <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between h-16">
-        <div class="flex items-center">
-          <a href="index.html" class="flex items-center text-blue-600 font-bold text-xl">
-            <i data-feather="camera" class="h-8 w-8"></i>
-            <span class="ml-2">Elevated Imagery</span>
-          </a>
-        </div>
-        <div class="hidden md:flex md:items-center md:space-x-8">
-          <a href="https://elevatedimagerycollc-rgb.github.io/#home" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a>
-          <a href="https://elevatedimagerycollc-rgb.github.io/#portfolio" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Portfolio</a>
-          <a href="https://elevatedimagerycollc-rgb.github.io/#contact" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Contact</a>
-        </div>
-      </div>
-    </div>
-  </nav>
   <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- AOS for animations -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- CSS to discourage long-press on mobile -->
+  <style>
+    img {
+      -webkit-touch-callout: none; /* iOS long-press menu */
+      -webkit-user-select: none;   /* prevent selection */
+      user-select: none;
+    }
+  </style>
+</head>
+<body class="bg-purple-100">
 
-  <!-- Feather Icons -->
-  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <!-- Navbar (shortened for brevity) -->
+  <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <a href="index.html" class="flex items-center text-blue-600 font-bold text-xl">
+          <span class="ml-2">Elevated Imagery</span>
+        </a>
+      </div>
+    </div>
+  </nav>
 
-  <!-- Main Content -->
-  <main class="flex-grow">
+  <main class="pt-24">
 
-    <!-- Hero Section -->
-    <section class="pt-24 pb-12 text-center">
-      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Events</h1>
-      <p class="text-gray-600 max-w-2xl mx-auto mb-8">Have us record your events for you.</p>
-      <a href="https://elevatedimagerycollc-rgb.github.io/#portfolio" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">View Portfolio</a>
-      <a href="https://elevatedimagerycollc-rgb.github.io/#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Contact Us</a>
+    <!-- Gallery Section -->
+    <section class="py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-semibold text-center mb-8">Portrait Gallery</h2>
+        <div id="portrait-gallery" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          <img src="images/portrait.example.jpg" alt="Portrait Example" class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer" data-index="0">
+          <img src="portrait-images/portrait1.jpg" alt="Wave" class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer" data-index="1">
+          <img src="portrait-images/portrait2.JPG" alt="Karen and Peter" class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer" data-index="2">
+          <img src="portrait-images/portrait3.jpg" alt="Dad and Daughter" class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer" data-index="3">
+          <img src="portrait-images/portrait4.jpg" alt="Beach" class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer" data-index="4">
+          <img src="portrait-images/portrait6.JPG" alt="Mother and Father" class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer" data-index="5">
+
+        </div>
+      </div>
     </section>
 
-    <!-- Events Image Section -->
-  <section class="py-12">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-  <img src="images/portrait.example.jpg" alt="Portrait Example" 
-       class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
-       onclick="openModal(this)" data-index="0">
-       <div class="absolute inset-0 bg-transparent z-10 pointer-events-none group-hover:pointer-events-auto"></div>
-
-  <img src="portrait-images/portrait1.jpg" alt="Wave"
-       class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
-       onclick="openModal(this)" data-index="1">
-      <div class="absolute inset-0 bg-transparent z-10 pointer-events-none group-hover:pointer-events-auto"></div>
-
-  <img src="portrait-images/portrait3.jpg" alt="Dad and Daughter"
-       class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
-       onclick="openModal(this)" data-index="2">
-      <div class="absolute inset-0 bg-transparent z-10 pointer-events-none group-hover:pointer-events-auto"></div>
-
-  <img src="portrait-images/portrait2.JPG" alt="Karen and Peter"
-       class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
-       onclick="openModal(this)" data-index="3">
-      <div class="absolute inset-0 bg-transparent z-10 pointer-events-none group-hover:pointer-events-auto"></div>
-
-  <img src="portrait-images/portrait4.jpg" alt="Beach"
-       class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
-       onclick="openModal(this)" data-index="4">
-      <div class="absolute inset-0 bg-transparent z-10 pointer-events-none group-hover:pointer-events-auto"></div>
-
-  <img src="portrait-images/portrait6.JPG" alt="Mother and Father"
-       class="rounded-xl h-64 object-cover shadow-lg w-full cursor-pointer"
-       onclick="openModal(this)" data-index="5">
-      <div class="absolute inset-0 bg-transparent z-10 pointer-events-none group-hover:pointer-events-auto"></div>
-</div>
-</section>
   </main>
 
-  <!-- Footer -->
-  <footer id="contact" class="bg-gray-900 text-white py-12 w-full mt-auto">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <p>© 2025 Elevated Imagery LLC. All rights reserved.</p>
-    </div>
-  </footer>
+  <!-- Modal Lightbox -->
+  <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center hidden z-50">
+    <button id="prevBtn" class="absolute left-6 text-white text-5xl font-bold cursor-pointer select-none" onclick="changeImage(-1)">&#10094;</button>
+    <img id="lightbox-img" src="" alt="Enlarged Photo" class="max-h-[90%] max-w-[90%] rounded-xl shadow-2xl">
+    <button id="nextBtn" class="absolute right-6 text-white text-5xl font-bold cursor-pointer select-none" onclick="changeImage(1)">&#10095;</button>
+    <button onclick="closeModal()" class="absolute top-4 right-6 text-white text-3xl font-bold cursor-pointer">&times;</button>
+  </div>
 
-<!-- Custom Lightbox Modal -->
-<div id="lightbox" 
-     class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center hidden"
-     onclick="outsideClick(event)">
-
-  <!-- Left Arrow -->
-  <button id="prevBtn" 
-          class="absolute left-6 text-white text-5xl font-bold cursor-pointer select-none"
-          onclick="changeImage(-1)">&#10094;</button>
-
-  <!-- Main Image -->
-  <img id="lightbox-img" src="" alt="Enlarged Photo" 
-       class="max-h-[90%] max-w-[90%] rounded-xl shadow-2xl">
-
-  <!-- Right Arrow -->
-  <button id="nextBtn" 
-          class="absolute right-6 text-white text-5xl font-bold cursor-pointer select-none"
-          onclick="changeImage(1)">&#10095;</button>
-
-  <!-- Close Button -->
-  <button onclick="closeModal()" 
-          class="absolute top-4 right-6 text-white text-3xl font-bold cursor-pointer">&times;</button>
-</div>
-
-  
   <script>
-  let currentIndex = 0;
-  const images = document.querySelectorAll('.cursor-pointer');
+    const galleryImages = document.querySelectorAll('#portrait-gallery img');
+    let currentIndex = 0;
 
-  function openModal(imgElement) {
-    const modal = document.getElementById("lightbox");
-    const modalImg = document.getElementById("lightbox-img");
-    currentIndex = parseInt(imgElement.dataset.index);
-    modal.classList.remove("hidden");
-    modalImg.src = images[currentIndex].src;
-  }
+    // Open modal
+    galleryImages.forEach((img, idx) => {
+      img.addEventListener('click', () => openModal(idx));
+      // Disable right-click & drag on desktop
+      img.addEventListener('contextmenu', e => e.preventDefault());
+      img.addEventListener('dragstart', e => e.preventDefault());
+    });
 
-  function closeModal() {
-    document.getElementById("lightbox").classList.add("hidden");
-  }
-
-  function changeImage(direction) {
-    currentIndex += direction;
-    if (currentIndex < 0) currentIndex = images.length - 1;
-    if (currentIndex >= images.length) currentIndex = 0;
-    document.getElementById("lightbox-img").src = images[currentIndex].src;
-  }
-
-  function outsideClick(event) {
-    const modal = document.getElementById("lightbox");
-    if (event.target === modal) {
-      closeModal();
+    function openModal(idx) {
+      currentIndex = idx;
+      const modal = document.getElementById("lightbox");
+      const modalImg = document.getElementById("lightbox-img");
+      modalImg.src = galleryImages[currentIndex].src;
+      modal.classList.remove("hidden");
     }
-  }
 
-  // Close or navigate with keyboard
-  document.addEventListener("keydown", function(event) {
-    if (event.key === "Escape") closeModal();
-    if (event.key === "ArrowRight") changeImage(1);
-    if (event.key === "ArrowLeft") changeImage(-1);
-    
-  });
-// Disable right-click on images (desktop)
-document.querySelectorAll('img').forEach(img => {
-  img.addEventListener('contextmenu', e => e.preventDefault());
-  img.addEventListener('dragstart', e => e.preventDefault());
-});
+    function closeModal() {
+      document.getElementById("lightbox").classList.add("hidden");
+    }
 
-// Attempt to discourage long-press saving on mobile
-let longPressTimer;
-document.querySelectorAll('img').forEach(img => {
-  img.addEventListener('touchstart', e => {
-    longPressTimer = setTimeout(() => {
-      e.preventDefault(); // block long press after ~500ms
-    }, 500);
-  }, { passive: true });
+    function changeImage(direction) {
+      currentIndex = (currentIndex + direction + galleryImages.length) % galleryImages.length;
+      document.getElementById("lightbox-img").src = galleryImages[currentIndex].src;
+    }
 
-  img.addEventListener('touchend', () => {
-    clearTimeout(longPressTimer);
-  });
-});
-</script>
+    // Close modal by clicking outside image
+    document.getElementById("lightbox").addEventListener('click', (e) => {
+      if(e.target.id === 'lightbox') closeModal();
+    });
+
+    // Keyboard navigation
+    document.addEventListener("keydown", (e) => {
+      if(e.key === "Escape") closeModal();
+      if(e.key === "ArrowRight") changeImage(1);
+      if(e.key === "ArrowLeft") changeImage(-1);
+    });
+
+    // Mobile swipe support
+    let startX = 0;
+    const modal = document.getElementById("lightbox");
+
+    modal.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, {passive:true});
+    modal.addEventListener('touchend', e => {
+      const diff = startX - e.changedTouches[0].clientX;
+      if(Math.abs(diff) > 50) {
+        diff > 0 ? changeImage(1) : changeImage(-1);
+      }
+    });
+  </script>
+
 </body>
 </html>
