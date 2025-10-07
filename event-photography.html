@@ -150,7 +150,20 @@
     if (event.key === "ArrowLeft") changeImage(-1);
     
   });
-  document.addEventListener('contextmenu', event => event.preventDefault());
+// 🔒 Disable right-click (desktop)
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+// 🔒 Disable image dragging
+document.addEventListener('dragstart', event => event.preventDefault());
+
+// 🔒 Disable long-press saving (mobile)
+const images = document.querySelectorAll('img');
+images.forEach(img => {
+  // Disable the default long-press behavior
+  img.addEventListener('touchstart', e => {
+    e.preventDefault();
+  }, { passive: false });
+});
 </script>
 </body>
 </html>
