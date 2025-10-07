@@ -20,18 +20,43 @@
 </head>
 <body class="bg-purple-100">
 
-  <!-- Navbar (shortened for brevity) -->
+    <!-- Navbar -->
   <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16">
-        <a href="index.html" class="flex items-center text-blue-600 font-bold text-xl">
-          <span class="ml-2">Elevated Imagery</span>
-        </a>
+        <div class="flex items-center">
+          <a href="index.html" class="flex items-center text-blue-600 font-bold text-xl">
+            <i data-feather="camera" class="h-8 w-8"></i>
+            <span class="ml-2">Elevated Imagery</span>
+          </a>
+        </div>
+        <div class="hidden md:flex md:items-center md:space-x-8">
+          <a href="https://elevatedimagerycollc-rgb.github.io/#home" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a>
+          <a href="https://elevatedimagerycollc-rgb.github.io/#portfolio" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Portfolio</a>
+          <a href="https://elevatedimagerycollc-rgb.github.io/#contact" class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Contact</a>
+        </div>
       </div>
     </div>
   </nav>
 
-  <main class="pt-24">
+  <!-- AOS for animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Feather Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+  <!-- Main Content -->
+  <main class="flex-grow">
+    
+ <!-- Hero Section -->
+    <section class="pt-24 pb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Events</h1>
+      <p class="text-gray-600 max-w-2xl mx-auto mb-8">Have us record your events for you.</p>
+      <a href="https://elevatedimagerycollc-rgb.github.io/#portfolio" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">View Portfolio</a>
+      <a href="https://elevatedimagerycollc-rgb.github.io/#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Contact Us</a>
+    </section>
+
 
     <!-- Gallery Section -->
     <section class="py-12">
@@ -50,7 +75,15 @@
       </div>
     </section>
 
+      <!-- Footer -->
+  <footer id="contact" class="bg-gray-900 text-white py-12 w-full mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p>© 2025 Elevated Imagery LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
   </main>
+  
 
   <!-- Modal Lightbox -->
   <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center hidden z-50">
