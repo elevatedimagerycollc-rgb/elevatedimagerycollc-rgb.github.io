@@ -150,19 +150,24 @@
     if (event.key === "ArrowLeft") changeImage(-1);
     
   });
-// 🔒 Disable right-click (desktop)
-document.addEventListener('contextmenu', event => event.preventDefault());
+// Disable right-click on images (desktop)
+document.querySelectorAll('img').forEach(img => {
+  img.addEventListener('contextmenu', e => e.preventDefault());
+  img.addEventListener('dragstart', e => e.preventDefault());
+});
 
-// 🔒 Disable image dragging
-document.addEventListener('dragstart', event => event.preventDefault());
-
-// 🔒 Disable long-press saving (mobile)
-const images = document.querySelectorAll('img');
-images.forEach(img => {
-  // Disable the default long-press behavior
+// Attempt to discourage long-press saving on mobile
+let longPressTimer;
+document.querySelectorAll('img').forEach(img => {
   img.addEventListener('touchstart', e => {
-    e.preventDefault();
-  }, { passive: false });
+    longPressTimer = setTimeout(() => {
+      e.preventDefault(); // block long press after ~500ms
+    }, 500);
+  }, { passive: true });
+
+  img.addEventListener('touchend', () => {
+    clearTimeout(longPressTimer);
+  });
 });
 </script>
 </body>
